@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--
+ CAUTION: this index.html is generated
+ from  main.html.template, index.html.content
+ hosted at https://github.com/openSUSE/doc.o.o
+ EDIT there, then run: make all.
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- do not delete the following tag -->
+    <meta name="google-site-verification" content="7H6xpdx2K_ZwS0wPPDGBYXQphvMqzuX8_UiWAAaJZDM" />
+    <link rel="stylesheet" href="http://static.opensuse.org/themes/bento/css/style.css" type="text/css" media="screen" title="All" charset="utf-8" />
+
+    <script src="http://static.opensuse.org/stage/themes/bento/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://static.opensuse.org/stage/themes/bento/js/script.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://static.opensuse.org/themes/bento/js/l10n/global-navigation-data-en.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://static.opensuse.org/themes/bento/js/global-navigation.js" type="text/javascript" charset="utf-8"></script>
+
+    <link rel="icon" type="image/png" href="http://static.opensuse.org/themes/bento/images/favicon.png" />
+    <title><%TITLE%></title>
+    <meta name="description" content="This site hosts documentation for openSUSE and SLES/SLED related products as well as projects.  The user manuals and technical documentation that is published here is generated and static content. To contribute documentation please use the openSUSE Wiki."/>
+
+    <link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
+    <style type="text/css">
+      .gsc-control-cse {
+        font-family: Arial, sans-serif;
+        border-color: #FFFFFF;
+        background-color: #FFFFFF;
+      }
+      input.gsc-input {
+        border-color: #BCCDF0;
+      }
+      input.gsc-search-button {
+        border-color: #666666;
+        background-color: #CECECE;
+      }
+      .gsc-tabHeader.gsc-tabhInactive {
+        border-color: #E9E9E9;
+        background-color: #E9E9E9;
+      }
+      .gsc-tabHeader.gsc-tabhActive {
+        border-top-color: #FF9900;
+        border-left-color: #E9E9E9;
+        border-right-color: #E9E9E9;
+        background-color: #FFFFFF;
+      }
+      .gsc-tabsArea {
+        border-color: #E9E9E9;
+      }
+      .gsc-webResult.gsc-result {
+        border-color: #ffffff;
+        background-color: #eeeeee;
+      }
+      .gsc-webResult.gsc-result:hover {
+        border-color: #FFFFFF;
+        background-color: #f8f8f8;
+      }
+      .gs-webResult.gs-result a.gs-title:link,
+      .gs-webResult.gs-result a.gs-title:link b {
+        color: #0000CC;
+      }
+      .gs-webResult.gs-result a.gs-title:visited,
+      .gs-webResult.gs-result a.gs-title:visited b {
+        color: #0000CC;
+      }
+      .gs-webResult.gs-result a.gs-title:hover,
+      .gs-webResult.gs-result a.gs-title:hover b {
+        color: #0000CC;
+      }
+      .gs-webResult.gs-result a.gs-title:active,
+      .gs-webResult.gs-result a.gs-title:active b {
+        color: #0000CC;
+      }
+      .gsc-cursor-page {
+        color: #0000CC;
+      }
+      a.gsc-trailing-more-results:link {
+        color: #0000CC;
+      }
+      .gs-webResult.gs-result .gs-snippet {
+        color: #000000;
+      }
+      .gs-webResult.gs-result .gs-visibleUrl {
+        color: #008000;
+      }
+      .gs-webResult.gs-result .gs-visibleUrl-short {
+        color: #008000;
+      }
+      .gsc-cursor-box {
+        border-color: #FFFFFF;
+      }
+      .gsc-results .gsc-cursor-page {
+        border-color: #E9E9E9;
+        background-color: #ffffff;
+      }
+      .gsc-results .gsc-cursor-page.gsc-cursor-current-page {
+        border-color: #FF9900;
+        background-color: #FFFFFF;
+      }
+      .gs-promotion.gs-result {
+        border-color: #336699;
+        background-color: #dddddd;
+      }
+      .gs-promotion.gs-result a.gs-title:link {
+        color: #0000CC;
+      }
+      .gs-promotion.gs-result a.gs-title:visited {
+        color: #0000CC;
+      }
+      .gs-promotion.gs-result a.gs-title:hover {
+        color: #0000CC;
+      }
+      .gs-promotion.gs-result a.gs-title:active {
+        color: #0000CC;
+      }
+      .gs-promotion.gs-result .gs-snippet {
+        color: #000000;
+      }
+      .gs-promotion.gs-result .gs-visibleUrl,
+      .gs-promotion.gs-result .gs-visibleUrl-short {
+        color: #008000;
+      }
+
+      /* manually customized */
+      .gsc-search-box td, th {
+        border: none;
+        padding: 0 0 0 0.2em;
+      }
+      #cse {
+        padding-left: 15px;
+        padding-right: 15px;
+        border: none;
+      }
+      .cse .gsc-control-cse, .gsc-control-cse {
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Start: Header -->
+    <div id="header">
+      <div id="header-content" class="container_12">
+        <a id="header-logo" href="/"><img src="http://static.opensuse.org/themes/bento/images/header-logo.png" width="46" height="26" alt="Header Logo" /></a>
+        <ul id="global-navigation">
+          <li id="item-downloads"><a href="http://en.opensuse.org/sitemap#downloads">Downloads</a></li>
+          <li id="item-support"><a href="http://en.opensuse.org/sitemap#support">Support</a></li>
+          <li id="item-community"><a href="http://en.opensuse.org/sitemap#community">Community</a></li>
+          <li id="item-development"><a href="http://en.opensuse.org/sitemap#development">Development</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End: Header -->
+
+    <div id="subheader" class="container_16" style="min-height: 25px">
+      <div id="breadcrump" class="grid_10 alpha">
+        <a href="/" title="Home"><img src="http://static.opensuse.org/themes/bento/images/home_grey.png" width="16" height="16" alt="Home" /> doc.opensuse.org</a>
+
+      </div>
+
+      <div id="login-wrapper" class="grid_6 omega">
+        <!-- Here once was the login code -->
+        <!-- Google Custom Search - Input Field Area-->
+        <div id="cse-search-form" style="width: 100%;">Loading</div>
+        <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+        <script type="text/javascript">
+          google.load('search', '1', {language : 'en'});
+          google.setOnLoadCallback(function() {
+          var customSearchControl = new google.search.CustomSearchControl('002123657694690344845:veiwuhdppju');
+          customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+          var options = new google.search.DrawOptions();
+          options.setSearchFormRoot('cse-search-form');
+          customSearchControl.draw('cse', options);
+          }, true);
+        </script>
+      </div>
+    </div>
+
+    <!-- Start: Main Content Area -->
+    <div id="content" class="container_16 content-wrapper">
+      <div class="column grid_4 alpha">
+        <div class=" box box-shadow navigation">
+          <h2 class="box-header">Documentation Resources</h2>
+          <ul class="navigation">
+            <li><a href="/#opensuse-doc">openSUSE</a></li>
+            <li><a href="/#sles-doc">SLES <small>DRAFTs</small></a></li>
+            <li><a href="/#webyast-doc">WebYaST</a></li>
+            <li><a href="/#autoyast-doc">AutoYaST</a></li>
+            <li><a href="/#kiwi-doc">Kiwi</a></li>
+          </ul>
+
+          <h2 class="box-subheader">Developer Documentation</h2>
+          <ul class="navigation">
+            <li><a href="/#yast-doc">YaST</a></li>
+            <li><a href="/#zypp-doc">Zypp</a></li>
+            <li><a href="/#libyui-doc">Libyui</a></li>
+          </ul>
+
+          <h2 class="box-subheader">Documentation Wiki</h2>
+          <ul class="navigation">
+            <li><a href="http://en.opensuse.org/SDB:Official_documentation" rel="external">SDB: Official documentation</a></li>
+            <li><a href="http://wiki.opensuse.org/Portal:Documentation" rel="external">Documentation Portal</a></li>
+            <li><a href="http://wiki.opensuse.org" rel="external">openSUSE Wiki</a></li>
+          </ul>
+
+          <div class="box-footer">
+          </div>
+        </div>
+
+        <div class=" box box-shadow navigation">
+          <h2 class="box-header">External Documentation</h2>
+          <ul class="navigation">
+	    <li><a href="http://openbuildservice.org/help/manuals/obs-reference-guide">Open Build Service</a></li>
+            <li><a href="http://www.suse.com/documentation">suse.com/documentation</a></li>
+            <li><a href="http://opensuse-guide.org" rel="external">opensuse-guide.org</a></li>
+            <li><a href="http://snapper.io" rel="external">snapper.io</a></li>
+            <li><a href="http://webyast.github.com/webyast/" rel="external">webyast.github.com</a></li>
+            <li><a href="http://www.opensuse-lernen.de"      rel="external">opensuse-lernen.de (DE)</a></li>
+
+          </ul>
+          <div class="box-footer">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="box box-shadow grid_12 clearfix">
+        <!-- box header -->
+        <div class="box-header grid_12"></div>
+        <!-- End: box header -->
+
+        <!-- Google Custom Search - Results Area-->
+        <div class="grid_12 alpha omega">
+          <div id="cse"></div>
+        </div>
+
+        <%CONTENT%>
+
+        <!-- Note: this clears floating, set in previous elements -->
+        <div class="clear"></div>
+
+      </div>
+      <!-- End: Main Content Area -->
+
+      <!-- Start: Footer -->
+      <div id="footer" class="container_16">
+        <div id="footer-content" class="grid_16 column_4 clear-block">
+          <div id="footer-legal" class="border-top grid_16">
+            <p>
+              &copy; 2010-2012 Novell, Inc. All rights reserved. Novell is a registered trademark and openSUSE and SUSE are trademarks of Novell, Inc. in the United States and other countries.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End: Footer -->
+
+      <script type="text/javascript">
+        /*  frames['#master-1'].$('#adBlock').css('background-color', '#dddddd');  */
+        /* document.getElementById('#adBlock').style.background-color = "#dddddd"; */
+      </script>
+
+    </div> <!--  end of content div -->
+  </body>
+</html>
