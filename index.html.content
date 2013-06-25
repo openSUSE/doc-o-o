@@ -203,6 +203,7 @@
 
             <div class="grid_6 alpha">
               <a name="sles-doc"></a>
+	      <!-- avoid confusion while waiting for SP3, as requested by mkraft.
               <p><b>SUSE Linux Enterprise Server 11 SP2</b></p>
               <ul>
                 <li><a href="/products/draft/SLES/SLE-apparmor-quick_sd_draft/">AppArmor Quick Start</a></li>
@@ -221,6 +222,7 @@
                 <li><a href="/products/draft/SLES/SLES-tuning_sd_draft/">SLES Tuning</a></li>
                 <li><a href="/products/draft/SLES/SLES-xen_sd_draft/">SLES Xen</a></li>
               </ul>
+	      -->
             </div>
           </div>
         </div>
