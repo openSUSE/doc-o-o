@@ -85,6 +85,7 @@
             <ul>
               <li><a href="/projects/kiwi/doc">Kiwi documentation</a></li>
               <li><a href="/projects/kiwi/schema-doc">Kiwi XML Schema documentation</a></li>
+              <li><a href="/projects/kiwi/devdoc">Kiwi Class Reference</a></li>
             </ul>
 
             <a name="autoyast-doc"></a>
