@@ -66,12 +66,24 @@
             </ul>
           </div>
         </div>
+
+        <div class="grid_12 alpha omega" style="margin-bottom: 10px">
+          <a name="release-notes">
+          <h2>Release Notes</h2>
+          </a>
+          <div class="grid_12 alpha omega">
+            <ul>
+              <li><a href="/release-notes/x86_64/openSUSE/13.1/">openSUSE 13.1 Release Notes</a></li>
+            </ul>
+          </div>
+        </div>
+
         <div class="grid_12 alpha omega">
           <h2>Project Documentation</h2>
 
           <div class="grid_6 alpha">
-            <a name="obs-doc"></a>
 <!--
+            <a name="obs-doc"></a>
 	Adrian does not want this here. They
 	moved to http://openbuildservice.org/help/manuals/obs-reference-guide
             <p><b>Open Build Service</b></p>

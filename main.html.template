@@ -187,6 +187,7 @@
           <h2 class="box-header">Documentation Resources</h2>
           <ul class="navigation">
             <li><a href="/#opensuse-doc">openSUSE</a></li>
+            <li><a href="/#release-notes">Release Notes</a></li>
             <li><a href="/#sles-doc">SLES <small>DRAFTs</small></a></li>
             <li><a href="/#webyast-doc">WebYaST</a></li>
             <li><a href="/#autoyast-doc">AutoYaST</a></li>
