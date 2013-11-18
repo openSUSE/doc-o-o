@@ -7,44 +7,29 @@
 
         <h2>openSUSE Documentation</h2>
         <a name="opensuse-doc"></a>
-        <p><b>openSUSE 12.3</b></p>
+        <p><b>Since openSUSE 13.1 all openSUSE related documentation moved to our community editing server <a href="activedoc.opensuse.org">ActiveDoc.opensuse.org</a> and the links below are only retained here for reference. </b></p>
         <div style="padding-bottom:2em">
           <table>
             <tr>
               <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Startup</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE/opensuse-startup/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE/opensuse-startup.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE/book.opensuse.startup_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE/book.opensuse.startup.epub">EPUB</a></td>
-              <td style="text-align:center; veritcal-align:middle; padding:.4em .5em" rowspan="5"><a href="documentation/src/openSUSE/opensuse-manuals_12.3_src_en.tar.bz2">sources</a></td>
+              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-131-start-up">english</a></td>
+              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-131-start-up">german</a></td>
             </tr>
             <tr>
               <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Reference</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE/opensuse-reference/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE/opensuse-reference.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE/book.opensuse.reference_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE/book.opensuse.reference.epub">EPUB</a></td>
+              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-131-reference">english</a></td>
             </tr>
             <tr>
               <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Security Guide</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE/opensuse-security/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE/opensuse-security.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE/book.security_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE/book.security.epub">EPUB</a></td>
+              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-131-security-guide">english</a></td>
             </tr>
             <tr>
               <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Virtualization with KVM</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE/opensuse-kvm/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE/opensuse-kvm.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE/book.kvm_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE/book.kvm.epub">EPUB</a></td>
+              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-131-virtualization-with-kvm">english</a></td>
             </tr>
             <tr>
               <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">System Analysis and Tuning</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE/opensuse-tuning/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE/opensuse-tuning.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE/book.tuning_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE/book.tuning.epub">EPUB</a></td>
+              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-131-system-analysis-and-tuning-guide">english</a></td>
             </tr>
           </table>
         </div>
