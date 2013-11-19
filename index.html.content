@@ -12,24 +12,24 @@
           <table>
             <tr>
               <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Startup</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-131-start-up">english</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-131-start-up">german</a></td>
+              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-start-up">english</a></td>
+              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-start-up">german</a></td>
             </tr>
             <tr>
               <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Reference</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-131-reference">english</a></td>
+              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-reference">english</a></td>
             </tr>
             <tr>
               <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Security Guide</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-131-security-guide">english</a></td>
+              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-security-guide">english</a></td>
             </tr>
             <tr>
               <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Virtualization with KVM</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-131-virtualization-with-kvm">english</a></td>
+              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-virtualization-with-kvm">english</a></td>
             </tr>
             <tr>
               <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">System Analysis and Tuning</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-131-system-analysis-and-tuning-guide">english</a></td>
+              <td style="text-align:center; padding:.4em .5em"><a href="http://activedoc.opensuse.org/book/opensuse-system-analysis-and-tuning-guide">english</a></td>
             </tr>
           </table>
         </div>
@@ -176,7 +176,7 @@
             </ul>
 
           </div>
-
+<!--
           <div class="grid_12 alpha omega">
             <h2>Draft Documentation</h2><a name="draft"></a>
 
@@ -220,7 +220,8 @@
                 <li><a href="/products/draft/SLES/SLES-tuning_sd_draft/">SLES Tuning</a></li>
                 <li><a href="/products/draft/SLES/SLES-xen_sd_draft/">SLES Xen</a></li>
               </ul>
-	      -->
+	      \-\->
             </div>
           </div>
+	  -->
         </div>
