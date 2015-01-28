@@ -1,8 +1,12 @@
         <h1>Documentation</h1>
 
-        <p>This site hosts documentation for openSUSE and SLES/SLED related products as well as projects.</p>
-        <p>The user manuals and technical documentation that is published here is generated and static content. To contribute documentation please use the <a href="http://wiki.opensuse.org/Portal:Documentation">openSUSE Wiki</a>.
-          We hope you enjoy to <i>read the fabulous manuals</i>.
+        <p>This site hosts documentation for openSUSE related projects.</p>
+        <p>The user manuals and technical documentation that is published here
+          is generated and static content. To contribute documentation please
+          go
+          to <a href="http://activedoc.opensuse.org">ActiveDoc.opensuse.org</a>
+          or <a href="http://wiki.opensuse.org/Portal:Documentation">openSUSE
+          Wiki</a>.  We hope you enjoy <i>reading the fabulous manuals</i>.
         </p>
 
         <h2>openSUSE Documentation</h2>
@@ -37,7 +41,6 @@
           <p><b>Other openSUSE Versions</b></p>
           <div class="grid_6 alpha">
             <ul>
-              <li><a href="#opensuse_factory-doc">openSUSE Factory</a></li>
               <li><a href="opensuse.html#12.2">openSUSE 12.2</a></li>
               <li><a href="opensuse.html#12.1">openSUSE 12.1</a></li>
               <li><a href="opensuse.html#11.4">openSUSE 11.4</a></li>

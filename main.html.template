@@ -188,7 +188,6 @@
           <ul class="navigation">
             <li><a href="/#opensuse-doc">openSUSE</a></li>
             <li><a href="/#release-notes">Release Notes</a></li>
-            <li><a href="/#sles-doc">SLES <small>DRAFTs</small></a></li>
             <li><a href="/#webyast-doc">WebYaST</a></li>
             <li><a href="/#autoyast-doc">AutoYaST</a></li>
             <li><a href="/#kiwi-doc">Kiwi</a></li>
@@ -216,11 +215,11 @@
           <h2 class="box-header">External Documentation</h2>
           <ul class="navigation">
 	    <li><a href="http://openbuildservice.org/help/manuals/obs-reference-guide">Open Build Service</a></li>
-            <li><a href="http://www.suse.com/documentation">suse.com/documentation</a></li>
-            <li><a href="http://opensuse-guide.org" rel="external">opensuse-guide.org</a></li>
-            <li><a href="http://snapper.io" rel="external">snapper.io</a></li>
-            <li><a href="http://webyast.github.com/webyast/" rel="external">webyast.github.com</a></li>
-            <li><a href="http://www.opensuse-lernen.de"      rel="external">opensuse-lernen.de (DE)</a></li>
+            <li><a href="http://www.suse.com/documentation">SUSE Linux Enterprise</a></li>
+            <li><a href="http://opensuse-guide.org" rel="external">openSUSE Guide</a></li>
+            <li><a href="http://snapper.io" rel="external">Snapper</a></li>
+            <li><a href="http://webyast.github.com/webyast/" rel="external">WebYaST</a></li>
+            <li><a href="http://www.opensuse-lernen.de"      rel="external">openSUSE-lernen.de (DE)</a></li>
 
           </ul>
           <div class="box-footer">
@@ -252,7 +251,9 @@
         <div id="footer-content" class="grid_16 column_4 clear-block">
           <div id="footer-legal" class="border-top grid_16">
             <p>
-              &copy; 2010-2012 Novell, Inc. All rights reserved. Novell is a registered trademark and openSUSE and SUSE are trademarks of Novell, Inc. in the United States and other countries.
+              &copy; 2010-2015 SUSE LLC.  All rights
+              reserved. <a href="https://www.suse.com/company/legal/"
+              rel="external">Legal information</a>.
             </p>
           </div>
         </div>

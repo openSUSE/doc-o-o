@@ -1,8 +1,14 @@
         <h1>Documentation for previous openSUSE Versions</h1>
 
-        <p>This site hosts documentation for previous openSUSE versions. Documentation for the current openSUSE version is available at the <a href="/">doc.opensuse.org home page.</a></p>
-        <p>The user manuals and technical documentation that is published here is generated and static content. To contribute documentation please use the <a href="http://wiki.opensuse.org/Portal:Documentation">openSUSE Wiki</a>.
-          We hope you enjoy to <i>read the fabulous manuals</i>.
+        <p>This site hosts documentation for previous openSUSE
+        versions. Documentation for the current openSUSE version is available
+        at <a href="http://activedoc.opensuse.org">ActiveDoc.opensuse.org</a></p>
+	<p>The user manuals and technical documentation that is published here
+          is generated and static content. To contribute documentation please
+          go
+          to <a href="http://activedoc.opensuse.org">ActiveDoc.opensuse.org</a>
+          or <a href="http://wiki.opensuse.org/Portal:Documentation">openSUSE
+          Wiki</a>.  We hope you enjoy <i>reading the fabulous manuals</i>.
         </p>
 
         <h2>openSUSE 12.2</h2>
