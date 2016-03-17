@@ -13,18 +13,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <!-- do not delete the following tag -->
     <meta name="google-site-verification" content="7H6xpdx2K_ZwS0wPPDGBYXQphvMqzuX8_UiWAAaJZDM" />
-    <link rel="stylesheet" href="http://static.opensuse.org/themes/bento/css/style.css" type="text/css" media="screen" title="All" charset="utf-8" />
+    <link rel="stylesheet" href="https://static.opensuse.org/themes/bento/css/style.css" type="text/css" media="screen" title="All" charset="utf-8" />
 
-    <script src="http://static.opensuse.org/stage/themes/bento/js/jquery.js" type="text/javascript" charset="utf-8"></script>
-    <script src="http://static.opensuse.org/stage/themes/bento/js/script.js" type="text/javascript" charset="utf-8"></script>
-    <script src="http://static.opensuse.org/themes/bento/js/l10n/global-navigation-data-en.js" type="text/javascript" charset="utf-8"></script>
-    <script src="http://static.opensuse.org/themes/bento/js/global-navigation.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://static.opensuse.org/stage/themes/bento/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://static.opensuse.org/stage/themes/bento/js/script.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://static.opensuse.org/themes/bento/js/l10n/global-navigation-data-en.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://static.opensuse.org/themes/bento/js/global-navigation.js" type="text/javascript" charset="utf-8"></script>
 
-    <link rel="icon" type="image/png" href="http://static.opensuse.org/themes/bento/images/favicon.png" />
+    <link rel="icon" type="image/png" href="https://static.opensuse.org/themes/bento/images/favicon.png" />
     <title><%TITLE%></title>
     <meta name="description" content="This site hosts documentation for openSUSE and SLES/SLED related products as well as projects.  The user manuals and technical documentation that is published here is generated and static content. To contribute documentation please use the openSUSE Wiki."/>
 
-    <link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
+    <link rel="stylesheet" href="//www.google.com/cse/style/look/default.css" type="text/css" />
     <style type="text/css">
       .gsc-control-cse {
         font-family: Arial, sans-serif;
@@ -145,7 +145,7 @@
     <!-- Start: Header -->
     <div id="header">
       <div id="header-content" class="container_12">
-        <a id="header-logo" href="/"><img src="http://static.opensuse.org/themes/bento/images/header-logo.png" width="46" height="26" alt="Header Logo" /></a>
+        <a id="header-logo" href="/"><img src="https://static.opensuse.org/themes/bento/images/header-logo.png" width="46" height="26" alt="Header Logo" /></a>
         <ul id="global-navigation">
           <li id="item-downloads"><a href="http://en.opensuse.org/sitemap#downloads">Downloads</a></li>
           <li id="item-support"><a href="http://en.opensuse.org/sitemap#support">Support</a></li>
@@ -158,7 +158,7 @@
 
     <div id="subheader" class="container_16" style="min-height: 25px">
       <div id="breadcrump" class="grid_10 alpha">
-        <a href="/" title="Home"><img src="http://static.opensuse.org/themes/bento/images/home_grey.png" width="16" height="16" alt="Home" /> doc.opensuse.org</a>
+        <a href="/" title="Home"><img src="https://static.opensuse.org/themes/bento/images/home_grey.png" width="16" height="16" alt="Home" /> doc.opensuse.org</a>
 
       </div>
 
@@ -166,7 +166,7 @@
         <!-- Here once was the login code -->
         <!-- Google Custom Search - Input Field Area-->
         <div id="cse-search-form" style="width: 100%;">Loading</div>
-        <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+        <script src="https://www.google.com/jsapi" type="text/javascript"></script>
         <script type="text/javascript">
           google.load('search', '1', {language : 'en'});
           google.setOnLoadCallback(function() {
@@ -187,8 +187,10 @@
           <h2 class="box-header">Documentation Resources</h2>
           <ul class="navigation">
             <li><a href="/#opensuse-doc">openSUSE</a></li>
+	    <!--
             <li><a href="/#release-notes">Release Notes</a></li>
             <li><a href="/#webyast-doc">WebYaST</a></li>
+	    -->
             <li><a href="/#autoyast-doc">AutoYaST</a></li>
             <li><a href="/#kiwi-doc">Kiwi</a></li>
           </ul>
