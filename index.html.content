@@ -1,11 +1,8 @@
 <h1>Documentation</h1>
 
 <p>
- This site hosts documentation for openSUSE and related projects.
-</p>
-<p>
- The user manuals and technical documentation that is published here
- is generated and static content. For more openSUSE documentation
+ This site hosts documentation for openSUSE Leap and related projects.
+ For more openSUSE documentation
  see the <a href="http://wiki.opensuse.org/Portal:Documentation">openSUSE
  Wiki</a>.  We hope you enjoy <i>reading the fabulous manuals</i>.
 </p>
@@ -13,7 +10,7 @@
 <h2>openSUSE Documentation</h2>
 <a name="opensuse-doc"></a>
 <p>
-  The following documentation is available for <b>openSUSE Leap 42.1</b>:
+  The following documentation is available for <b>openSUSE Leap 42.2</b>:
 </p>
 <div style="padding-bottom:2em">
   <table>
@@ -172,12 +169,16 @@
 	Release Notes
       </th>
       <td style="text-align:left; padding:.4em .5em" colspan="4">
-	<a href="/release-notes/x86_64/openSUSE/Leap/42.1/index.html">
+	<a href="/release-notes/x86_64/openSUSE/Leap/42.2/index.html">
 	  HTML
 	</a>
       </td>
     </tr>
   </table>
+  <p>
+    Documentation for previous versions is available in
+    the <a href="opensuse.html">Archive</a>.
+  </p>    
   <p>
     Contributions to the guides listed above is welcome. You can report
     issues by clicking on the <i>Report Bug</i> link in the headlines of the
@@ -187,7 +188,7 @@
     You may also fork the <a href="https://github.com/SUSE/doc-sle">GitHub
     repository</a> and send us pull requests. Refer to the
     <a href="https://github.com/SUSE/doc-sle/blob/develop/README.adoc">README</a>
-    for further instructions. If you are interested in writinglarger amounts
+    for further instructions. If you are interested in writing larger amounts
     of text, you may want to check
     our <a href="/products/opensuse/Styleguide/opensuse_documentation_styleguide_sd/">Documentation
     Styleguide</a> for further help.
@@ -195,7 +196,8 @@
   <p>
     To get in touch with the documentation team, mail us
     at <b><a href="mailto:doc-team@suse.de">doc-team@suse.de</a></b>, join the
-    <b>#opensuse-doc</b> IRC channel on freenode,
+    <b><a href="irc://irc.freenode.net/opensuse-doc">#opensuse-doc</a></b> IRC
+    channel on freenode,
     or <a href="https://en.opensuse.org/openSUSE:Mailing_lists_subscription#Subscribing">subscribe</a>
     to our <b>mailing list opensuse-doc@opensuse.org</b>.
   </p>

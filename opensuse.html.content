@@ -1,217 +1,172 @@
-        <h1>Documentation for previous openSUSE Versions</h1>
+        <h1>Documentation for Previous openSUSE Leap Releases</h1>
 
-        <p>This site hosts documentation for previous openSUSE
-        versions. Documentation for the current openSUSE version is available
-        at <a href="http://activedoc.opensuse.org">ActiveDoc.opensuse.org</a></p>
-	<p>The user manuals and technical documentation that is published here
-          is generated and static content. To contribute documentation please
-          go
-          to <a href="http://activedoc.opensuse.org">ActiveDoc.opensuse.org</a>
-          or <a href="http://wiki.opensuse.org/Portal:Documentation">openSUSE
-          Wiki</a>.  We hope you enjoy <i>reading the fabulous manuals</i>.
-        </p>
+        <p>This site hosts documentation for previous openSUSE Leap
+        releases. Documentation for the current release is available
+        at the <a href="/">Home Page</a></p>
 
-        <h2>openSUSE 12.2</h2>
-        <a name="12.2"></a>
-        <div style="padding-bottom:2em; width:100%">
-         <table>
-          <tr>
-            <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Startup</th>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_122/opensuse-startup/">HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_122/opensuse-startup.html">single HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_122/book.opensuse.startup_en.pdf">PDF</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_122/book.opensuse.startup.epub">EPUB</a></td>
-            <td style="text-align:center; veritcal-align:middle; padding:.4em .5em" rowspan="5"><a href="documentation/src/openSUSE/opensuse-manuals_12.2_src_en.tar.bz2">sources</a></td>
-          </tr>
-          <tr>
-            <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Reference</th>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_122/opensuse-reference/">HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_122/opensuse-reference.html">single HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_122/book.opensuse.reference_en.pdf">PDF</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_122/book.opensuse.reference.epub">EPUB</a></td>
-          </tr>
-          <tr>
-            <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Security Guide</th>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_122/opensuse-security/">HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_122/opensuse-security.html">single HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_122/book.security_en.pdf">PDF</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_122/book.security.epub">EPUB</a></td>
-          </tr>
-          <tr>
-            <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Virtualization with KVM</th>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_122/opensuse-kvm/">HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_122/opensuse-kvm.html">single HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_122/book.kvm_en.pdf">PDF</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_122/book.kvm.epub">EPUB</a></td>
-          </tr>
-          <tr>
-            <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">System Analysis and Tuning</th>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_122/opensuse-tuning/">HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_122/opensuse-tuning.html">single HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_122/book.tuning_en.pdf">PDF</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_122/book.tuning.epub">EPUB</a></td>
-          </tr>
-         </table>
-        </div>
-        
-        <h2>openSUSE 12.1</h2>
-        <a name="12.1"></a>
-        <div style="padding-bottom:2em; width:100%">
-         <table>
-          <tr>
-            <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Startup</th>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_121/opensuse-startup/">HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_121/opensuse-startup.html">single HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_121/book.opensuse.startup_en.pdf">PDF</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_121/book.opensuse.startup.epub">EPUB</a></td>
-            <td style="text-align:center; veritcal-align:middle; padding:.4em .5em" rowspan="5"><a href="documentation/src/openSUSE/opensuse-manuals_12.1_src_en.tar.bz2">sources</a></td>
-          </tr>
-          <tr>
-            <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Reference</th>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_121/opensuse-reference/">HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_121/opensuse-reference.html">single HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_121/book.opensuse.reference_en.pdf">PDF</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_121/book.opensuse.reference.epub">EPUB</a></td>
-          </tr>
-          <tr>
-            <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Security Guide</th>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_121/opensuse-security/">HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_121/opensuse-security.html">single HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_121/book.security_en.pdf">PDF</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_121/book.security.epub">EPUB</a></td>
-          </tr>
-          <tr>
-            <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Virtualization with KVM</th>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_121/opensuse-kvm/">HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_121/opensuse-kvm.html">single HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_121/book.kvm_en.pdf">PDF</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_121/book.kvm.epub">EPUB</a></td>
-          </tr>
-          <tr>
-            <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">System Analysis and Tuning</th>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_121/opensuse-tuning/">HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_121/opensuse-tuning.html">single HTML</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_121/book.tuning_en.pdf">PDF</a></td>
-            <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_121/book.tuning.epub">EPUB</a></td>
-          </tr>
-         </table>
-        </div>
-        
-        <h2>openSUSE 11.4</h2>
-        <a name="11.4"></a>
-        <div style="padding-bottom:2em; width:100%">
-          <table>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Startup</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_114/opensuse-startup/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_114/opensuse-startup.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_114/book.opensuse.startup_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_114/book.opensuse.startup.epub">EPUB</a></td>
-              <td style="text-align:center; veritcal-align:middle; padding:.4em .5em" rowspan="5"><a href="http://download.opensuse.org/source/distribution/11.4/repo/oss/suse/src/opensuse-manuals_en-11.4-6.10.2.src.rpm">sources</a></td>
-            </tr>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Reference</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_114/opensuse-reference/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_114/opensuse-reference.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_114/book.opensuse.reference_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_114/book.opensuse.reference.epub">EPUB</a></td>
-            </tr>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Security Guide</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_114/opensuse-security/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_114/opensuse-security.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_114/book.security_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_114/book.security.epub">EPUB</a></td>
-            </tr>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Virtualization with KVM</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_114/opensuse-kvm/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_114/opensuse-kvm.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_114/book.kvm_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_114/book.kvm.epub">EPUB</a></td>
-            </tr>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">System Analysis and Tuning</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_114/opensuse-tuning/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_114/opensuse-tuning.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_114/book.tuning_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_114/book.tuning.epub">EPUB</a></td>
-            </tr>
-          </table>
-        </div>
-        <h2>openSUSE 11.3</h2>
-        <a name="11.3"></a>
-        <div style="padding-bottom:2em; width:100%">
-          <table>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Startup</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_113/opensuse-startup/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_113/opensuse-startup.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_113/book.opensuse.startup_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_113/book.opensuse.startup.epub">EPUB</a></td>
-              <td style="text-align:center; veritcal-align:middle; padding:.4em .5em" rowspan="10"><a href="http://download.opensuse.org/update/11.3/rpm/src/opensuse-manuals_en-11.3-6.3.1.src.rpm">sources</a></td>
-            </tr>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Applications</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_113/opensuse-apps/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_113/opensuse-apps.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_113/book.apps_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_113/book.apps.epub">EPUB</a></td>
-            </tr>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">GNOME User Guide</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_113/opensuse-gnomeuser/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_113/opensuse-gnomeuser.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_113/book.gnomeuser_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_113/book.gnomeuser.epub">EPUB</a></td>
-            </tr>            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">KDE User Guide</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_113/opensuse-kdeuser/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_113/opensuse-kdeuser.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_113/book.kdeuser_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_113/book.kdeuser.epub">EPUB</a></td>
-            </tr>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Reference</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_113/opensuse-reference/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_113/opensuse-reference.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_113/book.opensuse.reference_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_113/book.opensuse.reference.epub">EPUB</a></td>
-            </tr>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Security Guide</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_113/opensuse-security/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_113/opensuse-security.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_113/book.security_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_113/book.security.epub">EPUB</a></td>
-            </tr>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">Installation Quick Start</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_113/opensuse-installquick/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_113/opensuse-installquick.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_113/art.osuse.installquick_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_113/art.osuse.installquick.epub">EPUB</a></td>
-            </tr>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">GNOME Quick Start</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_113/opensuse-gnomequick/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_113/opensuse-gnomequick.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_113/art.gnomequick_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_113/art.gnomequick.epub">EPUB</a></td>
-            </tr>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">KDE Quick Start</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_113/opensuse-kdequick/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_113/opensuse-kdequick.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_113/art.kdequick_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_113/art.kdequick.epub">EPUB</a></td>
-            </tr>
-            <tr>
-              <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">AppArmor Quick Start</th>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/html/openSUSE_113/opensuse-apparmor-quick/">HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/htmlsingle/openSUSE_113/opensuse-apparmor-quick.html">single HTML</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/pdf/openSUSE_113/art.aaquick_en.pdf">PDF</a></td>
-              <td style="text-align:center; padding:.4em .5em"><a href="documentation/epub/openSUSE_113/art.aaquick.epub">EPUB</a></td>
-            </tr>
-          </table>
+        <h2>openSUSE Leap 42.1</h2>
+        <a name="42.1"></a>
+	<div style="padding-bottom:2em">
+	  <table>
+	    <tr>
+	      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
+		Startup Guide
+	      </th>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/startup/html/book.opensuse.startup/index.html">
+		  HTML
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/startup/single-html/book.opensuse.startup/index.html">
+		  single HTML
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/startup/book.opensuse.startup_color_en.pdf">
+		  PDF
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/startup/book.opensuse.startup_en.epub">
+		  ePUB
+		</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
+		GNOME User Guide
+	      </th>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/gnomeuser/html/book.gnomeuser/index.html">
+		  HTML
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/gnomeuser/single-html/book.gnomeuser/index.html">
+		  single HTML
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/gnomeuser/book.gnomeuser_color_en.pdf">
+		  PDF
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/gnomeuser/book.gnomeuser_en.epub">
+		  ePUB
+		</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
+		Reference Guide
+	      </th>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/reference/html/book.opensuse.reference/index.html">
+		  HTML
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/reference/single-html/book.opensuse.reference/index.html">
+		  single HTML
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/reference/book.opensuse.reference_color_en.pdf">
+		  PDF
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/reference/book.opensuse.reference_en.epub">
+		  ePUB
+		</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
+		Security Guide
+	      </th>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/security/html/book.security/index.html">
+		  HTML
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/security/single-html/book.security/index.html">
+		  single HTML
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/security/book.security_color_en.pdf">
+		  PDF
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/security/book.security_en.epub">
+		  ePUB
+		</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
+		Tuning Guide
+	      </th>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/tuning/html/book.sle.tuning/index.html">
+		  HTML
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/tuning/single-html/book.sle.tuning/index.html">
+		  single HTML
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/tuning/book.sle.tuning_color_en.pdf">
+		  PDF
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/tuning/book.sle.tuning_en.epub">
+		  ePUB
+		</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
+		Virtualization Guide
+	      </th>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/virtualization/html/book.virt/index.html">
+		  HTML
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/virtualization/single-html/book.virt/index.html">
+		  single HTML
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/virtualization/book.virt_color_en.pdf">
+		  PDF
+		</a>
+	      </td>
+	      <td style="text-align:center; padding:.4em .5em">
+		<a href="/documentation/archive/leap_42.1/virtualization/book.virt_en.epub">
+		  ePUB
+		</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
+		Release Notes
+	      </th>
+	      <td style="text-align:left; padding:.4em .5em" colspan="4">
+		<a href="/release-notes/x86_64/openSUSE/Leap/42.1/index.html">
+		  HTML
+		</a>
+	      </td>
+	    </tr>
+	  </table>
         </div>
