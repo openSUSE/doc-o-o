@@ -2,7 +2,7 @@
 
 <p>
  This site hosts documentation for openSUSE Leap and related projects.
- For more openSUSE documentation
+ For more openSUSE documentation,
  see the <a href="http://wiki.opensuse.org/Portal:Documentation">openSUSE
  Wiki</a>.  We hope you enjoy <i>reading the fabulous manuals</i>.
 </p>
@@ -180,7 +180,7 @@
     the <a href="opensuse.html">Archive</a>.
   </p>    
   <p>
-    Contributions to the guides listed above is welcome. You can report
+    Contributions to the guides listed above are welcome. You can report
     issues by clicking on the <i>Report Bug</i> link in the headlines of the
     HTML versions.
   </p>
@@ -194,13 +194,25 @@
     Styleguide</a> for further help.
   </p>
   <p>
-    To get in touch with the documentation team, mail us
-    at <b><a href="mailto:doc-team@suse.de">doc-team@suse.de</a></b>, join the
-    <b><a href="irc://irc.freenode.net/opensuse-doc">#opensuse-doc</a></b> IRC
-    channel on freenode,
-    or <a href="https://en.opensuse.org/openSUSE:Mailing_lists_subscription#Subscribing">subscribe</a>
-    to our <b>mailing list opensuse-doc@opensuse.org</b>.
+    To get in touch with the documentation team:
   </p>
+  <ul>
+    <li>
+      <p>
+        mail us at <b><a href="mailto:doc-team@suse.com">doc-team@suse.com</a></b>
+      </p>
+    </li>
+    <li>
+      <p>
+        join the IRC channel <b><a href="irc://irc.freenode.net/opensuse-doc">#opensuse-doc</a></b> on freenode
+      </p>
+    </li>
+    <li>
+      <p>
+       <a href="https://en.opensuse.org/openSUSE:Mailing_lists_subscription#Subscribing">subscribe</a> to our <b>mailing list opensuse-doc@opensuse.org</b>
+      </p>
+    </li>
+  </ul>
 </div>
 <!--
 <div class="grid_12 alpha omega">
@@ -239,8 +251,9 @@
     <a name="kiwi-doc"></a>
     <p><b>Kiwi</b></p>
     <ul>
-      <li><a href="/projects/kiwi/doc">Kiwi Cookbook</a></li>
-      <li><a href="/projects/kiwi/schema-doc">Kiwi XML Schema documentation</a></li>
+      <li><a href="/projects/kiwi/doc">Kiwi 7 Cookbook</a></li>
+      <li><a href="/projects/kiwi/schema-doc">Kiwi 7 XML Schema Documentation</a></li>
+      <li><a href="https://suse.github.io/kiwi">Kiwi 8 Documentation</a></li>
     </ul>
   </div>
   
@@ -259,7 +272,7 @@
       <a name="yast-doc"></a>
       <p><b>YaST</b></p>
       <ul>
-	<li><a href="https://yast.github.io/documentation.html">YaST Development Documentation</a>
+	<li><a href="https://yast.github.io/documentation.html">YaST Development Documentation</a></li>
 	<!--
         <li>SuSE Linux (
           <a href="/projects/YaST/SuSE_Linux10.0" rel="external">10.0</a>
@@ -291,7 +304,7 @@
       <a name="zypp-doc"></a>
       <p><b>Zypp</b></p>
       <ul>
-	<li><a href="/projects/libzypp/HEAD">libzypp Documentation</a>
+	<li><a href="/projects/libzypp/HEAD">libzypp Documentation</a></li>
 	  <!--
 	<li><a href="/projects/satsolver" rel="external">Satsolver</a> (
           <a href="/projects/satsolver/11.2" rel="external">11.2</a>
