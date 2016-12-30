@@ -3,6 +3,7 @@
 use warnings;
 use strict;
 use FileHandle;
+use POSIX 'strftime';
 
 # files to make
 my $files = {
@@ -15,6 +16,7 @@ open(TFH, "<", $template_file) or die $@;
 my $file;
 my $myline;
 my $myfh;
+my $year = strftime "%Y", gmtime;
 
 foreach $file (keys %{$files})
 {
@@ -33,6 +35,7 @@ foreach my $line (<TFH>)
       $myline = eval { local $/; <$rfh> };
     }
     $myline =~ s/<%TITLE%>/$files->{$file}->{title}/;
+    $myline =~ s/<%YEAR%>/$year/;
     $myfh = $files->{$file}->{writeFH};
     print $myfh $myline;
   }

@@ -253,7 +253,7 @@
         <div id="footer-content" class="grid_16 column_4 clear-block">
           <div id="footer-legal" class="border-top grid_16">
             <p>
-              &copy; 2010-2015 SUSE LLC.  All rights
+              &copy; 2010-<%YEAR%> SUSE LLC.  All rights
               reserved. <a href="https://www.suse.com/company/legal/"
               rel="external">Legal information</a>.
             </p>
