@@ -177,8 +177,12 @@
   </table>
   <p>
     Documentation for previous versions is available in
-    the <a href="opensuse.html">Archive</a>.
-  </p>    
+    the <a href="opensuse.html">Documentation Archive</a>.
+  </p>
+  <p>
+    Release notes for previous versions are available in
+    the <a href="release-notes">Release Notes Archive</a>.
+  </p>
   <p>
     Contributions to the guides listed above are welcome. You can report
     issues by clicking on the <i>Report Bug</i> link in the headlines of the
