@@ -190,10 +190,10 @@
   </p>
   <p>
     You may also fork the <a href="https://github.com/SUSE/doc-sle">GitHub
-    repository</a> and send us pull requests. Refer to the
-    <a href="https://github.com/SUSE/doc-sle/blob/develop/README.adoc">README</a>
-    for further instructions. If you are interested in writing larger amounts
-    of text, you may want to check
+    repository</a> and send us pull requests. For more information, see
+    <a href="https://github.com/SUSE/doc-sle/blob/develop/README.adoc">README</a>.
+    If you are interested in writing larger amounts
+    of text, see
     our <a href="/products/opensuse/Styleguide/opensuse_documentation_styleguide_sd/">Documentation
     Styleguide</a> for further help.
   </p>
@@ -201,15 +201,9 @@
     To get in touch with the documentation team:
   </p>
   <ul>
-    <li>
-        mail us at <b><a href="mailto:doc-team@suse.com">doc-team@suse.com</a></b>
-    </li>
-    <li>
-        join the IRC channel <b><a href="irc://irc.freenode.net/opensuse-doc">#opensuse-doc</a></b> on freenode
-    </li>
-    <li>
-       <a href="https://en.opensuse.org/openSUSE:Mailing_lists_subscription#Subscribing">subscribe</a> to our <b>mailing list opensuse-doc@opensuse.org</b>
-    </li>
+    <li>mail us at <b><a href="mailto:doc-team@suse.com">doc-team@suse.com</a></b></li>
+    <li>join the IRC channel <b><a href="irc://irc.freenode.net/opensuse-doc">#opensuse-doc</a></b> on freenode</li>
+    <li><a href="https://en.opensuse.org/openSUSE:Mailing_lists_subscription#Subscribing">subscribe</a> to our <b>mailing list opensuse-doc@opensuse.org</b></li>
   </ul>
 </div>
 <!--
