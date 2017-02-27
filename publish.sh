@@ -7,14 +7,18 @@ FILESRN="index.html"
 if [[ $1 ]] && [[ $2 ]]; then
   if [[ ! $1 == '--' ]]; then
     rsync $FILESDOC -e ssh ${1}@community.opensuse.org:doc.opensuse.org/htdocs/
+  else
+    echo "Skipping documentation page sync: no user name provided."
   fi
   if [[ ! $2 == '--' ]]; then
     cd release-notes
     rsync $FILESRN -e ssh ${2}@community.opensuse.org:release-notes/
+  else
+    echo "Skipping release notes page sync: no user name provided."
   fi
 else
   >&2 echo "Error: Could not sync. As parameters, use the correct user names:"
   >&2 echo "  $0 [USER_FOR_DOCUMENTATION] [USER_FOR_RELEASE_NOTES]"
-  >&2 echo "To only sync of the items, use -- as one of the parameters."
+  >&2 echo "To only sync one of the items, use -- as one of the parameters."
   exit 1
 fi
