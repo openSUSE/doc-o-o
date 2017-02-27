@@ -4,10 +4,10 @@
  This site hosts documentation for openSUSE Leap and related projects.
  For more openSUSE documentation,
  see the <a href="http://wiki.opensuse.org/Portal:Documentation">openSUSE
- Wiki</a>.  We hope you enjoy <i>reading the fabulous manuals</i>.
+ Wiki</a>. We hope you enjoy <i>reading the fabulous manuals</i>.
 </p>
 
-<h2>openSUSE Documentation</h2>
+<h2>Documentation for openSUSE Leap 42.2</h2>
 <a name="opensuse-doc"></a>
 <p>
   The following documentation is available for <b>openSUSE Leap 42.2</b>:
@@ -175,14 +175,18 @@
       </td>
     </tr>
   </table>
-  <p>
+  <h2>Documentation for Previous openSUSE Versions</h2>
+  <ul>
+    <li>
     Documentation for previous versions is available in
     the <a href="opensuse.html">Documentation Archive</a>.
-  </p>
-  <p>
+    </li>
+    <li>
     Release notes for previous versions are available in
     the <a href="release-notes">Release Notes Archive</a>.
-  </p>
+    </li>
+  </ul>
+  <h2>Contributing to openSUSE Documentation</h2>
   <p>
     Contributions to the guides listed above are welcome. You can report
     issues by clicking on the <i>Report Bug</i> link in the headlines of the
@@ -206,36 +210,7 @@
     <li><a href="https://en.opensuse.org/openSUSE:Mailing_lists_subscription#Subscribing">subscribe</a> to our <b>mailing list opensuse-doc@opensuse.org</b></li>
   </ul>
 </div>
-<!--
-<div class="grid_12 alpha omega">
-  <p><b>Other openSUSE Versions</b></p>
-  <div class="grid_6 alpha">
-    <ul>
-      <li><a href="opensuse.html#12.2">openSUSE 12.2</a></li>
-      <li><a href="opensuse.html#12.1">openSUSE 12.1</a></li>
-      <li><a href="opensuse.html#11.4">openSUSE 11.4</a></li>
-    </ul>
-  </div>
-  <div class="grid_6 omega">
-    <ul>
-      <li><a href="opensuse.html#11.3">openSUSE 11.3</a></li>
-      <li><a href="http://www.suse.com/documentation/opensuse112/">openSUSE 11.2</a></li>
-      <li><a href="http://www.suse.com/documentation/opensuse111/">openSUSE 11.1</a></li>
-    </ul>
-  </div>
-</div>
 
-<div class="grid_12 alpha omega" style="margin-bottom: 10px">
-  <a name="release-notes">
-    <h2>Release Notes</h2>
-  </a>
-  <div class="grid_12 alpha omega">
-    <ul>
-      <li><a href="/release-notes/x86_64/openSUSE/13.1/">openSUSE 13.1 Release Notes</a></li>
-    </ul>
-  </div>
-</div>
--->
 <div class="grid_12 alpha omega">
   <h2>Project Documentation</h2>
   
