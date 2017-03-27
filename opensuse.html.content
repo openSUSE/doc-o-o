@@ -13,22 +13,22 @@
 		Startup Guide
 	      </th>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/startup/html/book.opensuse.startup/index.html">
+		<a href="/documentation/leap/archive/leap_42.1/startup/html/book.opensuse.startup/index.html">
 		  HTML
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/startup/single-html/book.opensuse.startup/index.html">
+		<a href="/documentation/leap/archive/leap_42.1/startup/single-html/book.opensuse.startup/index.html">
 		  single HTML
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/startup/book.opensuse.startup_color_en.pdf">
+		<a href="/documentation/leap/archive/leap_42.1/startup/book.opensuse.startup_color_en.pdf">
 		  PDF
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/startup/book.opensuse.startup_en.epub">
+		<a href="/documentation/leap/archive/leap_42.1/startup/book.opensuse.startup_en.epub">
 		  ePUB
 		</a>
 	      </td>
@@ -38,22 +38,22 @@
 		GNOME User Guide
 	      </th>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/gnomeuser/html/book.gnomeuser/index.html">
+		<a href="/documentation/leap/archive/leap_42.1/gnomeuser/html/book.gnomeuser/index.html">
 		  HTML
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/gnomeuser/single-html/book.gnomeuser/index.html">
+		<a href="/documentation/leap/archive/leap_42.1/gnomeuser/single-html/book.gnomeuser/index.html">
 		  single HTML
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/gnomeuser/book.gnomeuser_color_en.pdf">
+		<a href="/documentation/leap/archive/leap_42.1/gnomeuser/book.gnomeuser_color_en.pdf">
 		  PDF
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/gnomeuser/book.gnomeuser_en.epub">
+		<a href="/documentation/leap/archive/leap_42.1/gnomeuser/book.gnomeuser_en.epub">
 		  ePUB
 		</a>
 	      </td>
@@ -63,22 +63,22 @@
 		Reference Guide
 	      </th>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/reference/html/book.opensuse.reference/index.html">
+		<a href="/documentation/leap/archive/leap_42.1/reference/html/book.opensuse.reference/index.html">
 		  HTML
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/reference/single-html/book.opensuse.reference/index.html">
+		<a href="/documentation/leap/archive/leap_42.1/reference/single-html/book.opensuse.reference/index.html">
 		  single HTML
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/reference/book.opensuse.reference_color_en.pdf">
+		<a href="/documentation/leap/archive/leap_42.1/reference/book.opensuse.reference_color_en.pdf">
 		  PDF
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/reference/book.opensuse.reference_en.epub">
+		<a href="/documentation/leap/archive/leap_42.1/reference/book.opensuse.reference_en.epub">
 		  ePUB
 		</a>
 	      </td>
@@ -88,22 +88,22 @@
 		Security Guide
 	      </th>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/security/html/book.security/index.html">
+		<a href="/documentation/leap/archive/leap_42.1/security/html/book.security/index.html">
 		  HTML
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/security/single-html/book.security/index.html">
+		<a href="/documentation/leap/archive/leap_42.1/security/single-html/book.security/index.html">
 		  single HTML
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/security/book.security_color_en.pdf">
+		<a href="/documentation/leap/archive/leap_42.1/security/book.security_color_en.pdf">
 		  PDF
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/security/book.security_en.epub">
+		<a href="/documentation/leap/archive/leap_42.1/security/book.security_en.epub">
 		  ePUB
 		</a>
 	      </td>
@@ -113,22 +113,22 @@
 		Tuning Guide
 	      </th>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/tuning/html/book.sle.tuning/index.html">
+		<a href="/documentation/leap/archive/leap_42.1/tuning/html/book.sle.tuning/index.html">
 		  HTML
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/tuning/single-html/book.sle.tuning/index.html">
+		<a href="/documentation/leap/archive/leap_42.1/tuning/single-html/book.sle.tuning/index.html">
 		  single HTML
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/tuning/book.sle.tuning_color_en.pdf">
+		<a href="/documentation/leap/archive/leap_42.1/tuning/book.sle.tuning_color_en.pdf">
 		  PDF
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/tuning/book.sle.tuning_en.epub">
+		<a href="/documentation/leap/archive/leap_42.1/tuning/book.sle.tuning_en.epub">
 		  ePUB
 		</a>
 	      </td>
@@ -138,22 +138,22 @@
 		Virtualization Guide
 	      </th>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/virtualization/html/book.virt/index.html">
+		<a href="/documentation/leap/archive/leap_42.1/virtualization/html/book.virt/index.html">
 		  HTML
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/virtualization/single-html/book.virt/index.html">
+		<a href="/documentation/leap/archive/leap_42.1/virtualization/single-html/book.virt/index.html">
 		  single HTML
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/virtualization/book.virt_color_en.pdf">
+		<a href="/documentation/leap/archive/leap_42.1/virtualization/book.virt_color_en.pdf">
 		  PDF
 		</a>
 	      </td>
 	      <td style="text-align:center; padding:.4em .5em">
-		<a href="/documentation/archive/leap_42.1/virtualization/book.virt_en.epub">
+		<a href="/documentation/leap/archive/leap_42.1/virtualization/book.virt_en.epub">
 		  ePUB
 		</a>
 	      </td>
