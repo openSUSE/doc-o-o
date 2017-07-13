@@ -4,15 +4,28 @@
 FILESDOC="index.html opensuse.html"
 FILESRN="index.html"
 
-if [[ $1 ]] && [[ $2 ]]; then
-  if [[ ! $1 == '--' ]]; then
-    rsync $FILESDOC -e ssh ${1}@community.opensuse.org:doc.opensuse.org/htdocs/
+# Add a two-line file that just contains the user names and those will always
+# be used.
+userconfig="publishusers"
+userdoc=$1
+userrn=$2
+
+if [[ -f $userconfig ]] && [[ $(cat "$userconfig" | wc -l) = "2" ]]; then
+  userdoc=$(head -1 $userconfig)
+  userrn=$(tail -1 $userconfig)
+fi
+
+if [[ $userdoc ]] && [[ $userrn ]]; then
+  if [[ ! $userdoc == '--' ]]; then
+    echo "Syncing documentation."
+    rsync $FILESDOC -e ssh ${userdoc}@community.opensuse.org:doc.opensuse.org/htdocs/
   else
     echo "Skipping documentation page sync: no user name provided."
   fi
-  if [[ ! $2 == '--' ]]; then
+  if [[ ! $userrn == '--' ]]; then
+    echo "Syncing release notes."
     cd release-notes
-    rsync $FILESRN -e ssh ${2}@community.opensuse.org:release-notes/
+    rsync $FILESRN -e ssh ${userrn}@community.opensuse.org:release-notes/
   else
     echo "Skipping release notes page sync: no user name provided."
   fi
