@@ -1,21 +1,18 @@
 # Makefile for doc.opensuse.org index.html
 
-
-ifndef USERDOC
-  USERDOC := --
-endif
-ifndef USERRN
-  USERRN := --
-endif
-
-.PHONY: html upload clean
+.PHONY: html upload upload-rn upload-doc clean
 all: html upload
 
 html:
 	perl makeHTML.pl
 
-upload: html
-	bash publish.sh $(USERDOC) $(USERRN)
+upload-rn: html
+	bash publish.sh rn
+
+upload-doc: html
+	bash publish.sh doc
+
+upload: upload-rn upload-doc
 
 clean: index.html opensuse.html release-notes/index.html
 	rm $^
