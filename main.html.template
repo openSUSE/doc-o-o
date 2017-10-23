@@ -190,16 +190,12 @@
     <!-- Start: Main Content Area -->
     <div id="content" class="container_16 content-wrapper">
       <div class="column grid_4 alpha">
-        <div class=" box box-shadow navigation">
+        <div class="box box-shadow navigation">
           <h2 class="box-header">Documentation Resources</h2>
           <ul class="navigation">
             <li><a href="/#opensuse-doc">openSUSE</a></li>
-	    <!--
-            <li><a href="/#release-notes">Release Notes</a></li>
-            <li><a href="/#webyast-doc">WebYaST</a></li>
-	    -->
             <li><a href="/#autoyast-doc">AutoYaST</a></li>
-            <li><a href="/#kiwi-doc">Kiwi</a></li>
+            <li><a href="/#kiwi-doc">KIWI 8</a></li>
           </ul>
 
           <h2 class="box-subheader">Developer Documentation</h2>
@@ -209,11 +205,10 @@
             <li><a href="/#libyui-doc">Libyui</a></li>
           </ul>
 
-          <h2 class="box-subheader">Documentation Wiki</h2>
+          <h2 class="box-subheader">Wiki</h2>
           <ul class="navigation">
-            <li><a href="http://en.opensuse.org/SDB:Official_documentation" rel="external">SDB: Official documentation</a></li>
-            <li><a href="http://wiki.opensuse.org/Portal:Documentation" rel="external">Documentation Portal</a></li>
-            <li><a href="http://wiki.opensuse.org" rel="external">openSUSE Wiki</a></li>
+            <li><a href="https://en.opensuse.org/Portal:Documentation" rel="external">Documentation Portal on the Wiki</a></li>
+            <li><a href="https://en.opensuse.org" rel="external">openSUSE Wiki</a></li>
           </ul>
 
           <div class="box-footer">
@@ -221,15 +216,28 @@
         </div>
 
         <div class=" box box-shadow navigation">
-          <h2 class="box-header">External Documentation</h2>
+          <h2 class="box-header">External Documentation for openSUSE/SUSE Projects</h2>
           <ul class="navigation">
-	    <li><a href="http://openbuildservice.org/help/manuals/obs-reference-guide">Open Build Service</a></li>
-            <li><a href="http://www.suse.com/documentation">SUSE Linux Enterprise</a></li>
-            <li><a href="http://opensuse-guide.org" rel="external">openSUSE Guide</a></li>
-            <li><a href="http://snapper.io" rel="external">Snapper</a></li>
-            <li><a href="http://webyast.github.com/webyast/" rel="external">WebYaST</a></li>
-            <li><a href="http://www.opensuse-lernen.de"      rel="external">openSUSE-lernen.de (DE)</a></li>
+            <li><a href="http://openbuildservice.org/help/manuals">Open Build Service</a></li>
+            <li><a href="http://open.qa/documentation/" rel="external">openQA</a></li>
+            <li><a href="https://suse.github.io/kiwi/index.html">KIWI 9</a></li>
+            <li><a href="http://snapper.io/documentation.html" rel="external">Snapper</a></li>
+            <li><a href="http://port.us.org/documentation.html" rel="external">Portus</a></li>
+            <!-- The YaST link appears on the main page again... Including it
+            here anyway -->
+            <li><a href="http://yast.opensuse.org/documentation" rel="external">YaST</a></li>
+            <li><a href="http://machinery-project.org/docs/" rel="external">Machinery</a></li>
+          </ul>
+          <div class="box-footer">
+          </div>
+        </div>
 
+        <div class="box box-shadow navigation">
+          <h2 class="box-header">External Documentation for openSUSE/SUSE distributions</h2>
+          <ul class="navigation">
+            <li><a href="https://www.suse.com/documentation">SUSE Linux Enterprise</a></li>
+            <li><a href="http://opensuse-guide.org" rel="external">openSUSE Guide</a></li>
+            <li><a href="https://www.opensuse-lernen.de" rel="external">openSUSE-lernen.de (German-only)</a></li>
           </ul>
           <div class="box-footer">
           </div>
@@ -260,7 +268,7 @@
         <div id="footer-content" class="grid_16 column_4 clear-block">
           <div id="footer-legal" class="border-top grid_16">
             <p>
-              &copy; 2010-<%YEAR%> SUSE LLC.  All rights
+              &copy; 2010-<%YEAR%> SUSE LLC. All rights
               reserved. <a href="https://www.suse.com/company/legal/"
               rel="external">Legal information</a>.
             </p>
