@@ -145,6 +145,24 @@
       .gsc-branding {
         display: none;
       }
+
+      /* Work around an issue with h2 headlines in Bento's sidebar CSS ... */
+      .column .box.navigation > h2 {
+        box-sizing: border-box;
+        padding-left: 10px;
+        text-indent: 0;
+      }
+
+      .column .box.navigation > ul {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .column .box.navigation > ul > li {
+        margin-left: 0;
+        line-height: 110%;
+        margin-bottom: 5px;
+      }
     </style>
   </head>
 
