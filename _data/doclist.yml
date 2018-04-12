@@ -1,0 +1,213 @@
+- name: openSUSE Leap 42.3
+  shortname: 423
+  status: current
+  tags:
+    - name: current
+      color: success
+  links:
+    - name: Startup Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/startup/html/book.opensuse.startup/index.html
+        - name: single HTML
+          link: /documentation/leap/startup/single-html/book.opensuse.startup/index.html
+        - name: PDF
+          link: /documentation/leap/startup/book.opensuse.startup_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/startup/book.opensuse.startup_en.epub
+    - name: GNOME User Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/gnomeuser/html/book.gnomeuser/index.html
+        - name: single HTML
+          link: /documentation/leap/gnomeuser/single-html/book.gnomeuser/index.html
+        - name: PDF
+          link: /documentation/leap/gnomeuser/book.gnomeuser_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/gnomeuser/book.gnomeuser_en.epub
+    - name: Reference Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/reference/html/book.opensuse.reference/index.html
+        - name: single HTML
+          link: /documentation/leap/reference/single-html/book.opensuse.reference/index.html
+        - name: PDF
+          link: /documentation/leap/reference/book.opensuse.reference_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/reference/book.opensuse.reference_en.epub
+    - name: Security Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/security/html/book.security/index.html
+        - name: single HTML
+          link: /documentation/leap/security/single-html/book.security/index.html
+        - name: PDF
+          link: /documentation/leap/security/book.security_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/security/book.security_en.epub
+    - name: Tuning Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/tuning/html/book.sle.tuning/index.html
+        - name: single HTML
+          link: /documentation/leap/tuning/single-html/book.sle.tuning/index.html
+        - name: PDF
+          link: /documentation/leap/tuning/book.sle.tuning_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/tuning/book.sle.tuning_en.epub
+    - name: Virtualization Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/virtualization/html/book.virt/index.html
+        - name: single HTML
+          link: /documentation/leap/virtualization/single-html/book.virt/index.html
+        - name: PDF
+          link: /documentation/leap/virtualization/book.virt_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/virtualization/book.virt_en.epub
+    - name: Release Notes
+      versions:
+        - name: HTML
+          link: /release-notes/x86_64/openSUSE/Leap/42.3/index.html
+- name: openSUSE Leap 42.2
+  shortname: 422
+  status: deprecated
+  tags:
+    - name: deprecated
+      color: danger
+  links:
+    - name: Startup Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/archive/42.2/startup/html/book.opensuse.startup/index.html
+        - name: single HTML
+          link: /documentation/leap/archive/42.2/startup/single-html/book.opensuse.startup/index.html
+        - name: PDF
+          link: /documentation/leap/archive/42.2/startup/book.opensuse.startup_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/archive/42.2/startup/book.opensuse.startup_en.epub
+    - name: GNOME User Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/archive/42.2/gnomeuser/html/book.gnomeuser/index.html
+        - name: single HTML
+          link: /documentation/leap/archive/42.2/gnomeuser/single-html/book.gnomeuser/index.html
+        - name: PDF
+          link: /documentation/leap/archive/42.2/gnomeuser/book.gnomeuser_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/archive/42.2/gnomeuser/book.gnomeuser_en.epub
+    - name: Reference Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/archive/42.2/reference/html/book.opensuse.reference/index.html
+        - name: single HTML
+          link: /documentation/leap/archive/42.2/reference/single-html/book.opensuse.reference/index.html
+        - name: PDF
+          link: /documentation/leap/archive/42.2/reference/book.opensuse.reference_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/archive/42.2/reference/book.opensuse.reference_en.epub
+    - name: Security Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/archive/42.2/security/html/book.security/index.html
+        - name: single HTML
+          link: /documentation/leap/archive/42.2/security/single-html/book.security/index.html
+        - name: PDF
+          link: /documentation/leap/archive/42.2/security/book.security_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/archive/42.2/security/book.security_en.epub
+    - name: Tuning Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/archive/42.2/tuning/html/book.sle.tuning/index.html
+        - name: single HTML
+          link: /documentation/leap/archive/42.2/tuning/single-html/book.sle.tuning/index.html
+        - name: PDF
+          link: /documentation/leap/archive/42.2/tuning/book.sle.tuning_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/archive/42.2/tuning/book.sle.tuning_en.epub
+    - name: Virtualization Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/archive/42.2/virtualization/html/book.virt/index.html
+        - name: single HTML
+          link: /documentation/leap/archive/42.2/virtualization/single-html/book.virt/index.html
+        - name: PDF
+          link: /documentation/leap/archive/42.2/virtualization/book.virt_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/archive/42.2/virtualization/book.virt_en.epub
+    - name: Release Notes
+      versions:
+        - name: HTML
+          link: /release-notes/x86_64/openSUSE/Leap/42.2/index.html
+- name: openSUSE Leap 42.1
+  shortname: 421
+  status: deprecated
+  tags:
+    - name: deprecated
+      color: danger
+  links:
+    - name: Startup Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/archive/42.1/startup/html/book.opensuse.startup/index.html
+        - name: single HTML
+          link: /documentation/leap/archive/42.1/startup/single-html/book.opensuse.startup/index.html
+        - name: PDF
+          link: /documentation/leap/archive/42.1/startup/book.opensuse.startup_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/archive/42.1/startup/book.opensuse.startup_en.epub
+    - name: GNOME User Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/archive/42.1/gnomeuser/html/book.gnomeuser/index.html
+        - name: single HTML
+          link: /documentation/leap/archive/42.1/gnomeuser/single-html/book.gnomeuser/index.html
+        - name: PDF
+          link: /documentation/leap/archive/42.1/gnomeuser/book.gnomeuser_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/archive/42.1/gnomeuser/book.gnomeuser_en.epub
+    - name: Reference Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/archive/42.1/reference/html/book.opensuse.reference/index.html
+        - name: single HTML
+          link: /documentation/leap/archive/42.1/reference/single-html/book.opensuse.reference/index.html
+        - name: PDF
+          link: /documentation/leap/archive/42.1/reference/book.opensuse.reference_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/archive/42.1/reference/book.opensuse.reference_en.epub
+    - name: Security Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/archive/42.1/security/html/book.security/index.html
+        - name: single HTML
+          link: /documentation/leap/archive/42.1/security/single-html/book.security/index.html
+        - name: PDF
+          link: /documentation/leap/archive/42.1/security/book.security_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/archive/42.1/security/book.security_en.epub
+    - name: Tuning Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/archive/42.1/tuning/html/book.sle.tuning/index.html
+        - name: single HTML
+          link: /documentation/leap/archive/42.1/tuning/single-html/book.sle.tuning/index.html
+        - name: PDF
+          link: /documentation/leap/archive/42.1/tuning/book.sle.tuning_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/archive/42.1/tuning/book.sle.tuning_en.epub
+    - name: Virtualization Guide
+      versions:
+        - name: HTML
+          link: /documentation/leap/archive/42.1/virtualization/html/book.virt/index.html
+        - name: single HTML
+          link: /documentation/leap/archive/42.1/virtualization/single-html/book.virt/index.html
+        - name: PDF
+          link: /documentation/leap/archive/42.1/virtualization/book.virt_color_en.pdf
+        - name: ePUB
+          link: /documentation/leap/archive/42.1/virtualization/book.virt_en.epub
+    - name: Release Notes
+      versions:
+        - name: HTML
+          link: /release-notes/x86_64/openSUSE/Leap/42.1/index.html

@@ -1,0 +1,12 @@
+- name: Kiwi
+  links:
+  - name: Kiwi 7 Cookbook
+    link: /projects/kiwi/doc
+  - name: Kiwi 7 XML Schema Documentation
+    link: /projects/kiwi/schema-doc
+  - name: Kiwi 8 Documentation
+    link: https://suse.github.io/kiwi
+- name: AutoYaST
+  links:
+  - name: AutoYaST Reference Manual
+    link: /projects/autoyast

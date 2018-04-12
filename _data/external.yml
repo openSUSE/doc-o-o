@@ -1,0 +1,14 @@
+- name: Open Build Service
+  link: http://openbuildservice.org/help/manuals
+- name: openQA
+  link: http://open.qa/documentation/
+- name: KIWI 9
+  link: https://suse.github.io/kiwi/index.html
+- name: Snapper
+  link: http://snapper.io/documentation.html
+- name: Portus
+  link: http://port.us.org/documentation.html
+- name: YaST
+  link: http://yast.opensuse.org/documentation
+- name: Machinery
+  link: http://machinery-project.org/docs/

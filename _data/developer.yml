@@ -1,0 +1,12 @@
+- name: YaST
+  links:
+  - name: YaST Development Documentation
+    link: https://yast.github.io/documentation.html
+- name: Zypp
+  links:
+  - name: libzypp Documentation
+    link: /projects/libzypp/HEAD
+- name: Libyui
+  links:
+  - name: libyui Documentation
+    link: /projects/libyui/HEAD/
