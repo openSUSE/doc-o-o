@@ -1,0 +1,111 @@
+---
+layout: default
+---
+<div class="position-relative overflow-hidden p-3 text-center bg-light mb-5">
+	<div class="col-md-5 p-lg-5 mx-auto">
+		<h1 class="display-4 font-weight-normal">{{ site.title }}</h1>
+		<p class="lead font-weight-normal">{{ site.description | markdownify }}</p>
+	</div>
+</div>
+<div class="container">
+	<div class="card">
+		<nav class="bg-light">
+			<div class="nav nav-pills p-3 justify-content-center" id="nav-tab" role="tablist">
+				{% for doc in site.data.doclist %}
+				<a class="nav-item nav-link{% if doc.status == "current" %} active{% endif %}" id="nav-{{ doc.shortname }}-tab" data-toggle="tab" href="#nav-{{ doc.shortname }}" role="tab" aria-controls="nav-{{ doc.shortname }}" aria-selected="{% if doc.status == "current" %}true{% else %}false{% endif %}">
+				<span>{{ doc.name }}</span>
+				{% for tag in doc.tags %}
+				<span class="badge badge-pill badge-{{ tag.color }}">{{ tag.name }}</span>
+				{% endfor %}
+				</a>
+				{% endfor %}
+			</div>
+		</nav>
+		<div class="tab-content card-body p-0" id="nav-tabContent">
+			{% for doc in site.data.doclist %}
+			<div class="tab-pane fade{% if doc.status == "current" %} show active{% endif %}" id="nav-{{ doc.shortname }}" role="tabpanel" aria-labelledby="nav-{{ doc.shortname }}-tab">
+			<table class="mb-0 table table-striped">
+				<tbody>
+					{% for link in doc.links %}
+					<tr>
+						<td class="font-weight-bold">{{ link.name }}</td>
+						{% for version in link.versions %}
+						<td><a href="{{ version.link }}">{{ version.name }}</a></td>
+						{% endfor %}
+					</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6 p-3">
+		<div class="card h-100">
+			<h5 class="card-header">Project Documentation</h5>
+			<div class="card-body">
+				{% for project in site.data.project %}
+				<p class="font-weight-bold">{{ project.name }}</p>
+				<ul class="list-unstyled">
+					{% for link in project.links %}
+					<li>
+						<a href="{{link.link}}">{{ link.name }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6 p-3">
+		<div class="card h-100">
+			<h5 class="card-header">Developer Documentation</h5>
+			<div class="card-body">
+				{% for developer in site.data.developer %}
+				<p class="font-weight-bold">{{ developer.name }}</p>
+				<ul class="list-unstyled">
+					{% for link in developer.links %}
+					<li>
+						<a href="{{link.link}}">{{ link.name }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+<h2 class="text-center">External Resources</h2>
+<div class="nav nav-pills font-weight-bold justify-content-center mb-5">
+	{% for external in site.data.external %}
+	<li class="nav-item"><a class="nav-link" href="{{ external.link }}">{{ external.name }}</a></li>
+	{% endfor %}
+</div>
+<h2>Contributing to openSUSE Documentation</h2>
+<p>
+	Contributions to the guides listed above are welcome. You can report
+	issues by clicking on the <i>Report Bug</i> link in the headlines of the
+	HTML versions.
+</p>
+<p>
+	You may also fork the <a href="https://github.com/SUSE/doc-sle">GitHub
+	repository</a> and send us pull requests. For more information, see
+	<a href="https://github.com/SUSE/doc-sle/blob/develop/README.adoc">README</a>.
+	If you are interested in writing larger amounts
+	of text, see
+	our <a href="/products/opensuse/Styleguide/opensuse_documentation_styleguide_sd/">Documentation
+	Styleguide</a> for further help.
+</p>
+<p>
+	To get in touch with the documentation team:
+</p>
+<ul>
+	<li>mail us at <b><a href="mailto:doc-team@suse.com">doc-team@suse.com</a></b></li>
+	<li>join the IRC channel <b><a href="irc://irc.freenode.net/opensuse-doc">#opensuse-doc</a></b> on freenode</li>
+	<li><a href="https://en.opensuse.org/openSUSE:Mailing_lists_subscription#Subscribing">subscribe</a> to our <b>mailing list opensuse-doc@opensuse.org</b></li>
+</ul>
+</div>
+</div>
+
+

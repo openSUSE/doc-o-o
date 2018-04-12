@@ -1,4 +1,3 @@
-index.html
-opensuse.html
-rtfmindex.html
-publishusers
+_site
+.sass-cache
+.jekyll-metadata
