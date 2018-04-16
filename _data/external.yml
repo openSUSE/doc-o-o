@@ -12,3 +12,9 @@
   link: http://yast.opensuse.org/documentation
 - name: Machinery
   link: http://machinery-project.org/docs/
+- name: SLE
+  link: https://www.suse.com/documentation/
+- name: Guide
+  link: http://opensuse-guide.org/
+- name: Lernen (DE)
+  link: https://www.opensuse-lernen.de/

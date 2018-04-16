@@ -6,5 +6,5 @@ description: >-
   For more openSUSE documentation,
   see the [openSUSE Wiki](http://wiki.opensuse.org/Portal:Documentation).
   We hope you enjoy *reading the fabulous manuals*.
-baseurl: ""
+baseurl: "doc.o.o/"
 url: ""

@@ -1,0 +1,27 @@
+- category: development
+  items:
+  - name: openSUSE Leap 15.0
+    link: http://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.0/
+- category: current
+  items:
+  - name: openSUSE Leap 42.3
+    link: http://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.3/
+  - name: openSUSE Tumbleweed
+    link: http://doc.opensuse.org/release-notes/x86_64/openSUSE/Tumbleweed/
+    note: because of the pace of change in openSUSE Tumbleweed, these release notes can be very incomplete
+- category: unmaintained
+  items:
+  - name: openSUSE Leap 42.2
+    link: http://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.2/
+  - name: openSUSE Leap 42.1
+    link: http://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.1/
+  - name: openSUSE 13.2
+    link: http://doc.opensuse.org/release-notes/x86_64/openSUSE/13.2/
+  - name: openSUSE 13.1
+    link: http://doc.opensuse.org/release-notes/x86_64/openSUSE/13.1/
+  - name: openSUSE 12.3
+    link: http://doc.opensuse.org/release-notes/x86_64/openSUSE/12.3/
+  - name: openSUSE 12.2
+    link: http://doc.opensuse.org/release-notes/x86_64/openSUSE/12.2/
+  - name: openSUSE 12.1
+    link: http://doc.opensuse.org/release-notes/x86_64/openSUSE/12.1/

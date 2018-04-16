@@ -19,12 +19,16 @@ layout: default
 				{% endfor %}
 				</a>
 				{% endfor %}
+				<a class="nav-item nav-link" href="/release-notes">
+				<span class="typcn typcn-arrow-forward"></span>
+				<span>Older</span>
+				</a>
 			</div>
 		</nav>
-		<div class="tab-content card-body p-0" id="nav-tabContent">
+		<div class="tab-content" id="nav-tabContent">
 			{% for doc in site.data.doclist %}
 			<div class="tab-pane fade{% if doc.status == "current" %} show active{% endif %}" id="nav-{{ doc.shortname }}" role="tabpanel" aria-labelledby="nav-{{ doc.shortname }}-tab">
-			<table class="mb-0 table table-striped">
+			<table class="mb-0 card-body table table-striped">
 				<tbody>
 					{% for link in doc.links %}
 					<tr>
