@@ -213,14 +213,7 @@
           <ul class="navigation">
             <li><a href="/#opensuse-doc">openSUSE</a></li>
             <li><a href="/#autoyast-doc">AutoYaST</a></li>
-            <li><a href="/#kiwi-doc">KIWI 8</a></li>
-          </ul>
-
-          <h2 class="box-subheader">Developer Documentation</h2>
-          <ul class="navigation">
-            <li><a href="/#yast-doc">YaST</a></li>
-            <li><a href="/#zypp-doc">Zypp</a></li>
-            <li><a href="/#libyui-doc">Libyui</a></li>
+            <li><a href="/#project-doc">Project/Developer Documentation</a></li>
           </ul>
 
           <h2 class="box-subheader">Wiki</h2>
@@ -241,8 +234,6 @@
             <li><a href="https://suse.github.io/kiwi/index.html">KIWI 9</a></li>
             <li><a href="http://snapper.io/documentation.html" rel="external">Snapper</a></li>
             <li><a href="http://port.us.org/documentation.html" rel="external">Portus</a></li>
-            <!-- The YaST link appears on the main page again... Including it
-            here anyway -->
             <li><a href="http://yast.opensuse.org/documentation" rel="external">YaST</a></li>
             <li><a href="http://machinery-project.org/docs/" rel="external">Machinery</a></li>
           </ul>
