@@ -1,222 +1,202 @@
-<h1>Documentation</h1>
+<h1 class="display-3">Documentation for openSUSE Leap 15.1</h1>
 
 <p>
- This site hosts documentation for openSUSE Leap and related projects.
- For more openSUSE documentation,
- see the <a href="http://wiki.opensuse.org/Portal:Documentation">openSUSE
- Wiki</a>. We hope you enjoy reading our guides.
+  This site hosts documentation for openSUSE Leap and related projects.
+  For more openSUSE documentation,
+  see the <a href="http://en.opensuse.org/Portal:Documentation">openSUSE
+    Wiki</a>. We hope you enjoy reading our guides.
 </p>
 
-<h2>Documentation for openSUSE Leap 15.1</h2>
-<a name="opensuse-doc"></a>
 <p>
-  The following documentation is available for <b>openSUSE Leap 15.1</b>:
+  The following documentation is available for <strong>openSUSE Leap 15.1</strong>:
 </p>
-<div style="padding-bottom:2em">
-  <table>
-    <tr>
-      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	Startup Guide
-      </th>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/startup/html/book.opensuse.startup/index.html">
-	  HTML
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/startup/single-html/book.opensuse.startup/index.html">
-	  single HTML
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/startup/book.opensuse.startup_color_en.pdf">
-	  PDF
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/startup/book.opensuse.startup_en.epub">
-	  ePUB
-	</a>
-      </td>
-    </tr>
-    <tr>
-      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	GNOME User Guide
-      </th>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/gnomeuser/html/book.gnomeuser/index.html">
-	 HTML
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/gnomeuser/single-html/book.gnomeuser/index.html">
-	  single HTML
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/gnomeuser/book.gnomeuser_color_en.pdf">
-	  PDF
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/gnomeuser/book.gnomeuser_en.epub">
-	  ePUB
-	</a>
-      </td>
-    </tr>
-    <tr>
-      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	Reference Guide
-      </th>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/reference/html/book.opensuse.reference/index.html">
-	  HTML
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/reference/single-html/book.opensuse.reference/index.html">
-	  single HTML
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/reference/book.opensuse.reference_color_en.pdf">
-	  PDF
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/reference/book.opensuse.reference_en.epub">
-	  ePUB
-	</a>
-      </td>
-    </tr>
-    <tr>
-      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	Security Guide
-      </th>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/security/html/book.security/index.html">
-	  HTML
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/security/single-html/book.security/index.html">
-	  single HTML
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/security/book.security_color_en.pdf">
-	  PDF
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/security/book.security_en.epub">
-	  ePUB
-	</a>
-      </td>
-    </tr>
-    <tr>
-      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	Tuning Guide
-      </th>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/tuning/html/book.sle.tuning/index.html">
-	  HTML
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/tuning/single-html/book.sle.tuning/index.html">
-	  single HTML
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/tuning/book.sle.tuning_color_en.pdf">
-	  PDF
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/tuning/book.sle.tuning_en.epub">
-	  ePUB
-	</a>
-      </td>
-    </tr>
-    <tr>
-      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	Virtualization Guide
-      </th>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/virtualization/html/book.virt/index.html">
-	  HTML
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/virtualization/single-html/book.virt/index.html">
-	  single HTML
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/virtualization/book.virt_color_en.pdf">
-	  PDF
-	</a>
-      </td>
-      <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/virtualization/book.virt_en.epub">
-	  ePUB
-	</a>
-      </td>
-    </tr>
-    <tr>
-      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	Release Notes
-      </th>
-      <td style="text-align:left; padding:.4em .5em" colspan="4">
-	<a href="/release-notes/x86_64/openSUSE/Leap/15.1/index.html">
-	  HTML
-	</a>
-      </td>
-    </tr>
-  </table>
-  <h2>Documentation for Previous openSUSE Versions</h2>
-  <ul>
-    <li>
-    Documentation for previous versions is available in
-    the <a href="opensuse.html">Documentation Archive</a>.
-    </li>
-    <li>
-    Release notes for previous versions are available in
-    the <a href="release-notes">Release Notes Archive</a>.
-    </li>
-  </ul>
-  <h2>Contributing to openSUSE Documentation</h2>
-  <p>
-    Contributions to the guides listed above are welcome. You can report
-    issues by clicking on the <i>Report Bug</i> link in the headlines of the
-    HTML versions.
-  </p>
-  <p>
-    You can also fork the <a href="https://github.com/SUSE/doc-sle">GitHub
+
+<table class="table">
+  <tr>
+    <th style="width:20%">
+      Startup Guide
+    </th>
+    <td style="width:20%">
+      <a href="/documentation/leap/startup/html/book.opensuse.startup/index.html">
+        HTML
+      </a>
+    </td>
+    <td style="width:20%">
+      <a href="/documentation/leap/startup/single-html/book.opensuse.startup/index.html">
+        single HTML
+      </a>
+    </td>
+    <td style="width:20%">
+      <a href="/documentation/leap/startup/book.opensuse.startup_color_en.pdf">
+        PDF
+      </a>
+    </td>
+    <td style="width:20%">
+      <a href="/documentation/leap/startup/book.opensuse.startup_en.epub">
+        ePUB
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      GNOME User Guide
+    </th>
+    <td>
+      <a href="/documentation/leap/gnomeuser/html/book.gnomeuser/index.html">
+        HTML
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/gnomeuser/single-html/book.gnomeuser/index.html">
+        single HTML
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/gnomeuser/book.gnomeuser_color_en.pdf">
+        PDF
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/gnomeuser/book.gnomeuser_en.epub">
+        ePUB
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      Reference Guide
+    </th>
+    <td>
+      <a href="/documentation/leap/reference/html/book.opensuse.reference/index.html">
+        HTML
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/reference/single-html/book.opensuse.reference/index.html">
+        single HTML
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/reference/book.opensuse.reference_color_en.pdf">
+        PDF
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/reference/book.opensuse.reference_en.epub">
+        ePUB
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      Security Guide
+    </th>
+    <td>
+      <a href="/documentation/leap/security/html/book.security/index.html">
+        HTML
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/security/single-html/book.security/index.html">
+        single HTML
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/security/book.security_color_en.pdf">
+        PDF
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/security/book.security_en.epub">
+        ePUB
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      Tuning Guide
+    </th>
+    <td>
+      <a href="/documentation/leap/tuning/html/book.sle.tuning/index.html">
+        HTML
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/tuning/single-html/book.sle.tuning/index.html">
+        single HTML
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/tuning/book.sle.tuning_color_en.pdf">
+        PDF
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/tuning/book.sle.tuning_en.epub">
+        ePUB
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      Virtualization Guide
+    </th>
+    <td>
+      <a href="/documentation/leap/virtualization/html/book.virt/index.html">
+        HTML
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/virtualization/single-html/book.virt/index.html">
+        single HTML
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/virtualization/book.virt_color_en.pdf">
+        PDF
+      </a>
+    </td>
+    <td>
+      <a href="/documentation/leap/virtualization/book.virt_en.epub">
+        ePUB
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      Release Notes
+    </th>
+    <td>
+      <a href="/release-notes/x86_64/openSUSE/Leap/15.1/index.html">
+        HTML
+      </a>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<h2>Contributing to openSUSE Documentation</h2>
+<p>
+  Contributions to the guides listed above are welcome. You can report
+  issues by clicking on the <i>Report Bug</i> link in the headlines of the
+  HTML versions.
+</p>
+<p>
+  You can also fork the <a href="https://github.com/SUSE/doc-sle">GitHub
     repository</a> and send us pull requests. For more information, see
-    <a href="https://github.com/SUSE/doc-sle/blob/develop/README.adoc">README</a>.
-    If you are interested in writing larger amounts
-    of text, see
-    our <a href="documentation/styleguide/">Documentation Style Guide</a> for further help.
-  </p>
-  <p>
-    To get in touch with the documentation team:
-  </p>
-  <ul>
-    <li>mail us at <b><a href="mailto:doc-team@suse.com">doc-team@suse.com</a></b></li>
-    <li>join the IRC channel <b><a href="irc://irc.freenode.net/opensuse-doc">#opensuse-doc</a></b> on freenode</li>
-    <li><a href="https://en.opensuse.org/openSUSE:Mailing_lists_subscription#Subscribing">subscribe</a> to our <b>mailing list opensuse-doc@opensuse.org</b></li>
-  </ul>
-</div>
-
-<div class="grid_12 alpha omega">
-  <a name="project-doc"></a>
-  <h2>Project/Developer Documentation Hosted Here</h2>
-
-  <ul>
-    <li><b>AutoYaST:</b> <a href="/projects/autoyast">AutoYaST Reference Manual</a></li>
-    <li><b>Zypp:</b> <a href="/projects/libzypp/HEAD">libzypp Documentation</a></li>
-    <li><b>libyui:</b> <a href="/projects/libyui/HEAD/">libyui Documentation</a></li>
-  </ul>
-</div>
+  <a href="https://github.com/SUSE/doc-sle/blob/develop/README.adoc">README</a>.
+  If you are interested in writing larger amounts
+  of text, see
+  our <a href="documentation/styleguide/">Documentation Style Guide</a> for further help.
+</p>
+<p>
+  To get in touch with the documentation team:
+</p>
+<ul>
+  <li>mail us at <b><a href="mailto:doc-team@suse.com">doc-team@suse.com</a></b></li>
+  <li>join the IRC channel <b><a href="irc://irc.freenode.net/opensuse-doc">#opensuse-doc</a></b> on freenode</li>
+  <li><a href="https://en.opensuse.org/openSUSE:Mailing_lists_subscription#Subscribing">subscribe</a> to our
+    <b>mailing list opensuse-doc@opensuse.org</b></li>
+</ul>

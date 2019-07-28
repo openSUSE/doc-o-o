@@ -7,9 +7,9 @@ use POSIX 'strftime';
 
 # files to make
 my $files = {
-              'index.html'     => { title => 'doc.opensuse.org - Documentation Guides &amp; Manuals' },
-              'opensuse.html'  => { title => 'doc.opensuse.org - Documentation for Previous openSUSE Versions'},
-              'release-notes/index.html'  => { title => 'doc.opensuse.org - Release Notes for openSUSE'}
+              'index.html'     => { title => 'openSUSE Documentation' },
+              'archive.html'  => { title => 'openSUSE Documentation Archive'},
+              'release-notes/index.html'  => { title => 'openSUSE Release Notes'}
             };
 
 my $template_file='main.html.template';

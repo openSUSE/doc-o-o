@@ -1,0 +1,667 @@
+<h1 class="display-3">Documentation for Previous openSUSE Leap Releases</h1>
+
+<p>
+	This site hosts documentation for previous openSUSE Leap releases.
+	Documentation for the current release is available at the
+	<a href="/">Home Page</a>.
+</p>
+
+<h2 id="15.0">openSUSE Leap 15.0</h2>
+
+<table class="table">
+	<tr>
+		<th style="width:20%">
+			Startup Guide
+		</th>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/15.0/startup/html/book.opensuse.startup/index.html">
+				HTML
+			</a>
+		</td>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/15.0/startup/single-html/book.opensuse.startup/index.html">
+				single HTML
+			</a>
+		</td>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/15.0/startup/book.opensuse.startup_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/15.0/startup/book.opensuse.startup_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			GNOME User Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/15.0/gnomeuser/html/book.gnomeuser/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/gnomeuser/single-html/book.gnomeuser/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/gnomeuser/book.gnomeuser_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/gnomeuser/book.gnomeuser_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Reference Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/15.0/reference/html/book.opensuse.reference/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/reference/single-html/book.opensuse.reference/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/reference/book.opensuse.reference_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/reference/book.opensuse.reference_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Security Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/15.0/security/html/book.security/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/security/single-html/book.security/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/security/book.security_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/security/book.security_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Tuning Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/15.0/tuning/html/book.sle.tuning/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/tuning/single-html/book.sle.tuning/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/tuning/book.sle.tuning_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/tuning/book.sle.tuning_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Virtualization Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/15.0/virtualization/html/book.virt/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/virtualization/single-html/book.virt/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/virtualization/book.virt_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/15.0/virtualization/book.virt_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Release Notes
+		</th>
+		<td colspan="4">
+			<a href="/release-notes/x86_64/openSUSE/Leap/15.0/index.html">
+				HTML
+			</a>
+		</td>
+	</tr>
+</table>
+
+<h2 id="42.3">openSUSE Leap 42.3 (unsupported)</h2>
+
+<table class="table">
+	<tr>
+		<th style="width:20%">
+			Startup Guide
+		</th>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/42.3/startup/html/book.opensuse.startup/index.html">
+				HTML
+			</a>
+		</td>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/42.3/startup/single-html/book.opensuse.startup/index.html">
+				single HTML
+			</a>
+		</td>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/42.3/startup/book.opensuse.startup_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/42.3/startup/book.opensuse.startup_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			GNOME User Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.3/gnomeuser/html/book.gnomeuser/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/gnomeuser/single-html/book.gnomeuser/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/gnomeuser/book.gnomeuser_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/gnomeuser/book.gnomeuser_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Reference Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.3/reference/html/book.opensuse.reference/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/reference/single-html/book.opensuse.reference/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/reference/book.opensuse.reference_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/reference/book.opensuse.reference_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Security Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.3/security/html/book.security/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/security/single-html/book.security/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/security/book.security_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/security/book.security_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Tuning Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.3/tuning/html/book.sle.tuning/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/tuning/single-html/book.sle.tuning/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/tuning/book.sle.tuning_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/tuning/book.sle.tuning_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Virtualization Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.3/virtualization/html/book.virt/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/virtualization/single-html/book.virt/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/virtualization/book.virt_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.3/virtualization/book.virt_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Release Notes
+		</th>
+		<td colspan="4">
+			<a href="/release-notes/x86_64/openSUSE/Leap/42.3/index.html">
+				HTML
+			</a>
+		</td>
+	</tr>
+</table>
+
+<h2 id="42.2">openSUSE Leap 42.2 (unsupported)</h2>
+
+<table class="table">
+	<tr>
+		<th style="width:20%">
+			Startup Guide
+		</th>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/42.2/startup/html/book.opensuse.startup/index.html">
+				HTML
+			</a>
+		</td>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/42.2/startup/single-html/book.opensuse.startup/index.html">
+				single HTML
+			</a>
+		</td>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/42.2/startup/book.opensuse.startup_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/42.2/startup/book.opensuse.startup_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			GNOME User Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.2/gnomeuser/html/book.gnomeuser/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/gnomeuser/single-html/book.gnomeuser/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/gnomeuser/book.gnomeuser_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/gnomeuser/book.gnomeuser_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Reference Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.2/reference/html/book.opensuse.reference/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/reference/single-html/book.opensuse.reference/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/reference/book.opensuse.reference_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/reference/book.opensuse.reference_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Security Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.2/security/html/book.security/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/security/single-html/book.security/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/security/book.security_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/security/book.security_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Tuning Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.2/tuning/html/book.sle.tuning/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/tuning/single-html/book.sle.tuning/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/tuning/book.sle.tuning_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/tuning/book.sle.tuning_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Virtualization Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.2/virtualization/html/book.virt/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/virtualization/single-html/book.virt/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/virtualization/book.virt_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.2/virtualization/book.virt_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Release Notes
+		</th>
+		<td colspan="4">
+			<a href="/release-notes/x86_64/openSUSE/Leap/42.2/index.html">
+				HTML
+			</a>
+		</td>
+	</tr>
+</table>
+
+<h2 id="42.1">openSUSE Leap 42.1 (unsupported)</h2>
+
+<table class="name">
+	<tr>
+		<th style="width:20%">
+			Startup Guide
+		</th>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/42.1/startup/html/book.opensuse.startup/index.html">
+				HTML
+			</a>
+		</td>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/42.1/startup/single-html/book.opensuse.startup/index.html">
+				single HTML
+			</a>
+		</td>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/42.1/startup/book.opensuse.startup_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td style="width:20%">
+			<a href="/documentation/leap/archive/42.1/startup/book.opensuse.startup_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			GNOME User Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.1/gnomeuser/html/book.gnomeuser/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/gnomeuser/single-html/book.gnomeuser/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/gnomeuser/book.gnomeuser_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/gnomeuser/book.gnomeuser_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Reference Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.1/reference/html/book.opensuse.reference/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/reference/single-html/book.opensuse.reference/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/reference/book.opensuse.reference_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/reference/book.opensuse.reference_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Security Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.1/security/html/book.security/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/security/single-html/book.security/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/security/book.security_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/security/book.security_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Tuning Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.1/tuning/html/book.sle.tuning/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/tuning/single-html/book.sle.tuning/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/tuning/book.sle.tuning_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/tuning/book.sle.tuning_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Virtualization Guide
+		</th>
+		<td>
+			<a href="/documentation/leap/archive/42.1/virtualization/html/book.virt/index.html">
+				HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/virtualization/single-html/book.virt/index.html">
+				single HTML
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/virtualization/book.virt_color_en.pdf">
+				PDF
+			</a>
+		</td>
+		<td>
+			<a href="/documentation/leap/archive/42.1/virtualization/book.virt_en.epub">
+				ePUB
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			Release Notes
+		</th>
+		<td colspan="4">
+			<a href="/release-notes/x86_64/openSUSE/Leap/42.1/index.html">
+				HTML
+			</a>
+		</td>
+	</tr>
+</table>
