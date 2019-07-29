@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <nav id="cross-site-navbar">
+  <nav class="cross-site-navbar">
     <div class="sites">
       <div class="menu">
         <a class="l10n" href="https://www.opensuse.org/" data-msg-id="main">Main</a>
@@ -70,30 +70,34 @@
       </div>
     </div>
     <div class="actions">
-      <div class="dropdown auto-detect" id="language-dropdown">
-        <a class="dropdown-toggle" href="#" data-toggle="dropdown">en</a>
-        <div class="dropdown-menu dropdown-menu-right"></div>
-      </div>
       <div class="custom-control custom-switch dark-mode-switch">
         <input class="custom-control-input" id="dark-mode-input" type="checkbox" />
-        <label class="custom-control-label l10n" for="dark-mode-input" data-msg-id="dark-mode">Dark Mode</label>
+        <label class="custom-control-label l10n" for="dark-mode-input" data-msg-id="dark-mode">
+          <span class="d-none d-sm-inline">Dark Mode</span>
+        </label>
       </div>
     </div>
   </nav>
-  <nav id="site-navbar">
-    <a id="site-brand" href="/">
-      <img id="site-logo" src="https://static.opensuse.org/chameleon/dist/images/logo/logo-white.svg" />
-      <span id="site-name" class="l10n" data-msg-id="documentation">Documentation</span>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <a class="navbar-brand" href="/">
+      <img class="mr-2" src="https://static.opensuse.org/chameleon/dist/images/logo/logo-white.svg" />
+      <span class="navbar-name l10n" data-msg-id="documentation">Documentation</span>
     </a>
-    <div class="site-menu" id="site-menu">
-      <a href="/archive.html">Archive</a>
-      <a href="/release-notes">Release Notes</a>
-      <a href="/projects/autoyast">AutoYaST</a>
-      <a href="/projects/libzypp">libzypp</a>
-      <a href="/projects/libyui">libyui</a>
-    </div>
-    <div id="site-search">
-      <form id="ddg-form" action="https://duckduckgo.com/">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="site-menu">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="/archive.html">Archive</a></li>
+        <li class="nav-item"><a class="nav-link" href="/release-notes">Release Notes</a></li>
+        <li class="nav-item"><a class="nav-link" href="/projects/autoyast">AutoYaST</a></li>
+        <li class="nav-item"><a class="nav-link" href="/projects/libzypp">libzypp</a></li>
+        <li class="nav-item"><a class="nav-link" href="/projects/libyui">libyui</a></li>
+      </ul>
+      <form id="ddg-form" class="form-inline" action="https://duckduckgo.com/">
         <input id="ddg-input" class="form-control form-control-sm l10n" type="search" name="q" data-msg-id="search"
           placeholder="Search" />
         <script>
@@ -104,8 +108,13 @@
           });
         </script>
       </form>
+      <ul class="navbar-user-menu navbar-nav">
+        <li id="language-dropdown" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">English</a>
+          <div class="dropdown-menu dropdown-menu-right"></div>
+        </li>
+      </ul>
     </div>
-    <div class="space"></div>
   </nav>
 
   <div class="container">
