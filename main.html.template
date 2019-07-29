@@ -24,14 +24,17 @@
 <body>
   <nav id="cross-site-navbar">
     <div class="sites">
-      <a class="l10n" href="https://www.opensuse.org/" data-msg-id="main">Main</a>
-      <a class="l10n" href="https://software.opensuse.org/" data-msg-id="software">Software</a>
-      <a class="l10n" href="https://doc.opensuse.org/" data-msg-id="documentation">Documentation</a>
-      <a class="l10n" href="https://en.opensuse.org/" data-msg-id="wiki" data-url-id="wiki-url">Wiki</a>
-      <a class="l10n" href="https://forums.opensuse.org/" data-msg-id="forum" data-url-id="forum-url">Forum</a>
-      <a class="l10n" href="https://build.opensuse.org/" data-msg-id="build-service">Build Service</a>
-      <a href="https://bugzilla.opensuse.org/">Bugzilla</a>
-      <div class="dropdown"><a class="dropdown-toggle l10n" href="#" data-toggle="dropdown" data-msg-id="more">More</a>
+      <div class="menu">
+        <a class="l10n" href="https://www.opensuse.org/" data-msg-id="main">Main</a>
+        <a class="l10n" href="https://software.opensuse.org/" data-msg-id="software">Software</a>
+        <a class="l10n" href="https://doc.opensuse.org/" data-msg-id="doc">Doc</a>
+        <a class="l10n" href="https://en.opensuse.org/" data-msg-id="wiki" data-url-id="wiki-url">Wiki</a>
+        <a class="l10n" href="https://forums.opensuse.org/" data-msg-id="forum" data-url-id="forum-url">Forum</a>
+        <a class="l10n" href="https://build.opensuse.org/" data-msg-id="build-service">Build Service</a>
+        <a href="https://bugzilla.opensuse.org/">Bugzilla</a>
+      </div>
+      <div class="dropdown">
+        <a class="dropdown-toggle l10n" href="#" data-toggle="dropdown" data-msg-id="more">More</a>
         <div class="dropdown-menu dropdown-menu-right">
           <div class="dropdown-header l10n" data-msg-id="development">Development</div>
           <a class="l10n" href="https://build.opensuse.org/" data-msg-id="build-service">Build Service</a>
@@ -66,7 +69,10 @@
       </div>
     </div>
     <div class="actions">
-      <select class="custom-select" id="language-select"></select>
+      <div class="dropdown auto-detect" id="language-dropdown">
+        <a class="dropdown-toggle" href="#" data-toggle="dropdown">en</a>
+        <div class="dropdown-menu dropdown-menu-right"></div>
+      </div>
       <div class="custom-control custom-switch dark-mode-switch">
         <input class="custom-control-input" id="dark-mode-input" type="checkbox" />
         <label class="custom-control-label l10n" for="dark-mode-input" data-msg-id="dark-mode">Dark Mode</label>
