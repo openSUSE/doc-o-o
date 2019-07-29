@@ -41,6 +41,7 @@
           <a href="https://bugzilla.opensuse.org/">Bugzilla</a>
           <a href="https://github.com/openSUSE/">GitHub</a>
           <a href="https://openqa.opensuse.org/">openQA</a>
+          <a href="https://weblate.opensuse.org/">Weblate</a>
           <div class="dropdown-header l10n" data-msg-id="information">Information</div>
           <a class="l10n" href="https://news.opensuse.org/" data-msg-id="news">News</a>
           <a class="l10n" href="https://events.opensuse.org/" data-msg-id="events">Events</a>
