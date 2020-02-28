@@ -229,9 +229,9 @@
         <div class=" box box-shadow navigation">
           <h2 class="box-header">External Documentation for openSUSE/SUSE Projects</h2>
           <ul class="navigation">
-            <li><a href="http://openbuildservice.org/help/manuals">Open Build Service</a></li>
+            <li><a href="https://openbuildservice.org/help/">Open Build Service</a></li>
             <li><a href="http://open.qa/documentation/" rel="external">openQA</a></li>
-            <li><a href="https://suse.github.io/kiwi/index.html">KIWI 9</a></li>
+            <li><a href="http://osinside.github.io/kiwi/l">KIWI NG</a></li>
             <li><a href="http://snapper.io/documentation.html" rel="external">Snapper</a></li>
             <li><a href="http://port.us.org/documentation.html" rel="external">Portus</a></li>
             <li><a href="http://yast.opensuse.org/documentation" rel="external">YaST</a></li>
@@ -244,9 +244,8 @@
         <div class="box box-shadow navigation">
           <h2 class="box-header">External Documentation for openSUSE/SUSE distributions</h2>
           <ul class="navigation">
-            <li><a href="https://www.suse.com/documentation">SUSE Linux Enterprise</a></li>
-            <li><a href="http://opensuse-guide.org" rel="external">openSUSE Guide</a></li>
-            <li><a href="https://www.opensuse-lernen.de" rel="external">openSUSE-lernen.de (German-only)</a></li>
+            <li><a href="https://documentation.suse.com/">SUSE Linux Enterprise</a></li>
+            <li><a href="http://opensuse-guide.org/" rel="external">openSUSE Guide</a></li>
           </ul>
           <div class="box-footer">
           </div>
