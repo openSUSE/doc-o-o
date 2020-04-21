@@ -193,21 +193,19 @@
     HTML versions.
   </p>
   <p>
-    You can also fork the <a href="https://github.com/SUSE/doc-sle">GitHub
-    repository</a> and send us pull requests. For more information, see
-    <a href="https://github.com/SUSE/doc-sle/blob/develop/README.adoc">README</a>.
-    If you are interested in writing larger amounts
-    of text, see
-    our <a href="https://documentation.suse.com/style">Documentation Style Guide</a> for further help.
+    To get in touch with the documentation team, mail us at
+    <b><a href="mailto:doc-team@suse.com">doc-team@suse.com</a></b>.
   </p>
   <p>
-    To get in touch with the documentation team:
+    To contribute directly, send pull requests to the
+    <a href="https://github.com/SUSE/doc-sle">GitHub repository</a>.
+    For more information, see the repository
+    <a href="https://github.com/SUSE/doc-sle/blob/develop/README.adoc">README</a>.
   </p>
-  <ul>
-    <li>mail us at <b><a href="mailto:doc-team@suse.com">doc-team@suse.com</a></b></li>
-    <li>join the IRC channel <b><a href="irc://irc.freenode.net/opensuse-doc">#opensuse-doc</a></b> on freenode</li>
-    <li><a href="https://en.opensuse.org/openSUSE:Mailing_lists_subscription#Subscribing">subscribe</a> to our <b>mailing list opensuse-doc@opensuse.org</b></li>
-  </ul>
+  <p>
+    If you are interested in writing larger amounts of text, also see the
+    <a href="https://documentation.suse.com/style">Documentation Style Guide</a>.
+  </p>
 </div>
 
 <div class="grid_12 alpha omega">
