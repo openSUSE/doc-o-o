@@ -1,295 +1,115 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 
 <!--
- CAUTION: this index.html is generated
- from  main.html.template, index.html.content
- hosted at https://github.com/openSUSE/doc.o.o
- EDIT there, then run: make all.
+  CAUTION: this index.html is generated from main.html.template, index.html.content
+  hosted at https://github.com/openSUSE/doc.o.o
+  EDIT there, then run: make all.
 -->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang="en">
+
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title><%TITLE%></title>
+
+    <meta name="description"
+      content="This site hosts documentation for openSUSE and related products as well as projects. The user manuals and technical documentation published here is generated and static content." />
+
+    <link href="https://static.opensuse.org/favicon.ico" rel="icon" sizes="48x48" type="image/png" />
+
+    <link rel="stylesheet" href="https://static.opensuse.org/chameleon/dist/css/chameleon.css" type="text/css" />
+
+    <style>
+    .doc-o-o-documents th, .doc-o-o-documents td {
+      width: 20%;
+    }
+
+    .doc-o-o-documents th {
+      text-align: left;
+    }
+
+    .doc-o-o-documents td {
+      text-align: center;
+    }
+    </style>
+
     <!-- do not delete the following tag -->
     <meta name="google-site-verification" content="7H6xpdx2K_ZwS0wPPDGBYXQphvMqzuX8_UiWAAaJZDM" />
-    <link rel="stylesheet" href="https://static.opensuse.org/themes/bento/css/style.css" type="text/css" media="screen" title="All" charset="utf-8" />
-
-    <script src="https://static.opensuse.org/stage/themes/bento/js/jquery.js" type="text/javascript" charset="utf-8"></script>
-    <script src="https://static.opensuse.org/stage/themes/bento/js/script.js" type="text/javascript" charset="utf-8"></script>
-    <script src="https://static.opensuse.org/themes/bento/js/l10n/global-navigation-data-en.js" type="text/javascript" charset="utf-8"></script>
-    <script src="https://static.opensuse.org/themes/bento/js/global-navigation.js" type="text/javascript" charset="utf-8"></script>
-
-    <link rel="icon" type="image/png" href="https://static.opensuse.org/themes/bento/images/favicon.png" />
-    <title><%TITLE%></title>
-    <meta name="description" content="This site hosts documentation for openSUSE and SLES/SLED related products as well as projects.  The user manuals and technical documentation that is published here is generated and static content. To contribute documentation please use the openSUSE Wiki."/>
-
-    <link rel="stylesheet" href="//www.google.com/cse/style/look/default.css" type="text/css" />
-    <style type="text/css">
-      .gsc-control-cse {
-        font-family: Arial, sans-serif;
-        border-color: #FFFFFF;
-        background-color: #FFFFFF;
-      }
-      input.gsc-input {
-        border-color: #BCCDF0;
-      }
-      input.gsc-search-button {
-        border-color: #666666;
-        background-color: #CECECE;
-      }
-      .gsc-tabHeader.gsc-tabhInactive {
-        border-color: #E9E9E9;
-        background-color: #E9E9E9;
-      }
-      .gsc-tabHeader.gsc-tabhActive {
-        border-top-color: #FF9900;
-        border-left-color: #E9E9E9;
-        border-right-color: #E9E9E9;
-        background-color: #FFFFFF;
-      }
-      .gsc-tabsArea {
-        border-color: #E9E9E9;
-      }
-      .gsc-webResult.gsc-result {
-        border-color: #ffffff;
-        background-color: #eeeeee;
-      }
-      .gsc-webResult.gsc-result:hover {
-        border-color: #FFFFFF;
-        background-color: #f8f8f8;
-      }
-      .gs-webResult.gs-result a.gs-title:link,
-      .gs-webResult.gs-result a.gs-title:link b {
-        color: #0000CC;
-      }
-      .gs-webResult.gs-result a.gs-title:visited,
-      .gs-webResult.gs-result a.gs-title:visited b {
-        color: #0000CC;
-      }
-      .gs-webResult.gs-result a.gs-title:hover,
-      .gs-webResult.gs-result a.gs-title:hover b {
-        color: #0000CC;
-      }
-      .gs-webResult.gs-result a.gs-title:active,
-      .gs-webResult.gs-result a.gs-title:active b {
-        color: #0000CC;
-      }
-      .gsc-cursor-page {
-        color: #0000CC;
-      }
-      a.gsc-trailing-more-results:link {
-        color: #0000CC;
-      }
-      .gs-webResult.gs-result .gs-snippet {
-        color: #000000;
-      }
-      .gs-webResult.gs-result .gs-visibleUrl {
-        color: #008000;
-      }
-      .gs-webResult.gs-result .gs-visibleUrl-short {
-        color: #008000;
-      }
-      .gsc-cursor-box {
-        border-color: #FFFFFF;
-      }
-      .gsc-results .gsc-cursor-page {
-        border-color: #E9E9E9;
-        background-color: #ffffff;
-      }
-      .gsc-results .gsc-cursor-page.gsc-cursor-current-page {
-        border-color: #FF9900;
-        background-color: #FFFFFF;
-      }
-      .gs-promotion.gs-result {
-        border-color: #336699;
-        background-color: #dddddd;
-      }
-      .gs-promotion.gs-result a.gs-title:link {
-        color: #0000CC;
-      }
-      .gs-promotion.gs-result a.gs-title:visited {
-        color: #0000CC;
-      }
-      .gs-promotion.gs-result a.gs-title:hover {
-        color: #0000CC;
-      }
-      .gs-promotion.gs-result a.gs-title:active {
-        color: #0000CC;
-      }
-      .gs-promotion.gs-result .gs-snippet {
-        color: #000000;
-      }
-      .gs-promotion.gs-result .gs-visibleUrl,
-      .gs-promotion.gs-result .gs-visibleUrl-short {
-        color: #008000;
-      }
-
-      /* manually customized */
-      .gsc-search-box td, th {
-        border: none;
-        padding: 0 0 0 0.2em;
-      }
-      #cse {
-        padding-left: 15px;
-        padding-right: 15px;
-        border: none;
-      }
-      .cse .gsc-control-cse, .gsc-control-cse {
-        padding: 0;
-      }
-
-      /* Seems the entire custom branding thing does not work anymore, only
-      creating a distorted background image. So remove this entirely for the
-      moment. */
-      .gsc-branding {
-        display: none;
-      }
-
-      /* Work around an issue with h2 headlines in Bento's sidebar CSS ... */
-      .column .box.navigation > h2 {
-        box-sizing: border-box;
-        padding-left: 10px;
-        text-indent: 0;
-      }
-
-      .column .box.navigation > ul {
-        margin-left: 10px;
-        margin-right: 10px;
-      }
-
-      .column .box.navigation > ul > li {
-        margin-left: 0;
-        line-height: 110%;
-        margin-bottom: 5px;
-      }
-    </style>
   </head>
 
   <body>
-    <!-- Start: Header -->
-    <div id="header">
-      <div id="header-content" class="container_12">
-        <a id="header-logo" href="/"><img src="https://static.opensuse.org/themes/bento/images/header-logo.png" width="46" height="26" alt="Header Logo" /></a>
-        <ul id="global-navigation">
-          <li id="item-downloads"><a href="http://en.opensuse.org/sitemap#downloads">Downloads</a></li>
-          <li id="item-support"><a href="http://en.opensuse.org/sitemap#support">Support</a></li>
-          <li id="item-community"><a href="http://en.opensuse.org/sitemap#community">Community</a></li>
-          <li id="item-development"><a href="http://en.opensuse.org/sitemap#development">Development</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <a class="navbar-brand" href="/">
+        <img class="mr-2" src="https://static.opensuse.org/chameleon/dist/images/logo/logo-white.svg" />
+        <span class="navbar-name l10n" data-msg-id="documentation">Documentation</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="site-menu">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="/archive.html">Archive</a></li>
+          <li class="nav-item"><a class="nav-link" href="/release-notes">Release Notes</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://en.opensuse.org/Portal:Documentation" rel="external">Wiki Portal Documentation</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Related Projects</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/documentation/leap/autoyast/">AutoYaST Documentation</a>
+              <a class="dropdown-item" href="/projects/libzypp/HEAD/">libzypp Documentation</a>
+              <a class="dropdown-item" href="/projects/libyui/HEAD/">libyui Documentation</a>
+              <hr />
+              <a class="dropdown-item" href="https://openbuildservice.org/help/" rel="external">Open Build Service Documentation</a>
+              <a class="dropdown-item" href="https://open.qa/documentation/" rel="external">openQA Documentation</a>
+              <a class="dropdown-item" href="https://osinside.github.io/kiwi/">KIWI NG Documentation</a>
+              <a class="dropdown-item" href="http://snapper.io/documentation.html" rel="external">Snapper Documentation</a>
+              <a class="dropdown-item" href="http://port.us.org/documentation.html" rel="external">Portus Documentation</a>
+              <a class="dropdown-item" href="https://yast.opensuse.org/documentation" rel="external">YaST Documentation</a>
+              <a class="dropdown-item" href="http://machinery-project.org/docs/" rel="external">Machinery Documentation</a>
+              <hr />
+              <a class="dropdown-item" href="https://documentation.suse.com/">SUSE Enterprise Documentation (official)</a>
+              <a class="dropdown-item" href="https://www.opensuse-guide.org">openSUSE Guide (unofficial)</a>
+            </div>
+          </li>
         </ul>
+        <form id="ddg-form" class="form-inline" action="https://duckduckgo.com/">
+          <input id="ddg-input" class="form-control form-control-sm l10n" type="search" name="q" data-msg-id="search"
+            placeholder="Search Documentation" />
+          <script>
+            const form = document.getElementById("ddg-form");
+            const input = document.getElementById("ddg-input");
+            form.addEventListener("submit", function (e) {
+              input.value += " site:doc.opensuse.org";
+            });
+          </script>
+        </form>
+        <!-- <ul class="navbar-user-menu navbar-nav">
+          <li id="language-dropdown" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">English</a>
+            <div class="dropdown-menu dropdown-menu-right"></div>
+          </li>
+        </ul> -->
       </div>
-    </div>
-    <!-- End: Header -->
+    </nav>
 
-    <div id="subheader" class="container_16" style="min-height: 25px">
-      <div id="breadcrump" class="grid_10 alpha">
-        <a href="/" title="Home"><img src="https://static.opensuse.org/themes/bento/images/home_grey.png" width="16" height="16" alt="Home" /> doc.opensuse.org</a>
-
-      </div>
-
-      <div id="login-wrapper" class="grid_6 omega">
-        <!-- Here once was the login code -->
-        <!-- Google Custom Search - Input Field Area-->
-        <div id="cse-search-form" style="width: 100%;">Loading</div>
-        <script src="https://www.google.com/jsapi" type="text/javascript"></script>
-        <script type="text/javascript">
-          google.load('search', '1', {language : 'en'});
-          google.setOnLoadCallback(function() {
-          var customSearchControl = new google.search.CustomSearchControl('002123657694690344845:veiwuhdppju');
-          customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-          var options = new google.search.DrawOptions();
-          options.setSearchFormRoot('cse-search-form');
-          customSearchControl.draw('cse', options);
-          }, true);
-        </script>
-      </div>
-    </div>
-
-    <!-- Start: Main Content Area -->
-    <div id="content" class="container_16 content-wrapper">
-      <div class="column grid_4 alpha">
-        <div class="box box-shadow navigation">
-          <h2 class="box-header">Documentation Resources</h2>
-          <ul class="navigation">
-            <li><a href="/#opensuse-doc">openSUSE</a></li>
-            <li><a href="/#autoyast-doc">AutoYaST</a></li>
-            <li><a href="/#project-doc">Project/Developer Documentation</a></li>
-          </ul>
-
-          <h2 class="box-subheader">Wiki</h2>
-          <ul class="navigation">
-            <li><a href="https://en.opensuse.org/Portal:Documentation" rel="external">Documentation Portal on the Wiki</a></li>
-            <li><a href="https://en.opensuse.org" rel="external">openSUSE Wiki</a></li>
-          </ul>
-
-          <div class="box-footer">
-          </div>
-        </div>
-
-        <div class=" box box-shadow navigation">
-          <h2 class="box-header">External Documentation for openSUSE/SUSE Projects</h2>
-          <ul class="navigation">
-            <li><a href="https://openbuildservice.org/help/">Open Build Service</a></li>
-            <li><a href="http://open.qa/documentation/" rel="external">openQA</a></li>
-            <li><a href="http://osinside.github.io/kiwi/l">KIWI NG</a></li>
-            <li><a href="http://snapper.io/documentation.html" rel="external">Snapper</a></li>
-            <li><a href="http://port.us.org/documentation.html" rel="external">Portus</a></li>
-            <li><a href="http://yast.opensuse.org/documentation" rel="external">YaST</a></li>
-            <li><a href="http://machinery-project.org/docs/" rel="external">Machinery</a></li>
-          </ul>
-          <div class="box-footer">
-          </div>
-        </div>
-
-        <div class="box box-shadow navigation">
-          <h2 class="box-header">External Documentation for openSUSE/SUSE distributions</h2>
-          <ul class="navigation">
-            <li><a href="https://documentation.suse.com/">SUSE Linux Enterprise</a></li>
-            <li><a href="http://opensuse-guide.org/" rel="external">openSUSE Guide</a></li>
-          </ul>
-          <div class="box-footer">
-          </div>
-        </div>
-
-      </div>
-
-      <div class="box box-shadow grid_12 clearfix">
-        <!-- box header -->
-        <div class="box-header grid_12"></div>
-        <!-- End: box header -->
-
-        <!-- Google Custom Search - Results Area-->
-        <div class="grid_12 alpha omega">
-          <div id="cse"></div>
-        </div>
-
+    <div class="flex-fill py-5">
+      <div class="container">
         <%CONTENT%>
-
-        <!-- Note: this clears floating, set in previous elements -->
-        <div class="clear"></div>
-
       </div>
-      <!-- End: Main Content Area -->
+    </div>
 
-      <!-- Start: Footer -->
-      <div id="footer" class="container_16">
-        <div id="footer-content" class="grid_16 column_4 clear-block">
-          <div id="footer-legal" class="border-top grid_16">
-            <p>
-              &copy; 2010-<%YEAR%> SUSE LLC. All rights
-              reserved. <a href="https://www.suse.com/company/legal/"
-              rel="external">Legal information</a>.
-            </p>
-          </div>
-        </div>
+    <footer id="site-footer" class="site-footer">
+      <div class="container">
+        <p id="footer-legal" class="mb-0">
+          &copy; 2010&ndash;<%YEAR%> SUSE LLC. All rights reserved.
+          <a href="https://www.suse.com/company/legal/" rel="external">Legal information</a>.
+        </p>
       </div>
-      <!-- End: Footer -->
+    </footer>
 
-      <script type="text/javascript">
-        /*  frames['#master-1'].$('#adBlock').css('background-color', '#dddddd');  */
-        /* document.getElementById('#adBlock').style.background-color = "#dddddd"; */
-      </script>
-
-    </div> <!--  end of content div -->
+    <script src="https://static.opensuse.org/chameleon/dist/js/chameleon.js" type="text/javascript"></script>
   </body>
+
 </html>
