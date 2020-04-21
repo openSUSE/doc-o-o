@@ -53,7 +53,7 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item"><a class="nav-link" href="/archive.html">Archive</a></li>
           <li class="nav-item"><a class="nav-link" href="/release-notes">Release Notes</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://en.opensuse.org/Portal:Documentation" rel="external">Wiki Portal Documentation</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://en.opensuse.org/Portal:Documentation" rel="external">Wiki Portal for Documentation</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Related Projects</a>
             <div class="dropdown-menu">
