@@ -16,162 +16,187 @@
   <table>
     <tr>
       <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	Startup Guide
+        Startup Guide
       </th>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/startup/html/book.opensuse.startup/index.html">
-	  HTML
-	</a>
+        <a href="/documentation/leap/startup/html/book-opensuse-startup/index.html">
+          HTML
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/startup/single-html/book.opensuse.startup/index.html">
-	  single HTML
-	</a>
+        <a href="/documentation/leap/startup/single-html/book-opensuse-startup/index.html">
+          single HTML
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/startup/book.opensuse.startup_color_en.pdf">
-	  PDF
-	</a>
+        <a href="/documentation/leap/startup/book-opensuse-startup_color_en.pdf">
+          PDF
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/startup/book.opensuse.startup_en.epub">
-	  ePUB
-	</a>
+        <a href="/documentation/leap/startup/book-opensuse-startup_en.epub">
+          ePUB
+        </a>
       </td>
     </tr>
     <tr>
       <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	GNOME User Guide
+        GNOME User Guide
       </th>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/gnomeuser/html/book.gnomeuser/index.html">
-	 HTML
-	</a>
+        <a href="/documentation/leap/gnomeuser/html/book-gnomeuser/index.html">
+         HTML
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/gnomeuser/single-html/book.gnomeuser/index.html">
-	  single HTML
-	</a>
+        <a href="/documentation/leap/gnomeuser/single-html/book-gnomeuser/index.html">
+          single HTML
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/gnomeuser/book.gnomeuser_color_en.pdf">
-	  PDF
-	</a>
+        <a href="/documentation/leap/gnomeuser/book-gnomeuser_color_en.pdf">
+          PDF
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/gnomeuser/book.gnomeuser_en.epub">
-	  ePUB
-	</a>
+        <a href="/documentation/leap/gnomeuser/book-gnomeuser_en.epub">
+          ePUB
+        </a>
       </td>
     </tr>
     <tr>
       <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	Reference Guide
+        Reference Guide
       </th>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/reference/html/book.opensuse.reference/index.html">
-	  HTML
-	</a>
+        <a href="/documentation/leap/reference/html/book-opensuse-reference/index.html">
+          HTML
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/reference/single-html/book.opensuse.reference/index.html">
-	  single HTML
-	</a>
+        <a href="/documentation/leap/reference/single-html/book-opensuse-reference/index.html">
+          single HTML
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/reference/book.opensuse.reference_color_en.pdf">
-	  PDF
-	</a>
+        <a href="/documentation/leap/reference/book-opensuse-reference_color_en.pdf">
+          PDF
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/reference/book.opensuse.reference_en.epub">
-	  ePUB
-	</a>
+        <a href="/documentation/leap/reference/book-opensuse-reference_en.epub">
+          ePUB
+        </a>
       </td>
     </tr>
     <tr>
       <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	Security Guide
+        Security Guide
       </th>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/security/html/book.security/index.html">
-	  HTML
-	</a>
+        <a href="/documentation/leap/security/html/book-security/index.html">
+          HTML
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/security/single-html/book.security/index.html">
-	  single HTML
-	</a>
+        <a href="/documentation/leap/security/single-html/book-security/index.html">
+          single HTML
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/security/book.security_color_en.pdf">
-	  PDF
-	</a>
+        <a href="/documentation/leap/security/book-security_color_en.pdf">
+          PDF
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/security/book.security_en.epub">
-	  ePUB
-	</a>
+        <a href="/documentation/leap/security/book-security_en.epub">
+          ePUB
+        </a>
       </td>
     </tr>
     <tr>
       <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	Tuning Guide
+        Tuning Guide
       </th>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/tuning/html/book.sle.tuning/index.html">
-	  HTML
-	</a>
+        <a href="/documentation/leap/tuning/html/book-sle-tuning/index.html">
+          HTML
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/tuning/single-html/book.sle.tuning/index.html">
-	  single HTML
-	</a>
+        <a href="/documentation/leap/tuning/single-html/book-sle-tuning/index.html">
+          single HTML
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/tuning/book.sle.tuning_color_en.pdf">
-	  PDF
-	</a>
+        <a href="/documentation/leap/tuning/book-sle-tuning_color_en.pdf">
+          PDF
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/tuning/book.sle.tuning_en.epub">
-	  ePUB
-	</a>
+        <a href="/documentation/leap/tuning/book-sle-tuning_en.epub">
+          ePUB
+        </a>
       </td>
     </tr>
     <tr>
       <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	Virtualization Guide
+        Virtualization Guide
       </th>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/virtualization/html/book.virt/index.html">
-	  HTML
-	</a>
+        <a href="/documentation/leap/virtualization/html/book-virt/index.html">
+          HTML
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/virtualization/single-html/book.virt/index.html">
-	  single HTML
-	</a>
+        <a href="/documentation/leap/virtualization/single-html/book-virt/index.html">
+          single HTML
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/virtualization/book.virt_color_en.pdf">
-	  PDF
-	</a>
+        <a href="/documentation/leap/virtualization/book-virt_color_en.pdf">
+          PDF
+        </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-	<a href="/documentation/leap/virtualization/book.virt_en.epub">
-	  ePUB
-	</a>
+        <a href="/documentation/leap/virtualization/book-virt_en.epub">
+          ePUB
+        </a>
       </td>
     </tr>
     <tr>
       <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
-	Release Notes
+        AutoYaST Guide
+      </th>
+      <td style="text-align:center; padding:.4em .5em">
+        <a href="/documentation/leap/autoyast/html/book-autoyast/index.html">
+          HTML
+        </a>
+      </td>
+      <td style="text-align:center; padding:.4em .5em">
+        <a href="/documentation/leap/autoyast/single-html/book-autoyast/index.html">
+          single HTML
+        </a>
+      </td>
+      <td style="text-align:center; padding:.4em .5em">
+        <a href="/documentation/leap/autoyast/book-autoyast_color_en.pdf">
+          PDF
+        </a>
+      </td>
+      <td style="text-align:center; padding:.4em .5em">
+        <a href="/documentation/leap/autoyast/book-autoyast_en.epub">
+          ePUB
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <th style="whitespace:nowrap; text-align:right; padding:.4em .5em">
+        Release Notes
       </th>
       <td style="text-align:left; padding:.4em .5em" colspan="4">
-	<a href="/release-notes/x86_64/openSUSE/Leap/15.1/index.html">
-	  HTML
-	</a>
+        <a href="/release-notes/x86_64/openSUSE/Leap/15.1/index.html">
+          HTML
+        </a>
       </td>
     </tr>
   </table>
@@ -213,7 +238,7 @@
   <h2>Project/Developer Documentation Hosted Here</h2>
 
   <ul>
-    <li><b>AutoYaST:</b> <a href="/projects/autoyast">AutoYaST Reference Manual</a></li>
+    <li><b>AutoYaST:</b> <a href="/documentation/leap/autoyast/html/book-autoyast">AutoYaST Guide</a></li>
     <li><b>Zypp:</b> <a href="/projects/libzypp/HEAD">libzypp Documentation</a></li>
     <li><b>libyui:</b> <a href="/projects/libyui/HEAD/">libyui Documentation</a></li>
   </ul>
