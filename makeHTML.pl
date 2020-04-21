@@ -8,7 +8,7 @@ use POSIX 'strftime';
 # files to make
 my $files = {
               'index.html'     => { title => 'Overview of guides | openSUSE Documentation' },
-              'opensuse.html'  => { title => 'Documentation for previous openSUSE versions | openSUSE Documentation'},
+              'archive.html'  => { title => 'Documentation for previous openSUSE versions | openSUSE Documentation'},
               'release-notes/index.html'  => { title => 'Release notes for openSUSE | openSUSE Documentation'}
             };
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 # As parameters, use the user names for documentation/release notes.
 
-FILESDOC="index.html opensuse.html"
+FILESDOC="index.html archive.html"
 FILESRN="index.html"
 
 
