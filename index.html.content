@@ -19,12 +19,12 @@
         Startup Guide
       </th>
       <td style="text-align:center; padding:.4em .5em">
-        <a href="/documentation/leap/startup/html/book-opensuse-startup/index.html">
+        <a href="/documentation/leap/startup/html/book.opensuse.startup/index.html">
           HTML
         </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-        <a href="/documentation/leap/startup/single-html/book-opensuse-startup/index.html">
+        <a href="/documentation/leap/startup/single-html/book.opensuse.startup/index.html">
           single HTML
         </a>
       </td>
@@ -44,12 +44,12 @@
         GNOME User Guide
       </th>
       <td style="text-align:center; padding:.4em .5em">
-        <a href="/documentation/leap/gnomeuser/html/book-gnomeuser/index.html">
+        <a href="/documentation/leap/gnomeuser/html/book.gnomeuser/index.html">
          HTML
         </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-        <a href="/documentation/leap/gnomeuser/single-html/book-gnomeuser/index.html">
+        <a href="/documentation/leap/gnomeuser/single-html/book.gnomeuser/index.html">
           single HTML
         </a>
       </td>
@@ -69,12 +69,12 @@
         Reference Guide
       </th>
       <td style="text-align:center; padding:.4em .5em">
-        <a href="/documentation/leap/reference/html/book-opensuse-reference/index.html">
+        <a href="/documentation/leap/reference/html/book.opensuse.reference/index.html">
           HTML
         </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-        <a href="/documentation/leap/reference/single-html/book-opensuse-reference/index.html">
+        <a href="/documentation/leap/reference/single-html/book.opensuse.reference/index.html">
           single HTML
         </a>
       </td>
@@ -94,12 +94,12 @@
         Security Guide
       </th>
       <td style="text-align:center; padding:.4em .5em">
-        <a href="/documentation/leap/security/html/book-security/index.html">
+        <a href="/documentation/leap/security/html/book.security/index.html">
           HTML
         </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-        <a href="/documentation/leap/security/single-html/book-security/index.html">
+        <a href="/documentation/leap/security/single-html/book.security/index.html">
           single HTML
         </a>
       </td>
@@ -119,12 +119,12 @@
         Tuning Guide
       </th>
       <td style="text-align:center; padding:.4em .5em">
-        <a href="/documentation/leap/tuning/html/book-sle-tuning/index.html">
+        <a href="/documentation/leap/tuning/html/book.sle.tuning/index.html">
           HTML
         </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-        <a href="/documentation/leap/tuning/single-html/book-sle-tuning/index.html">
+        <a href="/documentation/leap/tuning/single-html/book.sle.tuning/index.html">
           single HTML
         </a>
       </td>
@@ -144,12 +144,12 @@
         Virtualization Guide
       </th>
       <td style="text-align:center; padding:.4em .5em">
-        <a href="/documentation/leap/virtualization/html/book-virt/index.html">
+        <a href="/documentation/leap/virtualization/html/book.virt/index.html">
           HTML
         </a>
       </td>
       <td style="text-align:center; padding:.4em .5em">
-        <a href="/documentation/leap/virtualization/single-html/book-virt/index.html">
+        <a href="/documentation/leap/virtualization/single-html/book.virt/index.html">
           single HTML
         </a>
       </td>
