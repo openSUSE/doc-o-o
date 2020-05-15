@@ -11,9 +11,10 @@
   <head>
     <meta charset="utf-8" />
     <title><%TITLE%></title>
-
     <meta name="description"
       content="This site hosts documentation for openSUSE and related products as well as projects. The user manuals and technical documentation published here is generated and static content." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link href="https://static.opensuse.org/favicon.ico" rel="icon" sizes="48x48" type="image/png" />
 
@@ -30,6 +31,16 @@
 
     .doc-o-o-documents td {
       text-align: center;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .doc-o-o-documents {
+        color: #adb5bd;
+      }
+
+      .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      }
     }
     </style>
 
