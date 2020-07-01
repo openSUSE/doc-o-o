@@ -1,5 +1,5 @@
-index.html
-opensuse.html
-archive.html
-rtfmindex.html
-publishusers
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor

@@ -1,0 +1,127 @@
+title: openSUSE Documentation
+title_short: Documentation
+email: web@opensuse.org
+description: High quality openSUSE documentation for both sysadmins and desktop users.
+baseurl: ""
+url: ""
+weblate_url: https://l10n.opensuse.org/
+
+navbar_links:
+  -
+    text: distros
+    children:
+      -
+        link: /#leap-152
+        text: Leap 15.2
+      -
+        link: /#leap-151
+        text: Leap 15.1
+      -
+        link: /#leap-150
+        text: Leap 15.0
+      -
+        link: /#leap-423
+        text: Leap 42.3
+      -
+        link: /#leap-422
+        text: Leap 42.2
+      -
+        link: /#leap-421
+        text: Leap 42.1
+  -
+    text: tools
+    children:
+      -
+        link: https://doc.opensuse.org/projects/libzypp/HEAD/
+        text: libzypp
+      -
+        link: https://doc.opensuse.org/projects/libyui/HEAD/
+        text: libyui
+      - divider
+      -
+        link: https://openbuildservice.org/help/
+        text: Open Build Service
+      -
+        link: https://open.qa/documentation/
+        text: OpenQA
+      -
+        link: https://osinside.github.io/kiwi/
+        text: KIWI NG
+      - divider
+      -
+        link: http://snapper.io/documentation.html
+        text: Snapper
+      -
+        link: http://port.us.org/documentation.html
+        text: Portus
+      -
+        link: https://yast.opensuse.org/documentation
+        text: YaST
+      -
+        link: http://machinery-project.org/docs/
+        text: Machinery
+  - locales
+
+search_provider: duckduckgo
+search_site: doc.opensuse.org
+
+navbar_class: navbar-expand-lg sticky-top
+
+footer_links:
+  -
+    text: legal_information
+    link: https://www.suse.com/company/legal/
+  -
+    text: source_code
+    link: https://github.com/openSUSE/doc.o.o
+  -
+    text: style_guide
+    link: https://documentation.suse.com/style
+  -
+    text: contact_us
+    link: mailto:doc-team@suse.com
+
+leap_versions:
+  -
+    version: '15.2'
+    autoyast: true
+  -
+    version: '15.1'
+    autoyast: true
+  -
+    version: '15.0'
+    end_of_life: true
+  -
+    version: '42.3'
+    end_of_life: true
+  -
+    version: '42.2'
+    end_of_life: true
+  -
+    version: '42.1'
+    end_of_life: true
+
+theme: jekyll-theme-opensuse
+markdown: kramdown
+
+plugins:
+  - jekyll-locale
+
+exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, vendor]
+
+localization:
+  mode       : auto
+  locale     : en
+  locales_set:
+    en:
+      name: English
+    es:
+      name: Español
+    fi:
+      name: Suomi
+    fr:
+      name: Français
+    zh-CN:
+      name: 简体中文
+    zh-TW:
+      name: 繁體中文
