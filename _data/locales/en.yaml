@@ -1,0 +1,25 @@
+site_title: openSUSE Documentation
+site_title_short: Documentation
+site_description: High quality openSUSE documentation for both sysadmins and desktop users.
+site_copyright:  © 2010–2020 SUSE LLC. all rights reserved
+
+distros: Distros
+tools: Tools
+search: Search
+translate: Translate
+
+legal_information: Legal Information
+source_code: Source Code
+style_guide: Style Guide
+contact_us: Contact Us
+
+end_of_life: End of Life
+
+startup_guide: Startup Guide
+gnome_user_guide: GNOME User Guide
+reference_guide: Reference Guide
+security_guide: Security Guide
+tuning_guide: Tuning Guide
+virtualization_guide: Virtualization Guide
+autoyast_guide: AutoYaST Guide
+release_notes: Release Notes
