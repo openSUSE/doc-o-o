@@ -85,6 +85,3 @@ DEPENDENCIES
   jekyll
   jekyll-locale!
   jekyll-theme-opensuse!
-
-BUNDLED WITH
-   2.1.4
