@@ -1,0 +1,17 @@
+.doc-card {
+  border: 0;
+}
+
+.doc-card .card-img-overlay {
+  display: flex;
+  flex-direction: column;
+}
+
+.doc-card .card-title {
+  flex-grow: 1;
+}
+
+.doc-card .card-link {
+  color: inherit;
+  font-weight: bold;
+}
