@@ -1,0 +1,84 @@
+#! /bin/bash
+# $1 = doc-sle repo clone dir
+
+# don't start this script from symlinks!
+mydir=$(dirname "$0")
+
+guides="\
+  DC-opensuse-autoyast \
+  DC-opensuse-gnomeuser \
+  DC-opensuse-reference \
+  DC-opensuse-security \
+  DC-opensuse-startup \
+  DC-opensuse-tuning \
+  DC-opensuse-virtualization\
+  "
+
+version="15.2"
+
+
+[[ ! -d "$1" ]] && { echo "First argument must be your doc-sle repo clone dir."; exit 1; }
+
+[[ ! -f $mydir/publishusers ]] && { echo "Sync config file 'publishusers' is missing."; exit 1; }
+# shellcheck source=publishusers
+. "$mydir/publishusers"
+
+cd $1
+
+echo -n "Went to $1, will now delete $1/build and then start to build. Continue? "
+read foo
+rm -rf build
+
+for dc in $guides; do
+  echo "Building $dc"
+  daps -d $dc validate
+  [[ -n $? ]] && { echo "-> Failed to build validate. Exiting"; exit 2; }
+  missing_images=$(daps -d $dc list-images-missing)
+  if [[ -n "$missing_images" ]] && { echo "Missing images:\n$missing_images"; exit 2; }
+  daps -d $dc html
+  [[ -n $? ]] && { echo "-> Failed to build HTML. Exiting"; exit 2; }
+  daps -d $dc html --single
+  [[ -n $? ]] && { echo "-> Failed to build Single-HTML. Exiting"; exit 2; }
+  daps -d $dc pdf
+  [[ -n $? ]] && { echo "-> Failed to build PDF. Exiting"; exit 2; }
+  daps -d $dc epub
+  [[ -n $? ]] && { echo "-> Failed to build EPUB. Exiting"; exit 2; }
+done
+
+mv build "$version"
+
+cd "$version"
+
+for d in *; do
+  [[ ! -d "$d" ]] && continue
+  mv "$d" $(echo "$d" | sed -r 's/^opensuse-//')
+done
+
+ls -a
+rm -rf */log */DC-* .images .profiled .tmp
+
+for d in *; do
+  cd "$d"
+  for f in *.epub *.pdf; do
+    ln -s $f $(echo "$f" | sed -r 's/-/./g')
+  done
+  for d2 in html/* single-html/*; do
+    cd $(dirname $d2)
+    ln -s $(basename "$d2") $(basename "$d2" | sed -r 's/-/./g')
+    cd ..
+  done
+  cd ..
+done
+
+cd ..
+
+echo -n "Will now rsync to doc.o.o. Continue? "
+read foo
+
+target_dir="doc.opensuse.org/htdocs/documentation/leap/archive/$version"
+
+ssh -p"$port" "${userdoc}@${server}" "mkdir -p $target_dir"
+
+rsync -v -lr --compress --delete-after -e 'ssh -p '"$port" \
+    "$version"/ \
+    "${userdoc}@${server}:${target_dir}"
