@@ -3,7 +3,7 @@ site_title_short: Documentation
 site_description: High quality openSUSE documentation for both sysadmins and desktop users.
 site_copyright:  © 2010–2020 SUSE LLC. all rights reserved
 
-distros: Distros
+distros: Distributions
 tools: Tools
 search: Search
 translate: Translate
