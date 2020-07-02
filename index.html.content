@@ -7,10 +7,10 @@
  Wiki</a>. We hope you enjoy reading our guides.
 </p>
 
-<h2>Documentation for openSUSE Leap 15.1</h2>
+<h2>Documentation for openSUSE Leap 15.2</h2>
 <a name="opensuse-doc"></a>
 <p>
-  The following documentation is available for <b>openSUSE Leap 15.1</b>:
+  The following documentation is available for <b>openSUSE Leap 15.2</b>:
 </p>
 <table class="table doc-o-o-documents">
   <tr>
@@ -18,12 +18,12 @@
       Startup Guide
     </th>
     <td>
-      <a href="/documentation/leap/startup/html/book.opensuse.startup/index.html">
+      <a href="/documentation/leap/startup/html/book-opensuse-startup/index.html">
         HTML
       </a>
     </td>
     <td>
-      <a href="/documentation/leap/startup/single-html/book.opensuse.startup/index.html">
+      <a href="/documentation/leap/startup/single-html/book-opensuse-startup/index.html">
         single HTML
       </a>
     </td>
@@ -43,12 +43,12 @@
       GNOME User Guide
     </th>
     <td>
-      <a href="/documentation/leap/gnomeuser/html/book.gnomeuser/index.html">
+      <a href="/documentation/leap/gnomeuser/html/book-gnomeuser/index.html">
        HTML
       </a>
     </td>
     <td>
-      <a href="/documentation/leap/gnomeuser/single-html/book.gnomeuser/index.html">
+      <a href="/documentation/leap/gnomeuser/single-html/book-gnomeuser/index.html">
         single HTML
       </a>
     </td>
@@ -68,12 +68,12 @@
       Reference Guide
     </th>
     <td>
-      <a href="/documentation/leap/reference/html/book.opensuse.reference/index.html">
+      <a href="/documentation/leap/reference/html/book-opensuse-reference/index.html">
         HTML
       </a>
     </td>
     <td>
-      <a href="/documentation/leap/reference/single-html/book.opensuse.reference/index.html">
+      <a href="/documentation/leap/reference/single-html/book-opensuse-reference/index.html">
         single HTML
       </a>
     </td>
@@ -93,12 +93,12 @@
       Security Guide
     </th>
     <td>
-      <a href="/documentation/leap/security/html/book.security/index.html">
+      <a href="/documentation/leap/security/html/book-security/index.html">
         HTML
       </a>
     </td>
     <td>
-      <a href="/documentation/leap/security/single-html/book.security/index.html">
+      <a href="/documentation/leap/security/single-html/book-security/index.html">
         single HTML
       </a>
     </td>
@@ -118,12 +118,12 @@
       Tuning Guide
     </th>
     <td>
-      <a href="/documentation/leap/tuning/html/book.sle.tuning/index.html">
+      <a href="/documentation/leap/tuning/html/book-sle-tuning/index.html">
         HTML
       </a>
     </td>
     <td>
-      <a href="/documentation/leap/tuning/single-html/book.sle.tuning/index.html">
+      <a href="/documentation/leap/tuning/single-html/book-sle-tuning/index.html">
         single HTML
       </a>
     </td>
@@ -143,12 +143,12 @@
       Virtualization Guide
     </th>
     <td>
-      <a href="/documentation/leap/virtualization/html/book.virt/index.html">
+      <a href="/documentation/leap/virtualization/html/book-virt/index.html">
         HTML
       </a>
     </td>
     <td>
-      <a href="/documentation/leap/virtualization/single-html/book.virt/index.html">
+      <a href="/documentation/leap/virtualization/single-html/book-virt/index.html">
         single HTML
       </a>
     </td>
@@ -193,7 +193,7 @@
       Release Notes
     </th>
     <td>
-      <a href="/release-notes/x86_64/openSUSE/Leap/15.1/index.html">
+      <a href="/release-notes/x86_64/openSUSE/Leap/15.2/index.html">
         HTML
       </a>
     </td>

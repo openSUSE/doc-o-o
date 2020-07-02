@@ -4,6 +4,174 @@
 releases. Documentation for the current release is available
 at the <a href="/">Home Page</a>.</p>
 
+<h2>openSUSE Leap 15.1</h2>
+<a name="15.1"></a>
+<div style="padding-bottom:2em">
+  <table class="table doc-o-o-documents">
+    <tr>
+      <th>
+        Startup Guide
+      </th>
+      <td>
+        <a href="/documentation/leap/archive/15.1/startup/html/book.opensuse.startup/index.html">
+          HTML
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/startup/single-html/book.opensuse.startup/index.html">
+          single HTML
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/startup/book.opensuse.startup_color_en.pdf">
+          PDF
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/startup/book.opensuse.startup_en.epub">
+          EPUB
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        GNOME User Guide
+      </th>
+      <td>
+        <a href="/documentation/leap/archive/15.1/gnomeuser/html/book.gnomeuser/index.html">
+          HTML
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/gnomeuser/single-html/book.gnomeuser/index.html">
+          single HTML
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/gnomeuser/book.gnomeuser_color_en.pdf">
+          PDF
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/gnomeuser/book.gnomeuser_en.epub">
+          EPUB
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        Reference Guide
+      </th>
+      <td>
+        <a href="/documentation/leap/archive/15.1/reference/html/book.opensuse.reference/index.html">
+          HTML
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/reference/single-html/book.opensuse.reference/index.html">
+          single HTML
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/reference/book.opensuse.reference_color_en.pdf">
+          PDF
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/reference/book.opensuse.reference_en.epub">
+          EPUB
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        Security Guide
+      </th>
+      <td>
+        <a href="/documentation/leap/archive/15.1/security/html/book.security/index.html">
+          HTML
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/security/single-html/book.security/index.html">
+          single HTML
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/security/book.security_color_en.pdf">
+          PDF
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/security/book.security_en.epub">
+          EPUB
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        Tuning Guide
+      </th>
+      <td>
+        <a href="/documentation/leap/archive/15.1/tuning/html/book.sle.tuning/index.html">
+          HTML
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/tuning/single-html/book.sle.tuning/index.html">
+          single HTML
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/tuning/book.sle.tuning_color_en.pdf">
+          PDF
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/tuning/book.sle.tuning_en.epub">
+          EPUB
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        Virtualization Guide
+      </th>
+      <td>
+        <a href="/documentation/leap/archive/15.1/virtualization/html/book.virt/index.html">
+          HTML
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/virtualization/single-html/book.virt/index.html">
+          single HTML
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/virtualization/book.virt_color_en.pdf">
+          PDF
+        </a>
+      </td>
+      <td>
+        <a href="/documentation/leap/archive/15.1/virtualization/book.virt_en.epub">
+          EPUB
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        Release Notes
+      </th>
+      <td>
+        <a href="/release-notes/x86_64/openSUSE/Leap/15.1/index.html">
+          HTML
+        </a>
+      </td>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+  </table class="table doc-o-o-documents">
+</div>
+
 <h2>openSUSE Leap 15.0 (unsupported)</h2>
 <a name="15.0"></a>
 <div style="padding-bottom:2em">
