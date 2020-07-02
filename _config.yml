@@ -16,17 +16,18 @@ navbar_links:
       -
         link: /#leap-151
         text: Leap 15.1
+      - divider
       -
-        link: /#leap-150
+        link: /archive/#leap-150
         text: Leap 15.0
       -
-        link: /#leap-423
+        link: /archive/#leap-423
         text: Leap 42.3
       -
-        link: /#leap-422
+        link: /archive/#leap-422
         text: Leap 42.2
       -
-        link: /#leap-421
+        link: /archive/#leap-421
         text: Leap 42.1
   -
     text: tools

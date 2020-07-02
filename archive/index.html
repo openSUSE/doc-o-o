@@ -3,13 +3,13 @@ layout: default
 ---
 <header class="py-5">
   <div class="container">
-    <h1>{{ locale.site_title}}</h1>
-    <p class="lead">{{ locale.site_description }}</p>
+    <h1>{{ locale.archive_title}}</h1>
+    <p class="lead">{{ locale.archive_description }}</p>
   </div>
 </header>
 
 {% for leap in site.leap_versions %}
-{% if leap.end_of_life != true %}
+{% if leap.end_of_life %}
 {% include section.html %}
 {% endif %}
 {% endfor %}
