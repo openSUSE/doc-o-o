@@ -7,15 +7,16 @@
  <strong class="grey-medium spacer1">Release notes for maintained distributions:</strong>
 </p>
 <ul>
+  <li style="margin-bottom: 0.4em;"><a href="https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.2/">Release notes for openSUSE Leap 15.2</a></li>
   <li style="margin-bottom: 0.4em;"><a href="https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.1/">Release notes for openSUSE Leap 15.1</a></li>
   <li style="margin-bottom: 0.4em;"><a href="https://doc.opensuse.org/release-notes/x86_64/openSUSE/Tumbleweed/">Release notes for openSUSE Tumbleweed</a>—because of the pace of change in openSUSE Tumbleweed, these release notes can be very incomplete</li>
 </ul>
-<p class="description">
+<!--<p class="description">
  <strong class="grey-medium spacer1">Release notes for development distributions:</strong>
 </p>
 <ul>
   <li style="margin-bottom: 0.4em;"><a href="https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.2/">Release notes for openSUSE Leap 15.2</a></li>
-</ul>
+</ul>-->
 <p class="description">
  <strong class="grey-medium spacer1">Release notes for unmaintained distributions:</strong>
 </p>
