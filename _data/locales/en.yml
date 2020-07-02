@@ -23,3 +23,6 @@ tuning_guide: Tuning Guide
 virtualization_guide: Virtualization Guide
 autoyast_guide: AutoYaST Guide
 release_notes: Release Notes
+
+archive_title: Archive
+archive_description: Documentation for old releases that are not supported anymore.

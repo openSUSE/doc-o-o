@@ -23,3 +23,6 @@ tuning_guide: 优化指南
 virtualization_guide: 虚拟化指南
 autoyast_guide: AutoYaST 指南
 release_notes: 发行说明
+
+archive_title: 归档
+archive_description: 不再支持的老版本的文档。
