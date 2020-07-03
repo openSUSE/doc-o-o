@@ -1,7 +1,3 @@
-.doc-card {
-  border: 0;
-}
-
 .doc-card .card-img-overlay {
   display: flex;
   flex-direction: column;
