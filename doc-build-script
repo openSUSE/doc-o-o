@@ -25,24 +25,24 @@ version="15.2"
 
 cd $1
 
-echo -n "Went to $1, will now delete $1/build and then start to build. Continue? "
+echo -n "Went to $1, will now delete $1/build & $1/$version and then start to build. Continue? "
 read foo
-rm -rf build
+rm -rf build $version
 
 for dc in $guides; do
   echo "Building $dc"
-  daps -d $dc validate
-  [[ -n $? ]] && { echo "-> Failed to build validate. Exiting"; exit 2; }
+  daps -d "$dc" validate
+  [[ -p $? ]] && { echo "-> Failed to build validate. Exiting"; exit 2; }
   missing_images=$(daps -d $dc list-images-missing)
-  if [[ -n "$missing_images" ]] && { echo "Missing images:\n$missing_images"; exit 2; }
-  daps -d $dc html
-  [[ -n $? ]] && { echo "-> Failed to build HTML. Exiting"; exit 2; }
-  daps -d $dc html --single
-  [[ -n $? ]] && { echo "-> Failed to build Single-HTML. Exiting"; exit 2; }
-  daps -d $dc pdf
-  [[ -n $? ]] && { echo "-> Failed to build PDF. Exiting"; exit 2; }
-  daps -d $dc epub
-  [[ -n $? ]] && { echo "-> Failed to build EPUB. Exiting"; exit 2; }
+  [[ -p "$missing_images" ]] && { echo "Missing images:\n$missing_images"; exit 2; }
+  daps -d "$dc" html
+  [[ -p $? ]] && { echo "-> Failed to build HTML. Exiting"; exit 2; }
+  daps -d "$dc" html --single
+  [[ -p $? ]] && { echo "-> Failed to build Single-HTML. Exiting"; exit 2; }
+  daps -d "$dc" pdf
+  [[ -p $? ]] && { echo "-> Failed to build PDF. Exiting"; exit 2; }
+  daps -d "$dc" epub
+  [[ -p $? ]] && { echo "-> Failed to build EPUB. Exiting"; exit 2; }
 done
 
 mv build "$version"
@@ -51,6 +51,7 @@ cd "$version"
 
 for d in *; do
   [[ ! -d "$d" ]] && continue
+  echo "mv $d "$(echo "$d" | sed -r 's/^opensuse-//')
   mv "$d" $(echo "$d" | sed -r 's/^opensuse-//')
 done
 
@@ -60,10 +61,12 @@ rm -rf */log */DC-* .images .profiled .tmp
 for d in *; do
   cd "$d"
   for f in *.epub *.pdf; do
-    ln -s $f $(echo "$f" | sed -r 's/-/./g')
+    echo "ln -s $f "$(echo "$f" | sed -r 's/-/./g')
+    ln -s "$f" $(echo "$f" | sed -r 's/-/./g')
   done
   for d2 in html/* single-html/*; do
     cd $(dirname $d2)
+    echo "ln -s "$(basename "$d2")" "$(basename "$d2" | sed -r 's/-/./g')
     ln -s $(basename "$d2") $(basename "$d2" | sed -r 's/-/./g')
     cd ..
   done
@@ -79,6 +82,6 @@ target_dir="doc.opensuse.org/htdocs/documentation/leap/archive/$version"
 
 ssh -p"$port" "${userdoc}@${server}" "mkdir -p $target_dir"
 
-rsync -v -lr --compress --delete-after -e 'ssh -p '"$port" \
+rsync -v -lr --compress -e 'ssh -p '"$port" \
     "$version"/ \
     "${userdoc}@${server}:${target_dir}"
