@@ -1,231 +1,42 @@
 <section id="leap-{{leap.version | replace: '.', '' }}" class="py-5">
   <div class="container">
-    <h2>
-      openSUSE Leap {{ leap.version }}
-    </h2>
+    <h2>openSUSE Leap {{ leap.version }}</h2>
 
     <div class="row">
+      {% for doc in leap.docs %}
       <div class="col-sm-6 col-md-4">
         <div class="card doc-card mb-3">
-          <img class="card-img" src="/assets/images/cover-startup.svg">
+          <img class="card-img" src="{{ doc.cover | default: '/assets/images/cover-startup.svg' }}">
           <div class="card-img-overlay">
             <h5 class="card-title">
-              {{ locale.startup_guide }}
+              {{ locale[doc.id] | default: doc.id }}
             </h5>
             <div>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/startup/html/book.opensuse.startup/index.html">
+              {% if doc.html %}
+              <a class="card-link" href="{{ doc.html }}">
                 HTML
               </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/startup/single-html/book.opensuse.startup/index.html">
+              {% endif %}
+              {% if doc.single_html %}
+              <a class="card-link" href="{{ doc.single_html }}">
                 Single HTML
               </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/startup/book.opensuse.startup_color_en.pdf">
+              {% endif %}
+              {% if doc.pdf %}
+              <a class="card-link" href="{{ doc.pdf }}">
                 PDF
               </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/startup/book.opensuse.startup_en.epub">
+              {% endif %}
+              {% if doc.epub %}
+              <a class="card-link" href="{{ doc.epub }}">
                 EPUB
               </a>
+              {% endif %}
             </div>
           </div>
         </div>
       </div>
-
-      <div class="col-sm-6 col-md-4">
-        <div class="card doc-card mb-3">
-          <img class="card-img" src="/assets/images/cover-gnome.svg">
-          <div class="card-img-overlay">
-            <h5 class="card-title">
-              {{ locale.gnome_user_guide }}
-            </h5>
-            <div>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/gnomeuser/html/book.gnomeuser/index.html">
-                HTML
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/gnomeuser/single-html/book.gnomeuser/index.html">
-                Single HTML
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/gnomeuser/book.gnomeuser_color_en.pdf">
-                PDF
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/gnomeuser/book.gnomeuser_en.epub">
-                EPUB
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-4">
-        <div class="card doc-card mb-3">
-          <img class="card-img" src="/assets/images/cover-reference.svg">
-          <div class="card-img-overlay">
-            <h5 class="card-title">
-              {{ locale.reference_guide }}
-            </h5>
-            <div>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/reference/html/book.opensuse.reference/index.html">
-                HTML
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/reference/single-html/book.opensuse.reference/index.html">
-                Single HTML
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/reference/book.opensuse.reference_color_en.pdf">
-                PDF
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/reference/book.opensuse.reference_en.epub">
-                EPUB
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-4">
-        <div class="card doc-card mb-3">
-          <img class="card-img" src="/assets/images/cover-security.svg">
-          <div class="card-img-overlay">
-            <h5 class="card-title">
-              {{ locale.security_guide }}
-            </h5>
-            <div>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/security/html/book.security/index.html">
-                HTML
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/security/single-html/book.security/index.html">
-                Single HTML
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/security/book.security_color_en.pdf">
-                PDF
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/security/book.security_en.epub">
-                EPUB
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-4">
-        <div class="card doc-card mb-3">
-          <img class="card-img" src="/assets/images/cover-tuning.svg">
-          <div class="card-img-overlay">
-            <h5 class="card-title">
-              {{ locale.tuning_guide }}
-            </h5>
-            <div>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/tuning/html/book.sle.tuning/index.html">
-                HTML
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/tuning/single-html/book.sle.tuning/index.html">
-                Single HTML
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/tuning/book.sle.tuning_color_en.pdf">
-                PDF
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/tuning/book.sle.tuning_en.epub">
-                EPUB
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-4">
-        <div class="card doc-card mb-3">
-          <img class="card-img" src="/assets/images/cover-virtualization.svg">
-          <div class="card-img-overlay">
-            <h5 class="card-title">
-              {{ locale.virtualization_guide }}
-            </h5>
-            <div>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/virtualization/html/book.virt/index.html">
-                HTML
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/virtualization/single-html/book.virt/index.html">
-                Single HTML
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/virtualization/book.virt_color_en.pdf">
-                PDF
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/virtualization/book.virt_en.epub">
-                EPUB
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {% if leap.autoyast%}
-      <div class="col-sm-6 col-md-4">
-        <div class="card doc-card mb-3">
-          <img class="card-img" src="/assets/images/cover-autoyast.svg">
-          <div class="card-img-overlay">
-            <h5 class="card-title">
-              {{ locale.autoyast_guide }}
-            </h5>
-            <div>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/autoyast/html/book-autoyast/index.html">
-                HTML
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/autoyast/single-html/book-autoyast/index.html">
-                Single HTML
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/autoyast/book-autoyast_color_en.pdf">
-                PDF
-              </a>
-              <a class="card-link"
-                href="https://doc.opensuse.org/documentation/leap/archive/{{ leap.version }}/autoyast/book-autoyast_en.epub">
-                EPUB
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {% endif %}
-
-      <div class="col-sm-6 col-md-4">
-        <div class="card doc-card mb-3">
-          <img class="card-img" src="/assets/images/cover-release.svg">
-          <div class="card-img-overlay">
-            <h5 class="card-title">
-              {{ locale.release_notes }}
-            </h5>
-            <div>
-              <a class="card-link"
-                href="https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/{{ leap.version }}/RELEASE-NOTES.{{ page.locale.id | replace: '-', '_' }}.html">
-                HTML
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
