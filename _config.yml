@@ -86,23 +86,310 @@ footer_links:
 
 leap_versions:
   -
-    version: '15.2'
-    autoyast: true
+    version: 15.2
+    docs:
+      -
+        id: startup_guide
+        cover: /assets/images/cover-startup.svg
+        html: https://doc.opensuse.org/documentation/leap/startup/html/book-opensuse-startup/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/startup/single-html/book-opensuse-startup/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/startup/book-opensuse-startup_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/startup/book-opensuse-startup_en.epub
+      -
+        id: gnome_user_guide
+        cover: /assets/images/cover-gnome.svg
+        html: https://doc.opensuse.org/documentation/leap/gnomeuser/html/book-gnomeuser/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/gnomeuser/single-html/book-gnomeuser/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/gnomeuser/book-gnomeuser_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/gnomeuser/book-gnomeuser_en.epub
+      -
+        id: reference_guide
+        cover: /assets/images/cover-reference.svg
+        html: https://doc.opensuse.org/documentation/leap/reference/html/book-opensuse-reference/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/reference/single-html/book-opensuse-reference/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/reference/book-opensuse-reference_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/reference/book-opensuse-reference_en.epub
+      -
+        id: security_guide
+        cover: /assets/images/cover-security.svg
+        html: https://doc.opensuse.org/documentation/leap/security/html/book-security/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/security/single-html/book-security/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/security/book-security_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/security/book-security_en.epub
+      -
+        id: tuning_guide
+        cover: /assets/images/cover-tuning.svg
+        html: https://doc.opensuse.org/documentation/leap/tuning/html/book-sle-tuning/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/tuning/single-html/book-sle-tuning/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/tuning/book-sle-tuning_color_en.pdf
+        epub:  https://doc.opensuse.org/documentation/leap/tuning/book-sle-tuning_en.epub
+      -
+        id: virtualization_guide
+        cover: /assets/images/cover-virtualization.svg
+        html: https://doc.opensuse.org/documentation/leap/virtualization/html/book-virt/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/virtualization/single-html/book-virt/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/virtualization/book-virt_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/virtualization/book-virt_en.epub
+      -
+        id: autoyast_guide
+        cover: /assets/images/cover-autoyast.svg
+        html: https://doc.opensuse.org/documentation/leap/autoyast/html/book-autoyast/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/autoyast/single-html/book-autoyast/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/autoyast/book-autoyast_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/autoyast/book-autoyast_en.epub
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.2/index.html
   -
-    version: '15.1'
-    autoyast: true
+    version: 15.1
+    docs:
+      -
+        id: startup_guide
+        cover: /assets/images/cover-startup.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.1/startup/html/book.opensuse.startup/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.1/startup/single-html/book.opensuse.startup/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.1/startup/book.opensuse.startup_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.1/startup/book.opensuse.startup_en.epub
+      -
+        id: gnome_user_guide
+        cover: /assets/images/cover-gnome.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.1/gnomeuser/html/book.gnomeuser/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.1/gnomeuser/single-html/book.gnomeuser/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.1/gnomeuser/book.gnomeuser_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.1/gnomeuser/book.gnomeuser_en.epub
+      -
+        id: reference_guide
+        cover: /assets/images/cover-reference.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.1/reference/html/book.opensuse.reference/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.1/reference/single-html/book.opensuse.reference/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.1/reference/book.opensuse.reference_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.1/reference/book.opensuse.reference_en.epub
+      -
+        id: security_guide
+        cover: /assets/images/cover-security.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.1/security/html/book.security/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.1/security/single-html/book.security/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.1/security/book.security_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.1/security/book.security_en.epub
+      -
+        id: tuning_guide
+        cover: /assets/images/cover-tuning.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.1/tuning/html/book.sle.tuning/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.1/tuning/single-html/book.sle.tuning/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.1/tuning/book.sle.tuning_color_en.pdf
+        epub:  https://doc.opensuse.org/documentation/leap/archive/15.1/tuning/book.sle.tuning_en.epub
+      -
+        id: virtualization_guide
+        cover: /assets/images/cover-virtualization.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.1/virtualization/html/book.virt/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.1/virtualization/single-html/book.virt/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.1/virtualization/book.virt_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.1/virtualization/book.virt_en.epub
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.1/index.html
   -
-    version: '15.0'
+    version: 15.0
     end_of_life: true
+    docs:
+      -
+        id: startup_guide
+        cover: /assets/images/cover-startup.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.0/startup/html/book.opensuse.startup/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.0/startup/single-html/book.opensuse.startup/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.0/startup/book.opensuse.startup_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.0/startup/book.opensuse.startup_en.epub
+      -
+        id: gnome_user_guide
+        cover: /assets/images/cover-gnome.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.0/gnomeuser/html/book.gnomeuser/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.0/gnomeuser/single-html/book.gnomeuser/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.0/gnomeuser/book.gnomeuser_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.0/gnomeuser/book.gnomeuser_en.epub
+      -
+        id: reference_guide
+        cover: /assets/images/cover-reference.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.0/reference/html/book.opensuse.reference/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.0/reference/single-html/book.opensuse.reference/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.0/reference/book.opensuse.reference_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.0/reference/book.opensuse.reference_en.epub
+      -
+        id: security_guide
+        cover: /assets/images/cover-security.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.0/security/html/book.security/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.0/security/single-html/book.security/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.0/security/book.security_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.0/security/book.security_en.epub
+      -
+        id: tuning_guide
+        cover: /assets/images/cover-tuning.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.0/tuning/html/book.sle.tuning/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.0/tuning/single-html/book.sle.tuning/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.0/tuning/book.sle.tuning_color_en.pdf
+        epub:  https://doc.opensuse.org/documentation/leap/archive/15.0/tuning/book.sle.tuning_en.epub
+      -
+        id: virtualization_guide
+        cover: /assets/images/cover-virtualization.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.0/virtualization/html/book.virt/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.0/virtualization/single-html/book.virt/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.0/virtualization/book.virt_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.0/virtualization/book.virt_en.epub
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.0/index.html
   -
-    version: '42.3'
+    version: 42.3
     end_of_life: true
+    docs:
+      -
+        id: startup_guide
+        cover: /assets/images/cover-startup.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.3/startup/html/book.opensuse.startup/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.3/startup/single-html/book.opensuse.startup/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.3/startup/book.opensuse.startup_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.3/startup/book.opensuse.startup_en.epub
+      -
+        id: gnome_user_guide
+        cover: /assets/images/cover-gnome.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.3/gnomeuser/html/book.gnomeuser/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.3/gnomeuser/single-html/book.gnomeuser/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.3/gnomeuser/book.gnomeuser_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.3/gnomeuser/book.gnomeuser_en.epub
+      -
+        id: reference_guide
+        cover: /assets/images/cover-reference.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.3/reference/html/book.opensuse.reference/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.3/reference/single-html/book.opensuse.reference/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.3/reference/book.opensuse.reference_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.3/reference/book.opensuse.reference_en.epub
+      -
+        id: security_guide
+        cover: /assets/images/cover-security.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.3/security/html/book.security/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.3/security/single-html/book.security/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.3/security/book.security_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.3/security/book.security_en.epub
+      -
+        id: tuning_guide
+        cover: /assets/images/cover-tuning.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.3/tuning/html/book.sle.tuning/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.3/tuning/single-html/book.sle.tuning/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.3/tuning/book.sle.tuning_color_en.pdf
+        epub:  https://doc.opensuse.org/documentation/leap/archive/42.3/tuning/book.sle.tuning_en.epub
+      -
+        id: virtualization_guide
+        cover: /assets/images/cover-virtualization.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.3/virtualization/html/book.virt/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.3/virtualization/single-html/book.virt/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.3/virtualization/book.virt_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.3/virtualization/book.virt_en.epub
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.3/index.html
   -
-    version: '42.2'
+    version: 42.2
     end_of_life: true
+    docs:
+      -
+        id: startup_guide
+        cover: /assets/images/cover-startup.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.2/startup/html/book.opensuse.startup/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.2/startup/single-html/book.opensuse.startup/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.2/startup/book.opensuse.startup_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.2/startup/book.opensuse.startup_en.epub
+      -
+        id: gnome_user_guide
+        cover: /assets/images/cover-gnome.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.2/gnomeuser/html/book.gnomeuser/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.2/gnomeuser/single-html/book.gnomeuser/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.2/gnomeuser/book.gnomeuser_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.2/gnomeuser/book.gnomeuser_en.epub
+      -
+        id: reference_guide
+        cover: /assets/images/cover-reference.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.2/reference/html/book.opensuse.reference/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.2/reference/single-html/book.opensuse.reference/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.2/reference/book.opensuse.reference_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.2/reference/book.opensuse.reference_en.epub
+      -
+        id: security_guide
+        cover: /assets/images/cover-security.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.2/security/html/book.security/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.2/security/single-html/book.security/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.2/security/book.security_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.2/security/book.security_en.epub
+      -
+        id: tuning_guide
+        cover: /assets/images/cover-tuning.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.2/tuning/html/book.sle.tuning/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.2/tuning/single-html/book.sle.tuning/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.2/tuning/book.sle.tuning_color_en.pdf
+        epub:  https://doc.opensuse.org/documentation/leap/archive/42.2/tuning/book.sle.tuning_en.epub
+      -
+        id: virtualization_guide
+        cover: /assets/images/cover-virtualization.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.2/virtualization/html/book.virt/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.2/virtualization/single-html/book.virt/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.2/virtualization/book.virt_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.2/virtualization/book.virt_en.epub
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.2/index.html
   -
-    version: '42.1'
+    version: 42.1
     end_of_life: true
+    docs:
+      -
+        id: startup_guide
+        cover: /assets/images/cover-startup.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.1/startup/html/book.opensuse.startup/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.1/startup/single-html/book.opensuse.startup/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.1/startup/book.opensuse.startup_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.1/startup/book.opensuse.startup_en.epub
+      -
+        id: gnome_user_guide
+        cover: /assets/images/cover-gnome.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.1/gnomeuser/html/book.gnomeuser/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.1/gnomeuser/single-html/book.gnomeuser/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.1/gnomeuser/book.gnomeuser_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.1/gnomeuser/book.gnomeuser_en.epub
+      -
+        id: reference_guide
+        cover: /assets/images/cover-reference.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.1/reference/html/book.opensuse.reference/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.1/reference/single-html/book.opensuse.reference/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.1/reference/book.opensuse.reference_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.1/reference/book.opensuse.reference_en.epub
+      -
+        id: security_guide
+        cover: /assets/images/cover-security.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.1/security/html/book.security/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.1/security/single-html/book.security/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.1/security/book.security_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.1/security/book.security_en.epub
+      -
+        id: tuning_guide
+        cover: /assets/images/cover-tuning.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.1/tuning/html/book.sle.tuning/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.1/tuning/single-html/book.sle.tuning/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.1/tuning/book.sle.tuning_color_en.pdf
+        epub:  https://doc.opensuse.org/documentation/leap/archive/42.1/tuning/book.sle.tuning_en.epub
+      -
+        id: virtualization_guide
+        cover: /assets/images/cover-virtualization.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/42.1/virtualization/html/book.virt/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/42.1/virtualization/single-html/book.virt/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/42.1/virtualization/book.virt_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/42.1/virtualization/book.virt_en.epub
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.1/index.html
 
 theme: jekyll-theme-opensuse
 markdown: kramdown

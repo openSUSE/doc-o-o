@@ -8,10 +8,10 @@ GIT
 
 GIT
   remote: https://github.com/opensuse/jekyll-theme.git
-  revision: 846d88182eb445b4fbce2bf75120754d56f8f4a5
+  revision: c9e3ed56e76bdcd8dc349d84bec96381217f6e3a
   branch: l10n-feat
   specs:
-    jekyll-theme-opensuse (0.7.0)
+    jekyll-theme-opensuse (0.7.1)
       jekyll
       jekyll-archives
       jekyll-paginate
@@ -70,7 +70,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.4)
-    rouge (3.20.0)
+    rouge (3.21.0)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
