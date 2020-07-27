@@ -8,8 +8,8 @@ GIT
 
 GIT
   remote: https://github.com/opensuse/jekyll-theme.git
-  revision: c9e3ed56e76bdcd8dc349d84bec96381217f6e3a
-  branch: l10n-feat
+  revision: 2c2f8d5a96cd2c830e3c60f2a15d2d2b44e86b0b
+  branch: master
   specs:
     jekyll-theme-opensuse (0.7.1)
       jekyll
@@ -30,7 +30,7 @@ GEM
     ffi (1.13.1)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
-    i18n (1.8.3)
+    i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     jekyll (4.1.1)
       addressable (~> 2.4)
@@ -85,3 +85,4 @@ DEPENDENCIES
   jekyll
   jekyll-locale!
   jekyll-theme-opensuse!
+
