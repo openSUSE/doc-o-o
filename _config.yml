@@ -76,7 +76,7 @@ footer_links:
     link: https://www.suse.com/company/legal/
   -
     text: source_code
-    link: https://github.com/openSUSE/doc.o.o
+    link: https://github.com/openSUSE/doc-o-o
   -
     text: style_guide
     link: https://documentation.suse.com/style
