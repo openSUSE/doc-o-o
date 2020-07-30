@@ -1,16 +1,16 @@
 site_title: openSUSE Documentation
 site_title_short: Documentation
-site_description: High quality openSUSE documentation for both sysadmins and desktop users.
-site_copyright:  © 2010–2020 SUSE LLC. all rights reserved
+site_description: openSUSE documentation for both sys admins and desktop users.
+site_copyright: © 2010–2020 SUSE LLC. All rights reserved.
 
 distros: Distributions
-tools: Tools
+tools: openSUSE Tools
 search: Search
-translate: Translate
+translate: Translate this page
 
 legal_information: Legal Information
 source_code: Source Code
-style_guide: Style Guide
+style_guide: Documentation Style Guide
 contact_us: Contact Us
 
 end_of_life: End of Life
@@ -25,4 +25,4 @@ autoyast_guide: AutoYaST Guide
 release_notes: Release Notes
 
 archive_title: Archive
-archive_description: Documentation for old releases that are not supported anymore.
+archive_description: Documentation for old releases that are not maintained anymore.

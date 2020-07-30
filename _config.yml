@@ -1,7 +1,7 @@
 title: openSUSE Documentation
 title_short: Documentation
 email: web@opensuse.org
-description: High quality openSUSE documentation for both sysadmins and desktop users.
+description: openSUSE documentation for both sys admins and desktop users.
 baseurl: ""
 url: ""
 weblate_url: https://l10n.opensuse.org/
