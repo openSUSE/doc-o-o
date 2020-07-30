@@ -8,8 +8,8 @@ layout: main
   </div>
 </header>
 
-{% for leap in site.leap_versions %}
-{% if leap.end_of_life %}
+{% for opensuse in site.opensuse_versions %}
+{% if opensuse.end_of_life %}
 {% include section.html %}
 {% endif %}
 {% endfor %}

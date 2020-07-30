@@ -1,9 +1,9 @@
-<section id="leap-{{leap.version | replace: '.', '' }}" class="py-5">
+<section id="opensuse-{{opensuse.version | replace: '.', '' | slugify }}" class="py-5">
   <div class="container">
-    <h2>openSUSE Leap {{ leap.version }}</h2>
+    <h2>openSUSE {{ opensuse.version }} {% if opensuse.end_of_life %}({{ locale['end_of_life'] | default: 'End of Life' }}){% endif %} </h2>
 
     <div class="row">
-      {% for doc in leap.docs %}
+      {% for doc in opensuse.docs %}
       <div class="col-sm-6 col-md-4">
         <div class="card doc-card mb-3">
           <img class="card-img" src="{{ doc.cover | default: '/assets/images/cover-startup.svg' }}">
