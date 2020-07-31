@@ -3,13 +3,13 @@ layout: main
 ---
 <header class="py-5">
   <div class="container">
-    <h1>{{ locale.site_title}}</h1>
-    <p class="lead">{{ locale.site_description }}</p>
+    <h1>{{ locale.develop_title}}</h1>
+    <p class="lead">{{ locale.develop_description }}</p>
   </div>
 </header>
 
 {% for opensuse in site.opensuse_versions %}
-{% if opensuse.end_of_life != true and opensuse.develop != true %}
+{% if opensuse.develop %}
 {% include section.html %}
 {% endif %}
 {% endfor %}

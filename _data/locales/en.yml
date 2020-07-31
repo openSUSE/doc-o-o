@@ -13,7 +13,8 @@ source_code: Source Code
 style_guide: Documentation Style Guide
 contact_us: Contact Us
 
-end_of_life: End of Life
+end_of_life: end of life
+develop: development version
 
 startup_guide: Startup Guide
 gnome_user_guide: GNOME User Guide
@@ -25,4 +26,7 @@ autoyast_guide: AutoYaST Guide
 release_notes: Release Notes
 
 archive_title: Archive
-archive_description: Documentation for old releases that are not maintained anymore.
+archive_description: Documentation for old openSUSE releases that are not maintained anymore.
+
+develop_title: Development Versions
+develop_description: These openSUSE releases are currently in development.

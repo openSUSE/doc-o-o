@@ -1,7 +1,10 @@
 <section id="opensuse-{{opensuse.version | replace: '.', '' | slugify }}" class="py-5">
   <div class="container">
-    <h2>openSUSE {{ opensuse.version }} {% if opensuse.end_of_life %}({{ locale['end_of_life'] | default: 'End of Life' }}){% endif %} </h2>
-
+    <h2>
+      openSUSE {{ opensuse.version }}
+      {% if opensuse.end_of_life %}({{ locale['end_of_life'] }}){% endif %}
+      {% if opensuse.develop and opensuse.version != 'Tumbleweed' %}({{ locale['develop'] }}){% endif %}
+     </h2>
     <div class="row">
       {% for doc in opensuse.docs %}
       <div class="col-sm-6 col-md-4">

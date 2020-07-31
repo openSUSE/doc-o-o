@@ -14,6 +14,7 @@ style_guide: Dokumentationsstyleguide
 contact_us: Kontaktieren Sie uns
 
 end_of_life: Ende der Wartungsdauer
+develop: Entwicklungsversion
 
 startup_guide: Starthandbuch
 gnome_user_guide: GNOME-Nutzerhandbuch
@@ -25,4 +26,7 @@ autoyast_guide: AutoYaST-Handbuch
 release_notes: Versionshinweise
 
 archive_title: Archiv
-archive_description: Dokumentation für alte Versionen, die nicht mehr gewartet werden.
+archive_description: Dokumentation für alte openSUSE-Versionen, die nicht mehr gewartet werden.
+
+develop_title: Entwicklungsversionen
+develop_description: Diese openSUSE-Versionen befinden sich gerade in der Entwicklung.
