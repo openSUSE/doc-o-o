@@ -1,5 +1,7 @@
 _site/
 .sass-cache/
 .jekyll-cache/
+.bundle/
 .jekyll-metadata
 vendor
+publishusers
