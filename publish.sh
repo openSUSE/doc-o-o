@@ -14,7 +14,7 @@ test -s $userconfig && . $userconfig
 
 if [[ $userdoc ]] && [[ $userrn ]] && [[ $port ]] && [[ $server ]]; then
   echo "Syncing documentation."
-  rsync _site/ -e "ssh -p $port" ${userdoc}@${server}:doc.opensuse.org/htdocs/
+  rsync -lr -v _site/ -e "ssh -p $port" ${userdoc}@${server}:doc.opensuse.org/htdocs/
 else
   >&2 echo "Error: Could not sync."
   exit 1

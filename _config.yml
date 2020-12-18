@@ -407,7 +407,7 @@ markdown: kramdown
 plugins:
   - jekyll-locale
 
-exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, vendor, .bundle, Makefile, publish.sh, publishusers, doc-build-script]
+exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, vendor, .bundle, Makefile, publish.sh, publishusers, doc-build-script, htaccess-doc-o-o]
 
 localization:
   mode       : auto

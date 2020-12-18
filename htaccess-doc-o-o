@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine     On
+  RewriteRule       ^(.*/)?\.(git|svn)/ - [F,L]
+  ErrorDocument     403 "Access Forbidden"
+  RewriteCond       %{HTTP_USER_AGENT} libwww-perl.*
+    RewriteRule       .* – [F,L]
+
+
+  # Perl script -> Jekyll move, end-2020
+  RewriteRule       ^archive.html$           /archive/       [R,L]
+  RewriteRule       ^opensuse.html$          /archive/       [R,L]
+
+</IfModule>
