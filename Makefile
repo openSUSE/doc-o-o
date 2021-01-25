@@ -1,4 +1,4 @@
-.PHONY: html upload upload-rn upload-doc clean
+.PHONY: build upload clean
 
 build:
 	bundle exec jekyll build
