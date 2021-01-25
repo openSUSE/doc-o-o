@@ -87,14 +87,14 @@ opensuse_versions:
         id: release_notes
         cover: /assets/images/cover-release.svg
         html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Tumbleweed/index.html
-#  -
-#    version: Leap 15.3
-#    develop: true
-#    docs:
-#      -
-#        id: release_notes
-#        cover: /assets/images/cover-release.svg
-#        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.3/index.html
+  -
+    version: Leap 15.3
+    develop: true
+    docs:
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.3/index.html
   -
     version: Leap 15.2
     docs:
