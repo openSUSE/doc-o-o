@@ -153,6 +153,7 @@ opensuse_versions:
         html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.2/index.html
   -
     version: Leap 15.1
+    end_of_life: true
     docs:
       -
         id: startup_guide
