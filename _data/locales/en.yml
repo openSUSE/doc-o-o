@@ -3,15 +3,18 @@ site_title_short: Documentation
 site_description: openSUSE documentation for both system administrators and desktop users.
 site_copyright: © 2010–2021 SUSE LLC. All rights reserved.
 
-distros: Distributions
-tools: openSUSE Tools
+distros: Distribution docs
+tools: Tool docs
 search: Search
 translate: Translate this page
 
-legal_information: Legal Information
-source_code: Source Code
+archive_menu: Archive versions
+develop_menu: Development versions
+
+legal_information: Legal information
+source_code: Source code
 style_guide: Documentation Style Guide
-contact_us: Contact Us
+contact_us: Contact us
 
 end_of_life: end of life
 develop: development version
@@ -25,8 +28,8 @@ virtualization_guide: Virtualization Guide
 autoyast_guide: AutoYaST Guide
 release_notes: Release Notes
 
-archive_title: Archive
+archive_title: Archive versions
 archive_description: Documentation for old openSUSE releases that are not maintained anymore.
 
-develop_title: Development Versions
+develop_title: Development versions
 develop_description: These openSUSE releases are currently in development.
