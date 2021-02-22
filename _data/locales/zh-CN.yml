@@ -1,23 +1,23 @@
 site_title: openSUSE 文档
 site_title_short: 文档
-site_description: 为系统管理员和桌面用户编写的高质量文档。
+site_description: 为系统管理员和桌面用户编写的文档。
 site_copyright: © 2010–2021 SUSE LLC. 保留全部权利
 
-distros: 发行版
-tools: 工具
+distros: 发行版文档
+tools: 工具文档
 search: 搜索
-translate: 翻译
+translate: 翻译本页
 
-archive_menu: 归档
-develop_menu: Development versions
+archive_menu: 归档版
+develop_menu: 开发版
 
 legal_information: 法律信息
 source_code: 源代码
-style_guide: 风格指南
+style_guide: 文体指南
 contact_us: 联系我们
 
 end_of_life: 生命周期结束
-develop: development version
+develop: 开发版
 
 startup_guide: 入门指南
 gnome_user_guide: GNOME 用户指南
@@ -29,7 +29,7 @@ autoyast_guide: AutoYaST 指南
 release_notes: 发行说明
 
 archive_title: 归档
-archive_description: 不再支持的老版本的文档。
+archive_description: 不再受维护的旧openSUSE版本的文档。
 
-develop_title: Development versions
-develop_description: These openSUSE releases are currently in development.
+develop_title: 开发版
+develop_description: 以下openSUSE版本正在开发中。
