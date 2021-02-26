@@ -10,25 +10,64 @@ Actual documents are from:
 
 ## Development
 
-### How to set up the environment?
+### Setting up the environment
 
 ```bash
 sudo zypper in ruby ruby-devel
 bundle install
 ```
 
-### How to build?
+### Building the navigation
 
 ```bash
-bundle exec jekyll build
+make build
 ```
 
 The resulting site will be in the `_site` directory.
 
-### How to serve the site locally?
+### Serving the navigation locally
 
 ```bash
-bundle exec jekyll serve
+make serve
 ```
 
 Visit <http://localhost:4000/> in your browser.
+Press Ctrl-C to stop serving the site.
+
+
+## Syncing the site
+
+### Prerequisites
+
+Get the details about the SSH setup from someone in the know (e.g. @sknorr).
+Have your SSH key added to the `.ssh/authorized_keys` on the server.
+
+Create a file `publishusers` within the local repository clone:
+
+```bash
+port=[SSH_PORT]
+server=[SERVER]
+userdoc=[USER_NAME_DOC]
+userrn=[USER_NAME_RELEASE_NOTES]
+```
+
+### Syncing documentation navigation
+
+```bash
+make upload
+```
+
+### Syncing configuration for the release notes
+
+```bash
+make upload_rn_config
+```
+
+### Building and syncing documentation content
+
+1. Clone the `doc-sle` repository locally: `git clone https://github.com/SUSE/doc-sle`
+2. Switch to the correct branch in the `doc-sle` repository: `git -C /path/to/doc-sle checkout ...`
+3. Open `doc-build-script` from this repository and make sure the following are set correctly (*!!*):
+   * referenced guides (`$guides`)
+   * the openSUSE Leap version number (`$version`)
+4. Run the script, from within this repo: `./doc-build-script /path/to/doc-sle`
