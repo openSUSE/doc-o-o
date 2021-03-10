@@ -75,7 +75,7 @@ done
 
 cd ..
 
-echo -n "Will now rsync to doc.o.o. Continue? "
+echo -n "Will now rsync to doc.o.o. Continue (^C to cancel, Enter to continue)? "
 read foo
 
 target_dir="doc.opensuse.org/htdocs/documentation/leap/archive/$version"
