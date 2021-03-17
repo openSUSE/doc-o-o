@@ -422,5 +422,7 @@ localization:
       name: English
     de:
       name: Deutsch
+    pt-BR:
+      name: Português (Brasil)
     zh-CN:
       name: 简体中文
