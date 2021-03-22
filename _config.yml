@@ -422,6 +422,8 @@ localization:
       name: English
     de:
       name: Deutsch
+    it:
+      name: Italiano
     pt-BR:
       name: Português (Brasil)
     zh-CN:
