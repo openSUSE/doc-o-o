@@ -1,1 +1,20 @@
-{}
+site_title: Documentazione di openSUSE
+site_title_short: Documentazione
+site_description: Documentazione di openSUSE sia per amministratori di sistema che
+  per utenti desktop.
+site_copyright: © 2010–2021 SUSE LLC. Tutti i diritti riservati.
+distros: Documentazione della distribuzione
+tools: Documentazione degli strumenti
+search: Cerca
+translate: Traduci questa pagina
+develop_menu: Versioni di sviluppo
+legal_information: Informazioni legali
+source_code: Codice sorgente
+contact_us: Contattaci
+startup_guide: Guida di avvio
+gnome_user_guide: Guida utente di GNOME
+release_notes: Note di rilascio
+archive_description: Documentazione delle vecchie versioni di openSUSE che non sono
+  più mantenute.
+develop_title: Versioni di sviluppo
+develop_description: Queste versioni di openSUSE sono attualmente in fase di sviluppo.
