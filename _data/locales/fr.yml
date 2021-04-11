@@ -3,8 +3,8 @@ site_title_short: Documentation
 site_description: Documentation d'openSUSE pour les administrateurs système et les
   utilisateurs d'environnement de bureau.
 site_copyright: © 2010–2021 SUSE LLC. Tous droits réservés.
-distros: Documents de la distribution
-tools: Documentation sur les outils
+distros: Docs par distribution
+tools: Docs sur les outils
 search: Rechercher
 translate: Traduire cette page
 archive_menu: Versions archivées
@@ -12,7 +12,7 @@ develop_menu: Versions en développement
 legal_information: Information légale
 source_code: Code source
 style_guide: Guide de style de la documentation
-contact_us: Nous contacter
+contact_us: Contactez-nous
 end_of_life: fin de vie
 develop: version en développement
 startup_guide: Guide de démarrage
