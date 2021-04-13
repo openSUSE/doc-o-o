@@ -422,6 +422,8 @@ localization:
       name: English
     de:
       name: Deutsch
+    fr:
+      name: Français
     it:
       name: Italiano
     pt-BR:
