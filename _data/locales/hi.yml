@@ -1,1 +1,29 @@
-{}
+archive_description: पुराने ओपनSUSE संस्करणों हेतु प्रलेखन जिनका अनुरक्षण निरस्त हो
+  चुका है।
+develop_description: ये ओपनSUSE संस्करण अभी अल्पविकसित हैं।
+develop_title: अल्पविकसित संस्करण
+archive_title: संग्रहित संस्करण
+release_notes: प्रकाशन नोट्स
+autoyast_guide: AutoYaST गाइड
+virtualization_guide: वर्चुअल क्रियान्वन गाइड
+tuning_guide: कार्यक्षमता गाइड
+security_guide: सुरक्षा गाइड
+reference_guide: निर्देश गाइड
+gnome_user_guide: गनोम उपयोगकता गाइड
+startup_guide: सिस्टम आरंभ गाइड
+develop: अल्पविकसित संस्करण
+end_of_life: उपयोग सीमा समाप्त
+contact_us: हमें संपर्क करें
+style_guide: प्रलेखन शैली गाइड
+source_code: स्रोत कोड
+legal_information: कानूनी जानकारी
+develop_menu: अल्पविकसित संस्करण
+archive_menu: संग्रहित संस्करण
+translate: इस पृष्ठ का अनुवाद करें
+search: खोज
+tools: साधन प्रलेख
+distros: वितरण प्रलेख
+site_copyright: © 2010–2021 SUSE एलएलसी। सर्वाधिकार सुरक्षित।
+site_description: सिस्टम प्रशासकों व डेस्कटॉप उपयोक्ताओं हेतु ओपनSUSE प्रलेखन।
+site_title_short: प्रलेखन
+site_title: ओपनSUSE प्रलेखन
