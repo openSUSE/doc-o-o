@@ -424,6 +424,8 @@ localization:
       name: Deutsch
     fr:
       name: Français
+    hi:
+      name: हिन्दी
     it:
       name: Italiano
     pt-BR:
