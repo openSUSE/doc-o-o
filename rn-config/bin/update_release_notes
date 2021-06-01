@@ -82,7 +82,7 @@ get_package_from_obs() {
     fi
     for arch in $archs; do
         $DO_ECHO mkdir -p $VERBOSE "$localdir/$arch"
-        $DO_ECHO curl -s -S $VERBOSE -o "$localdir/$arch"/${packagename}.rpm  "${server}/build/$url/$arch/_repository/${packagename}"
+        $DO_ECHO curl -s -S $VERBOSE -o "$localdir/$arch"/${packagename}.rpm  "${server}/build/$url/$arch/_repository/${packagename}.rpm"
         FILETYPE=$(file --brief --mime "$localdir/$arch"/${packagename}.rpm)
         FOUND='no'
         case "$FILETYPE" in
