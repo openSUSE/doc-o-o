@@ -12,7 +12,7 @@ navbar_links:
     text: distros
     children:
       -
-        link: /development/#opensuse-leap-153
+        link: /#opensuse-leap-153
         text: Leap 15.3
       -
         link: /#opensuse-leap-152
