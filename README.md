@@ -17,6 +17,11 @@ sudo zypper in ruby ruby-devel
 bundle install
 ```
 
+### Making changes
+
+Most changes, such as setting up a new product or guide, need to be made in the file `_config.yml`.
+
+
 ### Building the navigation
 
 ```bash
