@@ -97,10 +97,10 @@ opensuse_versions:
       -
         id: startup_guide
         cover: /assets/images/cover-startup.svg
-        html: https://doc.opensuse.org/documentation/leap/startup/html/book-opensuse-startup/index.html
-        single_html: https://doc.opensuse.org/documentation/leap/startup/single-html/book-opensuse-startup/index.html
-        pdf: https://doc.opensuse.org/documentation/leap/startup/book-opensuse-startup_color_en.pdf
-        epub: https://doc.opensuse.org/documentation/leap/startup/book-opensuse-startup_en.epub
+        html: https://doc.opensuse.org/documentation/leap/startup/html/book-startup/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/startup/single-html/book-startup/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/startup/book-startup_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/startup/book-startup_en.epub
       -
         id: gnome_user_guide
         cover: /assets/images/cover-gnome.svg
@@ -111,10 +111,10 @@ opensuse_versions:
       -
         id: reference_guide
         cover: /assets/images/cover-reference.svg
-        html: https://doc.opensuse.org/documentation/leap/reference/html/book-opensuse-reference/index.html
-        single_html: https://doc.opensuse.org/documentation/leap/reference/single-html/book-opensuse-reference/index.html
-        pdf: https://doc.opensuse.org/documentation/leap/reference/book-opensuse-reference_color_en.pdf
-        epub: https://doc.opensuse.org/documentation/leap/reference/book-opensuse-reference_en.epub
+        html: https://doc.opensuse.org/documentation/leap/reference/html/book-reference/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/reference/single-html/book-reference/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/reference/book-reference_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/reference/book-reference_en.epub
       -
         id: security_guide
         cover: /assets/images/cover-security.svg
