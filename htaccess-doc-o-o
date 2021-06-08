@@ -7,7 +7,13 @@
 
 
   # Perl script -> Jekyll move, end-2020
-  RewriteRule       ^archive.html$           /archive/       [R,L]
-  RewriteRule       ^opensuse.html$          /archive/       [R,L]
+  RewriteRule     ^archive.html$           /archive/       [R,L]
+  RewriteRule     ^opensuse.html$          /archive/       [R,L]
+
+  RewriteRule     ^documentation/leap/gnomeuser/(single-)?html/book-gnomeuser/(.*)$           /documentation/leap/gnomeuser/$1html/book-gnome-user/$2            [R,L]
+  RewriteRule     ^documentation/leap/reference/(single-)?html/book-opensuse-reference/(.*)$  /documentation/leap/reference/$1html/book-reference/$2             [R,L]
+  RewriteRule     ^documentation/leap/startup/(single-)?html/book-opensuse-startup/(.*)$      /documentation/leap/startup/$1html/book-startup/$2                 [R,L]
+  RewriteRule     ^documentation/leap/tuning/(single-)?html/book-sle-tuning/(.*)$             /documentation/leap/tuning/$1html/book-tuning/$2                   [R,L]
+  RewriteRule     ^documentation/leap/virtualization/(single-)?html/book-virt/(.*)$           /documentation/leap/virtualization/$1html/book-virtualization/$2   [R,L]
 
 </IfModule>
