@@ -6,7 +6,7 @@ mydir=$(dirname "$0")
 
 guides="\
   DC-opensuse-autoyast \
-  DC-opensuse-gnomeuser \
+  DC-opensuse-gnome-user \
   DC-opensuse-reference \
   DC-opensuse-security \
   DC-opensuse-startup \
