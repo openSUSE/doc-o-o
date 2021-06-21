@@ -19,21 +19,23 @@ version="15.3"
 
 [[ ! -d "$1" ]] && { echo "First argument must be your doc-sle repo clone dir."; exit 1; }
 
-[[ ! -f $mydir/publishusers ]] && { echo "Sync config file 'publishusers' is missing."; exit 1; }
+[[ ! -f "$mydir/publishusers" ]] && { echo "Sync config file 'publishusers' is missing."; exit 1; }
 # shellcheck source=publishusers
 . "$mydir/publishusers"
 
-cd $1
+cd "$1" || { echo "Could not find clone directory \"$1\"."; exit 1; }
 
-echo -n "Went to $1, will now delete $1/build & $1/$version and then start to build. Continue? "
-read foo
-rm -rf build $version
+echo -n "Went to $1, will now delete \"$1/build\" and \"$1/$version\" and then start to build. Continue? "
+# shellcheck disable=SC2162,SC2034
+read -r foo
+rm -rf -- "build" "$version"
 
 for dc in $guides; do
   echo "Building $dc"
   daps -d "$dc" validate
   [[ -p $? ]] && { echo "-> Failed to build validate. Exiting"; exit 2; }
-  missing_images=$(daps -d $dc list-images-missing)
+  missing_images=$(daps -d "$dc" list-images-missing)
+  # shellcheck disable=SC2028
   [[ -p "$missing_images" ]] && { echo "Missing images:\n$missing_images"; exit 2; }
   daps -d "$dc" html
   [[ -p $? ]] && { echo "-> Failed to build HTML. Exiting"; exit 2; }
@@ -47,35 +49,21 @@ done
 
 mv build "$version"
 
-cd "$version"
-
-for d in *; do
-  [[ ! -d "$d" ]] && continue
-  echo "mv $d "$(echo "$d" | sed -r 's/^opensuse-//')
-  mv "$d" $(echo "$d" | sed -r 's/^opensuse-//')
-done
-
-ls -a
-rm -rf */log */DC-* .images .profiled .tmp
-
-for d in *; do
-  cd "$d"
-  for f in *.epub *.pdf; do
-    echo "ln -s $f "$(echo "$f" | sed -r 's/-/./g')
-    ln -s "$f" $(echo "$f" | sed -r 's/-/./g')
+(
+  cd "$version" || { echo "Could not find \"$version\" build directory. Something went awry."; exit 1; }
+  for d in *; do
+    [[ ! -d "$d" ]] && continue
+    # shellcheck disable=SC2046
+    echo "mv $d "$(echo "$d" | sed -r 's/^opensuse-//')
+    # shellcheck disable=SC2046
+    mv "$d" $(echo "$d" | sed -r 's/^opensuse-//')
   done
-  for d2 in html/* single-html/*; do
-    cd $(dirname $d2)
-    echo "ln -s "$(basename "$d2")" "$(basename "$d2" | sed -r 's/-/./g')
-    ln -s $(basename "$d2") $(basename "$d2" | sed -r 's/-/./g')
-    cd ..
-  done
-  cd ..
-done
-
-cd ..
+  rm -rf -- */log */DC-* .images .profiled .tmp
+  ls -a
+)
 
 echo -n "Will now rsync to doc.o.o. Continue (^C to cancel, Enter to continue)? "
+# shellcheck disable=SC2162,SC2034
 read foo
 
 target_dir="doc.opensuse.org/htdocs/documentation/leap/archive/$version"
