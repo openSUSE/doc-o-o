@@ -1,1 +1,30 @@
-{}
+site_title_short: Documentación
+site_copyright: © 2010–2021 SUSE LLC. Todos los derechos reservados.
+distros: Documentación de las distribuciones
+tools: Documentación de las herramientas
+site_title: Documentación de openSUSE
+site_description: Documentación de openSUSE para administradores de sistemas y usuarios
+  de escritorio.
+develop_menu: Versiones en desarrollo
+legal_information: Información legal
+source_code: Código fuente
+develop: versión en desarrollo
+startup_guide: Guía de inicio
+gnome_user_guide: Guía de usuario de GNOME
+reference_guide: Guía de referencia
+security_guide: Guía de seguridad
+tuning_guide: Guía de optimización
+virtualization_guide: Guía de virtualización
+autoyast_guide: Guía de AutoYaST
+release_notes: Notas de lanzamiento
+archive_title: Versiones archivadas
+develop_title: Versiones en desarrollo
+develop_description: Estas versiones de openSUSE están actualmente en desarrollo.
+archive_description: Documentación para versiones antiguas de openSUSE que ya no son
+  mantenidas.
+search: Buscar
+translate: Traduzca esta página
+contact_us: Contáctenos
+archive_menu: Versiones archivadas
+style_guide: Guía de estilo de la documentación
+end_of_life: fin de ciclo
