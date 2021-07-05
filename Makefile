@@ -1,4 +1,4 @@
-.PHONY: all build serve upload upload_rn_config clean
+.PHONY: all build serve upload upload_rn_config update_deps clean
 
 # Example content for $(userconfig) file:
 #   port=[SSH_PORT]
@@ -33,6 +33,9 @@ upload_rn_config: rn-config/bin/update_release_notes rn-config/etc/releasenotes
 	else \
 	  exit 1; \
 	fi
+
+update_deps: Gemfile
+	bundle update
 
 clean:
 	rm -r _site
