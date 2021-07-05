@@ -470,6 +470,8 @@ localization:
       name: English
     de:
       name: Deutsch
+    es:
+      name: Español
     fr:
       name: Français
     hi:
