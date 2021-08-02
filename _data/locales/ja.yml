@@ -1,1 +1,28 @@
-{}
+site_title: openSUSE ドキュメンテーション
+site_title_short: ドキュメンテーション
+site_description: システム管理者とデスクトップユーザの両方に対する openSUSE ドキュメンテーションです。
+site_copyright: © 2010–2021 SUSE LLC. All rights reserved.
+archive_menu: さらに古いバージョン
+develop_menu: 開発中のバージョン
+legal_information: 法的情報
+source_code: ソースコード
+style_guide: 文書スタイルガイド
+contact_us: 連絡先
+end_of_life: サポート終了済み
+develop: 開発中のバージョン
+startup_guide: スタートアップガイド
+gnome_user_guide: GNOME ユーザガイド
+reference_guide: リファレンスガイド
+security_guide: セキュリティガイド
+tuning_guide: チューニングガイド
+virtualization_guide: 仮想化ガイド
+autoyast_guide: AutoYaST ガイド
+release_notes: リリースノート
+develop_description: これらの openSUSE リリースは、現在開発途上の段階にあります。
+tools: ツールの文書
+archive_title: さらに古いバージョン
+distros: ディストリビューションの文書
+translate: このページを翻訳する
+develop_title: 開発中のバージョン
+search: 検索
+archive_description: 既にメンテナンスが終了している古い openSUSE リリース向けのドキュメンテーションです。
