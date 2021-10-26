@@ -1,7 +1,7 @@
 site_title: openSUSE 文档
 site_title_short: 文档
 site_description: 为系统管理员和桌面用户编写的文档。
-site_copyright: © 2010–2021 SUSE LLC. 保留全部权利
+site_copyright: © 2010–2021 SUSE LLC, © 2010–2021 openSUSE contributors.
 
 distros: 发行版文档
 tools: 工具文档
