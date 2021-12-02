@@ -1,1 +1,13 @@
-{}
+site_title: Документація openSUSE
+site_title_short: Документація
+site_copyright: © 2010–2021 SUSE LLC, © 2010–2021 openSUSE учасники.
+site_description: Документація openSUSE як для системних адміністраторів, так і для
+  користувачів настільних комп’ютерів.
+distros: Документи про розповсюдження
+tools: Документи про засоби
+search: Пошук
+translate: Переклад цієї сторінки
+archive_menu: Архівні версії
+develop_menu: Версії розробки
+legal_information: Правова інформація
+source_code: Вихідний код
