@@ -8,6 +8,22 @@ tools: Документи про засоби
 search: Пошук
 translate: Переклад цієї сторінки
 archive_menu: Архівні версії
-develop_menu: Версії розробки
+develop_menu: Версії в розробці
 legal_information: Правова інформація
 source_code: Вихідний код
+style_guide: Довідник по стилю документації
+contact_us: Зв'яжіться з нами
+startup_guide: Посібник із запуску
+gnome_user_guide: Посібник користувача GNOME
+archive_description: Документація для старих випусків openSUSE, які більше не обслуговуються.
+develop: версія в розробці
+reference_guide: Довідковий посібник
+security_guide: Посібник з безпеки
+tuning_guide: Посібник з налаштування
+virtualization_guide: Посібник з віртуалізації
+autoyast_guide: Посібник AutoYaST
+release_notes: Примітки до випуску
+archive_title: Архівні версії
+develop_description: Ці випуски openSUSE зараз знаходяться в розробці.
+develop_title: Версії в розробці
+end_of_life: кінець життєвого циклу
