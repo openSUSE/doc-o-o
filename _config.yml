@@ -482,5 +482,7 @@ localization:
       name: Italiano
     pt-BR:
       name: Português (Brasil)
+    uk:
+      name: Українська
     zh-CN:
       name: 简体中文
