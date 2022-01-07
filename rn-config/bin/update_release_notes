@@ -281,6 +281,9 @@ while read line; do
                     if [ "$RELEASENOTES_NAME" != "release-notes" ] ; then
                         $DO_ECHO cp -a "$RELNOTESDIR/$arch/$PRODUKT_NAME/$PRODUKT_VERSION"/$RELEASENOTES_NAME*.rpm "$RELNOTESDIR/$arch/$PRODUKT_NAME/$PRODUKT_VERSION/release-notes.rpm"
                     fi
+                    if [ "$RELEASENOTES_NAME" != "release-notes-openSUSE" ] ; then
+                        $DO_ECHO cp -a "$RELNOTESDIR/$arch/$PRODUKT_NAME/$PRODUKT_VERSION"/$RELEASENOTES_NAME*.rpm "$RELNOTESDIR/$arch/$PRODUKT_NAME/$PRODUKT_VERSION/release-notes-openSUSE.rpm"
+                    fi
                 else
                     continue
                 fi
