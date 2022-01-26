@@ -19,7 +19,7 @@ archive_description: Документація для старих випускі
 develop: версія в розробці
 reference_guide: Довідковий посібник
 security_guide: Посібник з безпеки
-tuning_guide: Посібник з налаштування
+tuning_guide: Посібник із системного аналізу та налаштування
 virtualization_guide: Посібник з віртуалізації
 autoyast_guide: Посібник AutoYaST
 release_notes: Примітки до випуску
