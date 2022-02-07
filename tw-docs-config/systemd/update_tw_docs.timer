@@ -1,0 +1,9 @@
+[Unit]
+Description=Daily update of Tumbleweed Community docs
+
+[Timer]
+OnCalendar=*-*-* 14:23:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

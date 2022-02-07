@@ -1,0 +1,11 @@
+#!/bin/bash
+# TUMBLEWEED COMMUNITY DOCS UPDATER
+# Source repo: https://github.com/openSUSE/openSUSE-docs-revamped-temp
+# Runs via the systemd user timer & user service in ~.
+
+tw_docs_clone=/home/lxbuch/doc.opensuse.org/htdocs/documentation/tumbleweed/
+tw_docs_branch="gh-pages"
+
+git -C "$tw_docs_clone" fetch -p
+git -C "$tw_docs_clone" reset --hard "origin/$tw_docs_branch"
+git -C "$tw_docs_clone" gc

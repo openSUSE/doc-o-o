@@ -1,0 +1,6 @@
+[Unit]
+Description=Update Tumbleweed Community docs
+
+[Service]
+ExecStart=/home/lxbuch/bin/update_tw_docs
+Type=oneshot
