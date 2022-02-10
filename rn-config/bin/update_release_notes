@@ -33,14 +33,20 @@
 # POSSIBILITY OF SUCH DAMAGE.
 #
 
+
 BASEDIR="$HOME"
-RELEASENOTES_DATA="$BASEDIR/etc/releasenotes"
-RELNOTESDIR="$BASEDIR/release-notes"
-LOGFILE="$BASEDIR/var/log/$(basename $0).log"
+CONFIG="$HOME/etc/update_release_notes.conf"
+
+if [ -r "$CONFIG" ]; then
+	. "$CONFIG"
+else
+	echo "Could not read $CONFIG - aborting" >&2
+	exit 1
+fi
+
 DO_ECHO=""
 VERBOSE=""
 UNRPM='/usr/bin/unrpm'
-UNPACK_TEMPDIR='/tmp'
 TEMPDIR=$(mktemp -d /tmp/update_release_notes-XXXXXX)
 
 cleanup_and_exit() {
@@ -77,7 +83,7 @@ get_package_from_obs() {
     attempt=$((attempt+1))
     if [ $attempt -gt 2 ]; then
         echo "Could not find a valid RPM at ${server}/build/$url/$arch/_repository/${packagename} after $attempt attempts - giving up." >&2
-		LOG "Could not find a valid RPM at ${server}/build/$url/$arch/_repository/${packagename} after $attempt attempts - giving up"
+		LOG "[error] Could not find a valid RPM at ${server}/build/$url/$arch/_repository/${packagename} after $attempt attempts - giving up"
         return
     fi
     for arch in $archs; do
@@ -87,21 +93,21 @@ get_package_from_obs() {
         FOUND='no'
         case "$FILETYPE" in
             *application/x-rpm*)
-                LOG "$localdir/$arch/${packagename}.rpm is a valid RPM - going forward"
+                LOG "[info] $localdir/$arch/${packagename}.rpm is a valid RPM - going forward"
                 FOUND='yes'
             ;;
             *text/plain*)
                 if [ "$VERBOSE" = "-v" ]; then
-                    LOG "$localdir/$arch"/${packagename}.rpm has wrong mime - file content:"
+                    LOG "[warning] $localdir/$arch"/${packagename}.rpm has wrong mime - file content:"
                     cat "$localdir/$arch"/${packagename}.rpm" | tee "$LOGFILE"
                 fi
             ;;
             *)
-                LOG "$localdir/$arch/${packagename}.rpm has wrong/unknown mime type"
+                LOG "[warning] $localdir/$arch/${packagename}.rpm has wrong/unknown mime type"
             ;;
          esac
          if [ "$FOUND" == "no" ]; then
-             LOG "Did not found the wanted RPM at $url - trying different repos now"
+             LOG "[warning] Did not found the wanted RPM at $url - trying different repos now"
              case "$url" in
                  *:Update/standard)
                      url=${url/:Update/}
@@ -120,7 +126,7 @@ output_package() {
         ;;
         *)
         echo "ERROR: dest is $DESTINATION" >&2
-		LOG "ERROR: dest is $DESTINATION"
+		LOG "[error] dest is $DESTINATION"
         return
         ;;
     esac
@@ -177,16 +183,16 @@ create_index_file() {
         ;;
         *)
         echo "ERROR: create_index_file directory is $DIRECTORY" >&2
-        LOG "ERROR: create_index_file directory is $DIRECTORY"
+        LOG "[error] create_index_file directory is $DIRECTORY"
         return
         ;;
     esac
     test -d "$DIRECTORY" || return
     if [ -f "$DIRECTORY/index.html" ]; then
-        LOG "WARNING: $DIRECTORY/index.html exists - skipping"
+        LOG "[warning] $DIRECTORY/index.html exists - skipping"
         return
     else
-        LOG "Creating $DIRECTORY/index.html"
+        LOG "[info] Creating $DIRECTORY/index.html"
     fi
     cat "$RELNOTESDIR/header.html.tmpl" > "$DIRECTORY/index.html" || return
     echo "<h1>Directory Index Of $(basename $DIRECTORY)/</h1>" >> "$DIRECTORY/index.html"
@@ -220,17 +226,17 @@ shift $(( OPTIND - 1 ))
 
 if [ ! -x $UNRPM ]; then
     echo "ERROR: $UNRPM not found or not executable" >&2
-    LOG "ERROR: $UNRPM not found or not executable"
+    LOG "[error] $UNRPM not found or not executable"
     cleanup_and_exit 1
 fi
 
 if [ ! -f "$RELEASENOTES_DATA" ]; then
     echo "ERROR: $RELEASENOTES_DATA not found" >&2
-    LOG "ERROR: $RELEASENOTES_DATA not found"
+    LOG "[error] $RELEASENOTES_DATA not found"
     cleanup_and_exit 1
 fi
 
-mkdir -p $(dirname $LOGFILE) || { echo "ERROR: could not create $(dirname $LOGFILE); LOG "ERROR: could not create $(dirname $LOGFILE); }
+mkdir -p $(dirname $LOGFILE) || { echo "ERROR: could not create $(dirname $LOGFILE)" >&2; LOG "[error] could not create $(dirname $LOGFILE)"; }
 
 while read line; do
     ISBS="no"
@@ -258,7 +264,7 @@ while read line; do
             DISTVERSION="$DISTVERSION-"
         ;;
     esac
-    LOG "going for $OBSDIR/$DISTVERSION $PRODUKT_NAME/$PRODUKT_VERSION $RELEASENOTES_NAME"
+    LOG "[info] going for $OBSDIR/$DISTVERSION $PRODUKT_NAME/$PRODUKT_VERSION $RELEASENOTES_NAME"
     $DO_ECHO mkdir -p "$RELNOTESDIR" || { echo "Could not create $RELNOTESDIR" >&2; cleanup_and_exit 1; }
     if [ "$ISBS" == "yes" ]; then
       # special handling for noarch packages
@@ -273,8 +279,8 @@ while read line; do
                 test -f "$relrpm" || continue
                 RPM_NAME=$(rpm -qp --nosignature --nodigest --qf "%{NAME}" "$relrpm")
                 if [ "$RPM_NAME" = "$RELEASENOTES_NAME" ]; then
-                    CHECKED=$(rpm --checksig "$relrpm" | grep -vE "md5 gpg OK|pgp md5 OK")
-                    test -n "$CHECKED" && { echo "ERROR: $relrpm not signed" >&2 ; LOG "ERROR: $relrpm not signed"; continue ; }
+                    CHECKED=$(rpm --checksig "$relrpm" | grep -qE "md5 gpg OK|pgp md5 OK|digests signatures OK")
+                    test -n "$CHECKED" && { echo "WARNING: $relrpm not signed" >&2 ; LOG "[warning] $relrpm not signed"; continue ; }
                     PRODUKT_ARCH=$arch
                     output_package "$relrpm" "$RELNOTESDIR/$arch/$PRODUKT_NAME/$PRODUKT_VERSION"
         #            create_index_file "$RELNOTESDIR/$BUILDMACHINETYPE/$PRODUKT_NAME"
@@ -292,7 +298,7 @@ while read line; do
       date "+%Y-%m-%d %H:%M:%S" > "$RELNOTESDIR/.last_sync"
     else
       echo "Unknown DISTVERSION: $DISTVERSION - can currently handle \"obs://\" URLs only" >&2
-      LOG "Unknown DISTVERSION: $DISTVERSION - can currently handle \"obs://\" URLs only"
+      LOG "[error] Unknown DISTVERSION: $DISTVERSION - can currently handle \"obs://\" URLs only"
       cleanup_and_exit 1
     fi
 done < "$RELEASENOTES_DATA"
