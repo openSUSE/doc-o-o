@@ -1,6 +1,7 @@
 .PHONY: all build serve upload update_deps clean upload_rn_config update_tw_docs update_tw_docs_config
 
 # == SSH SETUP
+# The SSH setup needs an extra file called `publishusers`, essentially for security by obscurity.
 # Example content for $(userconfig) file:
 #   port=[SSH_PORT]
 #   server=[SERVER]
