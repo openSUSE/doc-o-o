@@ -1,13 +1,36 @@
-.doc-card .card-img-overlay {
-  display: flex;
-  flex-direction: column;
+.doc-card > .card-img-overlay {
+  position: static;
 }
 
-.doc-card .card-title {
-  flex-grow: 1;
+.doc-card > .card-img-overlay > div {
+  margin: 0 -.75rem;
 }
 
-.doc-card .card-link {
+.card-link {
   color: inherit;
   font-weight: bold;
+  display: inline-block;
+  padding: .25rem .5rem;
+  margin: .25rem !important;
+  border-radius: 3px;
+}
+
+.card-link:hover {
+  background-color: #EEE;
+}
+
+.doc-card {
+  display: block !important;
+}
+.doc-card img {
+  padding: 0;
+  margin: 0;
+  height: 175px;
+  width: 100%;
+  object-position: 50% 50%;
+  object-fit: none;
+  display: inline-block;
+  background-color: #EEE;
+  z-index: 1000;
+  border-radius: 0;
 }
