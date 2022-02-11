@@ -95,6 +95,10 @@ opensuse_versions:
     version: Leap 15.3
     docs:
       -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.3/index.html
+      -
         id: startup_guide
         cover: /assets/images/cover-startup.svg
         html: https://doc.opensuse.org/documentation/leap/startup/html/book-startup/index.html
@@ -143,13 +147,13 @@ opensuse_versions:
         single_html: https://doc.opensuse.org/documentation/leap/autoyast/single-html/book-autoyast/index.html
         pdf: https://doc.opensuse.org/documentation/leap/autoyast/book-autoyast_color_en.pdf
         epub: https://doc.opensuse.org/documentation/leap/autoyast/book-autoyast_en.epub
-      -
-        id: release_notes
-        cover: /assets/images/cover-release.svg
-        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.3/index.html
   -
     version: Leap 15.2
     docs:
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.2/index.html
       -
         id: startup_guide
         cover: /assets/images/cover-startup.svg
@@ -199,14 +203,14 @@ opensuse_versions:
         single_html: https://doc.opensuse.org/documentation/leap/archive/15.2/autoyast/single-html/book-autoyast/index.html
         pdf: https://doc.opensuse.org/documentation/leap/archive/15.2/autoyast/book-autoyast_color_en.pdf
         epub: https://doc.opensuse.org/documentation/leap/archive/15.2/autoyast/book-autoyast_en.epub
-      -
-        id: release_notes
-        cover: /assets/images/cover-release.svg
-        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.2/index.html
   -
     version: Leap 15.1
     end_of_life: true
     docs:
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.1/index.html
       -
         id: startup_guide
         cover: /assets/images/cover-startup.svg
@@ -249,14 +253,14 @@ opensuse_versions:
         single_html: https://doc.opensuse.org/documentation/leap/archive/15.1/virtualization/single-html/book.virt/index.html
         pdf: https://doc.opensuse.org/documentation/leap/archive/15.1/virtualization/book.virt_color_en.pdf
         epub: https://doc.opensuse.org/documentation/leap/archive/15.1/virtualization/book.virt_en.epub
-      -
-        id: release_notes
-        cover: /assets/images/cover-release.svg
-        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.1/index.html
   -
     version: Leap 15.0
     end_of_life: true
     docs:
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.0/index.html
       -
         id: startup_guide
         cover: /assets/images/cover-startup.svg
@@ -299,14 +303,14 @@ opensuse_versions:
         single_html: https://doc.opensuse.org/documentation/leap/archive/15.0/virtualization/single-html/book.virt/index.html
         pdf: https://doc.opensuse.org/documentation/leap/archive/15.0/virtualization/book.virt_color_en.pdf
         epub: https://doc.opensuse.org/documentation/leap/archive/15.0/virtualization/book.virt_en.epub
-      -
-        id: release_notes
-        cover: /assets/images/cover-release.svg
-        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.0/index.html
   -
     version: Leap 42.3
     end_of_life: true
     docs:
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.3/index.html
       -
         id: startup_guide
         cover: /assets/images/cover-startup.svg
@@ -349,14 +353,14 @@ opensuse_versions:
         single_html: https://doc.opensuse.org/documentation/leap/archive/42.3/virtualization/single-html/book.virt/index.html
         pdf: https://doc.opensuse.org/documentation/leap/archive/42.3/virtualization/book.virt_color_en.pdf
         epub: https://doc.opensuse.org/documentation/leap/archive/42.3/virtualization/book.virt_en.epub
-      -
-        id: release_notes
-        cover: /assets/images/cover-release.svg
-        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.3/index.html
   -
     version: Leap 42.2
     end_of_life: true
     docs:
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.2/index.html
       -
         id: startup_guide
         cover: /assets/images/cover-startup.svg
@@ -399,14 +403,14 @@ opensuse_versions:
         single_html: https://doc.opensuse.org/documentation/leap/archive/42.2/virtualization/single-html/book.virt/index.html
         pdf: https://doc.opensuse.org/documentation/leap/archive/42.2/virtualization/book.virt_color_en.pdf
         epub: https://doc.opensuse.org/documentation/leap/archive/42.2/virtualization/book.virt_en.epub
-      -
-        id: release_notes
-        cover: /assets/images/cover-release.svg
-        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.2/index.html
   -
     version: Leap 42.1
     end_of_life: true
     docs:
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.1/index.html
       -
         id: startup_guide
         cover: /assets/images/cover-startup.svg
@@ -449,10 +453,6 @@ opensuse_versions:
         single_html: https://doc.opensuse.org/documentation/leap/archive/42.1/virtualization/single-html/book.virt/index.html
         pdf: https://doc.opensuse.org/documentation/leap/archive/42.1/virtualization/book.virt_color_en.pdf
         epub: https://doc.opensuse.org/documentation/leap/archive/42.1/virtualization/book.virt_en.epub
-      -
-        id: release_notes
-        cover: /assets/images/cover-release.svg
-        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.1/index.html
 
 theme: jekyll-theme-opensuse
 markdown: kramdown
