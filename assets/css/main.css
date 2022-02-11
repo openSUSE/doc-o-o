@@ -16,7 +16,7 @@
 }
 
 .card-link:hover {
-  background-color: #EEE;
+  background-color: #E9ECEF;
 }
 
 .doc-card {
@@ -30,7 +30,7 @@
   object-position: 50% 50%;
   object-fit: none;
   display: inline-block;
-  background-color: #EEE;
+  background-color: #E9ECEF;
   z-index: 1000;
   border-radius: 0;
 }
