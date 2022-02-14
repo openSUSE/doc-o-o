@@ -26,20 +26,12 @@
 .doc-card img {
   padding: 0;
   margin: 0;
-  height: 175px;
+  height: 110px;
   width: 100%;
   object-position: 50% 50%;
-  object-fit: none;
+  object-fit: cover;
   display: inline-block;
   background-color: #E9ECEF;
   z-index: 1000;
   border-radius: 0;
-}
-
-@media only screen and (max-width: 992px) {
-  .doc-card img {
-    /* not sure how to scale down those SVGs in a reasonable way but we can
-    reduce top/bottom whitespace a little. */
-    height: 140px;
-  }
 }
