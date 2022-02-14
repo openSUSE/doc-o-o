@@ -79,8 +79,8 @@ footer_links:
     text: style_guide
     link: https://documentation.suse.com/style
   -
-    text: contact_us
-    link: mailto:doc-team@suse.com
+    text: file_issue
+    link: https://github.com/openSUSE/doc-o-o/issues/new
 
 opensuse_versions:
   -

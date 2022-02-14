@@ -10,7 +10,6 @@ translate: Traduci questa pagina
 develop_menu: Versioni in sviluppo
 legal_information: Informazioni legali
 source_code: Codice sorgente
-contact_us: Contattaci
 startup_guide: Guida di avvio
 gnome_user_guide: Guida utente di GNOME
 release_notes: Note di rilascio
@@ -20,6 +19,7 @@ develop_title: Versioni in sviluppo
 develop_description: Queste versioni di openSUSE sono attualmente in fase di sviluppo.
 archive_menu: Versioni di archivio
 style_guide: Guida allo stile della documentazione
+file_issue: Found an issue?
 end_of_life: fine ciclo
 develop: versione in sviluppo
 reference_guide: Guida di riferimento
