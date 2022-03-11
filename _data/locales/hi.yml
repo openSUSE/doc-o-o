@@ -1,12 +1,12 @@
-archive_description: पुराने openSUSE संस्करणों हेतु प्रलेखन जिनका अनुरक्षण निरस्त हो
-  चुका है।
+archive_description: पुराने openSUSE संस्करणों हेतु प्रलेखन जिनका अनुरक्षण निरस्त
+  हो चुका है।
 develop_description: ये openSUSE संस्करण अभी अल्पविकसित हैं।
 develop_title: अल्पविकसित संस्करण
 archive_title: संग्रहित संस्करण
 release_notes: प्रकाशन नोट्स
 autoyast_guide: AutoYaST गाइड
 virtualization_guide: वर्चुअल क्रियान्वन गाइड
-tuning_guide: कार्यक्षमता गाइड
+tuning_guide: सिस्टम विश्लेषण व कार्यक्षमता गाइड
 security_guide: सुरक्षा गाइड
 reference_guide: निर्देश गाइड
 gnome_user_guide: गनोम उपयोगकता गाइड
@@ -14,7 +14,7 @@ startup_guide: सिस्टम आरंभ गाइड
 develop: अल्पविकसित संस्करण
 end_of_life: उपयोग सीमा समाप्त
 style_guide: प्रलेखन शैली गाइड
-file_issue: Found an issue?
+file_issue: सामग्री में कोई समस्या मिली?
 source_code: स्रोत कोड
 legal_information: कानूनी जानकारी
 develop_menu: अल्पविकसित संस्करण
