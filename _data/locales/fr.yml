@@ -12,14 +12,14 @@ develop_menu: Versions en développement
 legal_information: Information légale
 source_code: Code source
 style_guide: Guide de style de la documentation
-file_issue: Trouvé un bogue?
+file_issue: Trouvé un bogue ?
 end_of_life: fin de vie
 develop: version en développement
 startup_guide: Guide de démarrage
 gnome_user_guide: Guide d'utilisation de Gnome
 reference_guide: Guide de référence
 security_guide: Guide sur la sécurité
-tuning_guide: Guide de paramétrage
+tuning_guide: Guide d'analyse et de réglage du système
 virtualization_guide: Guide sur la virtualisation
 autoyast_guide: Guide d'AutoYaST
 release_notes: Notes de publication
