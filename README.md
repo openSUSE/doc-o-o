@@ -13,7 +13,7 @@ Actual documents are from:
 ### Setting up the environment
 
 ```bash
-sudo zypper in ruby ruby-devel
+sudo zypper in ruby ruby-devel ruby2.5-rubygem-bundler
 bundle install
 ```
 
