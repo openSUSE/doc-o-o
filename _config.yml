@@ -12,6 +12,9 @@ navbar_links:
     text: distros
     children:
       -
+        link: /#opensuse-leap-154
+        text: Leap 15.4
+      -
         link: /#opensuse-leap-153
         text: Leap 15.3
       -
@@ -92,12 +95,12 @@ opensuse_versions:
         cover: /assets/images/cover-release.svg
         html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Tumbleweed/index.html
   -
-    version: Leap 15.3
+    version: Leap 15.4
     docs:
       -
         id: release_notes
         cover: /assets/images/cover-release.svg
-        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.3/index.html
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.4/index.html
       -
         id: startup_guide
         cover: /assets/images/cover-startup.svg
@@ -147,6 +150,62 @@ opensuse_versions:
         single_html: https://doc.opensuse.org/documentation/leap/autoyast/single-html/book-autoyast/index.html
         pdf: https://doc.opensuse.org/documentation/leap/autoyast/book-autoyast_color_en.pdf
         epub: https://doc.opensuse.org/documentation/leap/autoyast/book-autoyast_en.epub
+  -
+    version: Leap 15.3
+    docs:
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.3/index.html
+      -
+        id: startup_guide
+        cover: /assets/images/cover-startup.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.3/startup/html/book-opensuse-startup/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.3/startup/single-html/book-opensuse-startup/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.3/startup/book-opensuse-startup_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.3/startup/book-opensuse-startup_en.epub
+      -
+        id: gnome_user_guide
+        cover: /assets/images/cover-gnome.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.3/gnomeuser/html/book-gnomeuser/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.3/gnomeuser/single-html/book-gnomeuser/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.3/gnomeuser/book-gnomeuser_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.3/gnomeuser/book-gnomeuser_en.epub
+      -
+        id: reference_guide
+        cover: /assets/images/cover-reference.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.3/reference/html/book-opensuse-reference/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.3/reference/single-html/book-opensuse-reference/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.3/reference/book-opensuse-reference_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.3/reference/book-opensuse-reference_en.epub
+      -
+        id: security_guide
+        cover: /assets/images/cover-security.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.3/security/html/book-security/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.3/security/single-html/book-security/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.3/security/book-security_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.3/security/book-security_en.epub
+      -
+        id: tuning_guide
+        cover: /assets/images/cover-tuning.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.3/tuning/html/book-sle-tuning/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.3/tuning/single-html/book-sle-tuning/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.3/tuning/book-sle-tuning_color_en.pdf
+        epub:  https://doc.opensuse.org/documentation/leap/archive/15.3/tuning/book-sle-tuning_en.epub
+      -
+        id: virtualization_guide
+        cover: /assets/images/cover-virtualization.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.3/virtualization/html/book-virt/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.3/virtualization/single-html/book-virt/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.3/virtualization/book-virt_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.3/virtualization/book-virt_en.epub
+      -
+        id: autoyast_guide
+        cover: /assets/images/cover-autoyast.svg
+        html: https://doc.opensuse.org/documentation/leap/archive/15.3/autoyast/html/book-autoyast/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/archive/15.3/autoyast/single-html/book-autoyast/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/archive/15.3/autoyast/book-autoyast_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/archive/15.3/autoyast/book-autoyast_en.epub
   -
     version: Leap 15.2
     docs:
