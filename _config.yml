@@ -17,16 +17,13 @@ navbar_links:
       -
         link: /#opensuse-leap-153
         text: Leap 15.3
-      -
-        link: /#opensuse-leap-152
-        text: Leap 15.2
       - divider
       -
         link: /archive/
         text: archive_menu
       -
-        link: /archive/#opensuse-leap-151
-        text: Leap 15.1
+        link: /archive/#opensuse-leap-152
+        text: Leap 15.2
       - divider
       -
         link: /development/
@@ -208,6 +205,7 @@ opensuse_versions:
         epub: https://doc.opensuse.org/documentation/leap/archive/15.3/autoyast/book-autoyast_en.epub
   -
     version: Leap 15.2
+    end_of_life: true
     docs:
       -
         id: release_notes
