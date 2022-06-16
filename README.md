@@ -75,4 +75,4 @@ make set_docs_current_version
    * referenced guides (`$guides`)
    * the openSUSE Leap version number (`$version`)
 4. Run the script, from within this repo: `./doc-build-script /path/to/doc-sle`
-5. (Optional) If a new version has been released and the links still point to the older version, run the script on the server to update the links: `set_current_version 15.4`.
+5. (Optional) If a new version has been released and the links still point to the older version, see [Setting the current docs version](#setting-the-current-docs-version)
