@@ -68,3 +68,22 @@ upload_tw_docs_config: tw-docs-config/systemd/update_tw_docs.* tw-docs-config/bi
 	else \
 	  exit 1; \
 	fi
+
+# UPLOAD NEW CONFIG/UPDATE SCRIPT FOR DOCS SYNC
+upload_doc_config: doc-config/bin/set_current_version publishusers
+	test -s $(userconfig) && source $(userconfig); \
+	if [[ $$userdoc ]] && [[ $$port ]] && [[ $$server ]]; then \
+	  echo "Syncing docs config."; \
+	  rsync -lr -v doc-config/{bin,etc} -e "ssh -p $$port" "$${userdoc}@$${server}":'~' ; \
+	else \
+	  exit 1; \
+	fi
+
+# SET THE VERSION OF THE TOP-MOST DOC LINKS
+set_docs_current_version: publishusers upload_doc_config
+	test -s $(userconfig) && source $(userconfig); \
+	if [[ $$userrn ]] && [[ $$port ]]  && [[ $$server ]] && [[ $$version ]]; then \
+		ssh -p "$$port" "$${userdoc}@$${server}" "set_current_version $$version" ; \
+	else \
+		echo "The \"version\" variable is not set. Set it in the \"publishusers\" file."; exit 1; \
+	fi

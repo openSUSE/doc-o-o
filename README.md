@@ -44,17 +44,8 @@ Press Ctrl-C to stop serving the site.
 
 ### Prerequisites
 
-Get the details about the SSH setup from someone in the know (e.g. @sknorr).
-Have your SSH key added to the `.ssh/authorized_keys` on the server.
-
-Create a file `publishusers` within the local repository clone:
-
-```bash
-port=[SSH_PORT]
-server=[SERVER]
-userdoc=[USER_NAME_DOC]
-userrn=[USER_NAME_RELEASE_NOTES]
-```
+Contact the openSUSE admin team to be granted VPN access, and SSH access to community.infra.opensuse.org.
+For that you need a GPG key with the encryption capability.
 
 ### Syncing documentation navigation
 
@@ -66,6 +57,14 @@ make upload
 
 ```bash
 make upload_rn_config
+```
+
+### Setting the current docs version
+
+First make sure the correct version is set in `publishusers`.
+
+```bash
+make set_docs_current_version
 ```
 
 ### Building and syncing documentation content

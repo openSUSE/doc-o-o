@@ -1,0 +1,10 @@
+#!/bin/bash
+test -z "$1" && echo "The \$VERSION argument is missing. Use 'set_current_version \$VERSION'." && exit 1
+VERSION=$1
+echo "Setting the current version to $VERSION".
+pushd "doc.opensuse.org/htdocs/documentation/leap" || exit
+for guide in autoyast gnome-user reference security startup tuning virtualization; do
+    test -L "$guide" && unlink "$guide"
+    ln -s "archive/$VERSION/$guide" "$guide"
+done
+popd || exit
