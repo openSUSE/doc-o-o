@@ -76,3 +76,4 @@ make upload_rn_config
    * referenced guides (`$guides`)
    * the openSUSE Leap version number (`$version`)
 4. Run the script, from within this repo: `./doc-build-script /path/to/doc-sle`
+5. (Optional) If a new version has been released and the links still point to the older version, run the script on the server to update the links: `set_current_version 15.4`.
