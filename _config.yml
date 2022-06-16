@@ -108,10 +108,10 @@ opensuse_versions:
       -
         id: gnome_user_guide
         cover: /assets/images/cover-gnome.svg
-        html: https://doc.opensuse.org/documentation/leap/gnomeuser/html/book-gnome-user/index.html
-        single_html: https://doc.opensuse.org/documentation/leap/gnomeuser/single-html/book-gnome-user/index.html
-        pdf: https://doc.opensuse.org/documentation/leap/gnomeuser/book-gnome-user_color_en.pdf
-        epub: https://doc.opensuse.org/documentation/leap/gnomeuser/book-gnome-user_en.epub
+        html: https://doc.opensuse.org/documentation/leap/gnome-user/html/book-gnome-user/index.html
+        single_html: https://doc.opensuse.org/documentation/leap/gnome-user/single-html/book-gnome-user/index.html
+        pdf: https://doc.opensuse.org/documentation/leap/gnome-user/book-gnome-user_color_en.pdf
+        epub: https://doc.opensuse.org/documentation/leap/gnome-user/book-gnome-user_en.epub
       -
         id: reference_guide
         cover: /assets/images/cover-reference.svg
