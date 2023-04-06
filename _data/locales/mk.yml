@@ -21,3 +21,7 @@ security_guide: Водич за Безбедност
 tuning_guide: Анализација на Систем и Водич за Подесување
 virtualization_guide: Водич за Виртуализација
 autoyast_guide: Водич за AutoYaST
+archive_title: Архивни верзии
+develop_title: Развојни верзии
+release_notes: Белешки за Издание
+archive_description: Документациите за стари openSUSE изданија не се одржуваат повеќе.
