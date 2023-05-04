@@ -44,8 +44,14 @@ Press Ctrl-C to stop serving the site.
 
 ### Prerequisites
 
-Contact the openSUSE admin team to be granted VPN access, and SSH access to community.infra.opensuse.org.
-For that you need a GPG key with the encryption capability.
+Contact the [openSUSE admin team](https://progress.opensuse.org/projects/opensuse-admin) to be granted VPN access, and SSH access to relsync@pinot.infra.opensuse.org (was community-i-o-o).
+For that you need a GPG key with the encryption capability. 
+
+
+### Adding release notes for new release
+Make sure that [rn-config/etc/release-notes](https://github.com/openSUSE/doc-o-o/blob/main/rn-config/etc/releasenotes) has required entry.
+Such configuration then needs to be deployed to pinot-i-o-o.
+	
 
 ### Syncing documentation navigation
 
