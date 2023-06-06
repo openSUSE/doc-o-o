@@ -14,7 +14,7 @@ guides="\
   DC-opensuse-virtualization\
   "
 
-version="15.4"
+version="15.5"
 
 
 [[ ! -d "$1" ]] && { echo "First argument must be your doc-sle repo clone dir."; exit 1; }
