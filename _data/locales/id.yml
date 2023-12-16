@@ -1,1 +1,23 @@
-{}
+site_copyright: © 2010-2021 SUSE LLC, © 2010-2021 kontributor openSUSE.
+distros: Dokumen distribusi
+search: Cari
+archive_menu: Versi arsip
+develop_menu: Versi pengembangan
+legal_information: Informasi hukum
+source_code: Kode sumber
+style_guide: Panduan Gaya Dokumentasi
+end_of_life: akhir kehidupan
+develop: versi pengembangan
+gnome_user_guide: Panduan Pengguna GNOME
+reference_guide: Panduan Referensi
+tuning_guide: Panduan Analisis dan Penyetelan Sistem
+autoyast_guide: Panduan AutoYaST
+site_title: Dokumentasi openSUSE
+site_title_short: Dokumentasi
+site_description: Dokumentasi openSUSE untuk administrator sistem dan pengguna desktop.
+translate: Terjemahkan halaman ini
+tools: Dokumen alat bantu
+file_issue: Menemukan masalah?
+startup_guide: Panduan Memulai
+security_guide: Panduan Keamanan
+virtualization_guide: Panduan Virtualisasi
