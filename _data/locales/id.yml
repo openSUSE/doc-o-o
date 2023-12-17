@@ -21,3 +21,9 @@ file_issue: Menemukan masalah?
 startup_guide: Panduan Memulai
 security_guide: Panduan Keamanan
 virtualization_guide: Panduan Virtualisasi
+release_notes: Catatan Rilis
+develop_title: Versi pengembangan
+develop_description: Rilis-rilis openSUSE yang saat ini sedang dalam pengembangan.
+archive_title: Versi arsip
+archive_description: Dokumentasi untuk rilis-rilis openSUSE lama yang tidak dikelola
+  lagi.
