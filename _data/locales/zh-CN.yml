@@ -14,7 +14,7 @@ develop_menu: 开发版
 legal_information: 法律信息
 source_code: 源代码
 style_guide: 文体指南
-file_issue: Found an issue?
+file_issue: 找到了问题？
 
 end_of_life: 生命周期结束
 develop: 开发版
@@ -23,7 +23,7 @@ startup_guide: 入门指南
 gnome_user_guide: GNOME 用户指南
 reference_guide: 参考指南
 security_guide: 安全指南
-tuning_guide: 优化指南
+tuning_guide: 系统分析和调整手册
 virtualization_guide: 虚拟化指南
 autoyast_guide: AutoYaST 指南
 release_notes: 发行说明
