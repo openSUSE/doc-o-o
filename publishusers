@@ -2,4 +2,4 @@ port=22
 server=community.infra.opensuse.org
 userdoc=lxbuch
 userrn=relsync
-version=15.5
+version=15.6
