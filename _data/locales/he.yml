@@ -1,1 +1,27 @@
-{}
+site_title: דוקומנטציה openSUSE
+site_title_short: דוקומנטציה
+site_description: דוקומנטציה של OpenSUSE עבור משתמשים ואדמיניות
+distros: מסמכי הפצה
+tools: מסמכי כלים
+search: חיפוש
+translate: תרגמו דף זה
+archive_menu: גרסאות ארכיון
+develop_menu: גרסאות פיתוח
+legal_information: מידע משפטי
+source_code: קוד מקור
+style_guide: מדריך סגנוני לתיעוד
+file_issue: מצאת בעיה?
+end_of_life: סוף חיי מוצר
+develop: גרסת פיתוח
+startup_guide: מדריך אתחול
+gnome_user_guide: מדריך למשתמשות GNOME
+reference_guide: מדריך יעץ
+security_guide: מדריך אבטחה
+tuning_guide: מדריך ניתוח וכיוונון מערכת
+virtualization_guide: מדריך וירטואליזציה
+autoyast_guide: מדריך AutoYast
+release_notes: הערות גרסה
+archive_title: גרסאות ארכיון
+archive_description: תיעוד גרסאות ישנות אשר אינן מתוחזקות יותר של OpenSUSE.
+develop_title: גרסאות פיתוח
+develop_description: גרסאות OpenSUSE אלו נמצאות כרגע בפיתוח.
