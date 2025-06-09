@@ -154,7 +154,6 @@ opensuse_versions:
         pdf: https://doc.opensuse.org/documentation/leap/autoyast/book-autoyast_en.pdf
         epub: https://doc.opensuse.org/documentation/leap/autoyast/book-autoyast_en.epub
   -
-  -
     version: Leap 15.5
     docs:
       -
