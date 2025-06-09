@@ -1,6 +1,6 @@
 site_title: דוקומנטציה openSUSE
 site_title_short: דוקומנטציה
-site_description: דוקומנטציה של OpenSUSE עבור משתמשים ואדמיניות
+site_description: דוקומנטציה של OpenSUSE עבור משתמשים ואדמיניות.
 distros: מסמכי הפצה
 tools: מסמכי כלים
 search: חיפוש
@@ -25,3 +25,4 @@ archive_title: גרסאות ארכיון
 archive_description: תיעוד גרסאות ישנות אשר אינן מתוחזקות יותר של OpenSUSE.
 develop_title: גרסאות פיתוח
 develop_description: גרסאות OpenSUSE אלו נמצאות כרגע בפיתוח.
+site_copyright: כל הזכויות שמורות ל SUSE LLC, 2010-2021 , מפתחי ומשתתפי פרוייקט OpenSUSE.
