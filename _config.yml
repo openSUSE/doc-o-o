@@ -12,15 +12,18 @@ navbar_links:
     text: distros
     children:
       -
+        link: /#opensuse-leap-160
+        text: Leap 16.0
+      -
         link: /#opensuse-leap-156
         text: Leap 15.6
-      -
-        link: /#opensuse-leap-155
-        text: Leap 15.5
       - divider
       -
         link: /archive/
         text: archive_menu
+      -
+        link: /#opensuse-leap-155
+        text: Leap 15.5
       -
         link: /#opensuse-leap-154
         text: Leap 15.4
@@ -97,6 +100,13 @@ opensuse_versions:
         id: release_notes
         cover: /assets/images/cover-release.svg
         html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Tumbleweed/index.html
+  -
+    version: Leap 16.0
+    docs:
+      -
+        id: release_notes
+        cover: /assets/images/cover-release.svg
+        html: https://susedoc.github.io/release-notes/leap-16.0/html/release-notes/
   -
     version: Leap 15.6
     docs:
