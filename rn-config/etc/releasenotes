@@ -17,6 +17,4 @@
 # TODO: phase out factory and only provide Tumbleweed
 obs://Documentation:Auto/openSUSE_Factory|openSUSE|factory|release-notes-openSUSE-TW|x86_64|
 obs://Documentation:Auto/openSUSE_Factory|openSUSE|Tumbleweed|release-notes-openSUSE-TW|x86_64|
-obs://Documentation:Auto/openSUSE_Leap_15.5|openSUSE|Leap/15.5|release-notes-openSUSE-L155|x86_64|
 obs://Documentation:Auto/openSUSE_Leap_15.6|openSUSE|Leap/15.6|release-notes-openSUSE-L155|x86_64|
-obs://Documentation:Auto/openSUSE_Leap_Micro_5.2|openSUSE|LeapMicro/5.2|release-notes-leap-micro|x86_64
