@@ -35,6 +35,21 @@
                 EPUB
               </a>
               {% endif %}
+              {% if doc.minimal_html %}
+              <a class="card-link" href="{{ doc.minimal_html }}">
+                Minimal HTML
+              </a>
+              {% endif %}
+              {% if doc.txt %}
+              <a class="card-link" href="{{ doc.txt }}">
+                TXT
+              </a>
+              {% endif %}
+              {% if doc.draft %}
+              <a class="card-link" href="{{ doc.draft }}">
+                DRAFT
+              </a>
+              {% endif %}
             </div>
           </div>
         </div>

@@ -105,8 +105,16 @@ opensuse_versions:
     docs:
       -
         id: release_notes
+        #draft: https://susedoc.github.io/release-notes/leap-16.0/html/release-notes/
         cover: /assets/images/cover-release.svg
-        html: https://susedoc.github.io/release-notes/leap-16.0/html/release-notes/
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/16.0/html/release-notes-leap-160/
+        pdf: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/16.0/release-notes-leap-160_color_en.pdf
+        minimal_html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/16.0/yast-html/release-notes.html
+        txt: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/16.0/release-notes-leap-160.txt
+      -
+        id: installer_guide
+        cover: /assets/images/cover-autoyast.svg
+        html: https://agama-project.github.io/docs/overview
   -
     version: Leap 15.6
     docs:
