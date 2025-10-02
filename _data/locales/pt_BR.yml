@@ -1,7 +1,7 @@
 site_title: Documentação do openSUSE
 site_title_short: Documentação
-site_description: Documentação do openSUSE para administradores de sistemas e usuários
-  de áreas de trabalho.
+site_description: Documentação do openSUSE para administradores de sistemas e 
+  usuários de áreas de trabalho.
 site_copyright: © 2010–2021 SUSE LLC, © 2010–2021 openSUSE contributors.
 distros: Documentos das distribuições
 tools: Documentos das ferramentas
@@ -24,6 +24,9 @@ virtualization_guide: Guia de virtualização
 autoyast_guide: Guia do AutoYaST
 release_notes: Notas de lançamento
 archive_title: Versões arquivadas
-archive_description: A documentação para versões antigas do openSUSE não é mais mantida.
+archive_description: A documentação para versões antigas do openSUSE não é mais 
+  mantida.
 develop_title: Versões em desenvolvimento
-develop_description: Estas versões do openSUSE estão em desenvolvimento atualmente.
+develop_description: Estas versões do openSUSE estão em desenvolvimento 
+  atualmente.
+installer_guide: Guia de instalação do Agama
