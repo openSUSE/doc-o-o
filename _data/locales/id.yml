@@ -14,7 +14,8 @@ tuning_guide: Panduan Analisis dan Penyetelan Sistem
 autoyast_guide: Panduan AutoYaST
 site_title: Dokumentasi openSUSE
 site_title_short: Dokumentasi
-site_description: Dokumentasi openSUSE untuk administrator sistem dan pengguna desktop.
+site_description: Dokumentasi openSUSE untuk administrator sistem dan pengguna 
+  desktop.
 translate: Terjemahkan halaman ini
 tools: Dokumen alat bantu
 file_issue: Menemukan masalah?
@@ -23,7 +24,9 @@ security_guide: Panduan Keamanan
 virtualization_guide: Panduan Virtualisasi
 release_notes: Catatan Rilis
 develop_title: Versi pengembangan
-develop_description: Rilis-rilis openSUSE yang saat ini sedang dalam pengembangan.
+develop_description: Rilis-rilis openSUSE yang saat ini sedang dalam 
+  pengembangan.
 archive_title: Versi arsip
-archive_description: Dokumentasi untuk rilis-rilis openSUSE lama yang tidak dikelola
-  lagi.
+archive_description: Dokumentasi untuk rilis-rilis openSUSE lama yang tidak 
+  dikelola lagi.
+installer_guide: Panduan Penginstal Agama
