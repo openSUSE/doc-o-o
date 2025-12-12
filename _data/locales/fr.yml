@@ -1,7 +1,7 @@
 site_title: Documentation d'openSUSE
 site_title_short: Documentation
-site_description: Documentation d'openSUSE pour les administrateurs système et les
-  utilisateurs d'environnement de bureau.
+site_description: Documentation d'openSUSE pour les administrateurs système et 
+  les utilisateurs d'environnement de bureau.
 site_copyright: © 2010–2021 SUSE LLC, © 2010–2021 openSUSE contributors.
 distros: Docs par distribution
 tools: Docs sur les outils
@@ -9,7 +9,7 @@ search: Rechercher
 translate: Traduire cette page
 archive_menu: Versions archivées
 develop_menu: Versions en développement
-legal_information: Information légale
+legal_information: Informations légales
 source_code: Code source
 style_guide: Guide de style de la documentation
 file_issue: Trouvé un bogue ?
@@ -24,7 +24,8 @@ virtualization_guide: Guide sur la virtualisation
 autoyast_guide: Guide d'AutoYaST
 release_notes: Notes de publication
 archive_title: Versions archivées
-archive_description: Documentation pour les anciennes versions d'openSUSE qui ne sont
-  plus maintenues.
+archive_description: Documentation pour les anciennes versions d'openSUSE qui ne
+  sont plus maintenues.
 develop_title: Versions en développement
-develop_description: Ces versions d'openSUSE sont actuellement en cours de développement.
+develop_description: Ces versions d'openSUSE sont actuellement en cours de 
+  développement.
