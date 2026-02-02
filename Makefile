@@ -26,7 +26,8 @@ upload: build publishusers
 	test -s $(userconfig) && source $(userconfig); \
 	if [[ $$userdoc ]] && [[ $$port ]] && [[ $$server ]]; then \
 	  echo "Syncing documentation."; \
-	  rsync -lr -v "_site/" -e "ssh -p $$port" $${userdoc}@$${server}:doc.opensuse.org/htdocs/ ; \
+#	  rsync -lr -v "_site/" -e "ssh -p $$port" $${userdoc}@$${server}:doc.opensuse.org/htdocs/ ; \
+	  rsync -lr -v "_site/" -e "ssh -p $$port" $${userdoc}@$${server}:/srv/www/vhosts-legacy/doc-htdocs/ ; \
 	else \
 	  exit 1; \
 	fi

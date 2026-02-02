@@ -55,9 +55,13 @@ Such configuration then needs to be deployed to pinot-i-o-o.
 
 ### Syncing documentation navigation
 
-```bash
-make upload
-```
+The make upload no longer works as community was decomissioned.
+See [poo#162020](https://progress.opensuse.org/issues/162020) ticket for fixing of the process.
+
+Make a local build && create archive of the "_site" build dir.
+Extract _site archive or rsync _site/* into community2.infra.opensuse.org:/srv/www/vhosts-legacy/doc-htdocs/
+Ask admin@opensuse.org for root access or ping lkocman.
+
 
 ### Syncing configuration for the release notes
 
