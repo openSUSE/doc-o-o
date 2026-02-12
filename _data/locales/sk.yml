@@ -1,1 +1,10 @@
-{}
+site_title: Dokumentácia openSUSE
+site_title_short: Dokumentácia
+site_description: Dokumentácia openSUSE pre systémových administrátorov aj 
+  desktopových používateľov.
+site_copyright: © 2010–2021 SUSE LLC, © 2010–2021 Prispievatelia openSUSE.
+distros: Distribučné dokumenty
+tools: Dokumentácia k nástrojom
+search: Hľadať
+translate: Preložiť túto stránku
+archive_menu: Archívne verzie
