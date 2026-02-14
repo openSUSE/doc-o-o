@@ -18,3 +18,14 @@ develop: vývojová verzia
 installer_guide: Príručka inštalátora Agama
 startup_guide: Sprievodca spustením
 gnome_user_guide: Používateľská príručka GNOME
+reference_guide: Referenčná príručka
+security_guide: Bezpečnostná príručka
+tuning_guide: Príručka pre analýzu a ladenie systému
+virtualization_guide: Príručka virtualizácie
+autoyast_guide: Príručka AutoYaST
+release_notes: Poznámky k vydaniu
+archive_title: Archívne verzie
+archive_description: Dokumentácia pre staré verzie openSUSE, ktoré už nie sú 
+  udržiavané.
+develop_title: Vývojové verzie
+develop_description: Tieto verzie openSUSE sú momentálne vo vývoji.
