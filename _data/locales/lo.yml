@@ -1,1 +1,30 @@
-{}
+site_title: ເອກະສານຂອງ openSUSE
+site_title_short: ເອກະສານ
+site_description: ເອກະສານຂອງ openSUSE ສຳລັບທັງຜູ້ດູແລລະບົບ ແລະ ຜູ້ໃຊ້ທົ່ວໄປ.
+site_copyright: © 2010–2021 SUSE LLC, © 2010–2021 ຜູ້ຮ່ວມພັດທະນາ openSUSE.
+distros: ເອກະສານກ່ຽວກັບລຸ້ນຂອງລະບົບ
+tools: ເອກະສານເຄື່ອງມື
+search: ຄົ້ນຫາ
+translate: ແປໜ້ານີ້
+archive_menu: ລຸ້ນທີ່ເກັບມ້ຽນໄວ້
+develop_menu: ລຸ້ນກຳລັງພັດທະນາ
+legal_information: ຂໍ້ມູນທາງກົດໝາຍ
+source_code: ລະຫັດຕົ້ນສະບັບ
+style_guide: ຄູ່ມືຮູບແບບການຂຽນເອກະສານ
+file_issue: ພົບຂໍ້ຜິດພາດບໍ?
+end_of_life: ໝົດອາຍຸການໃຊ້ງານ
+develop: ລຸ້ນພັດທະນາ
+installer_guide: ຄູ່ມືການຕິດຕັ້ງ Agama
+startup_guide: ຄູ່ມືການເລີ່ມຕົ້ນ
+gnome_user_guide: ຄູ່ມືຜູ້ໃຊ້ GNOME
+reference_guide: ຄູ່ມືອ້າງອີງ
+security_guide: ຄູ່ມືຄວາມປອດໄພ
+tuning_guide: ຄູ່ມືການວິເຄາະ ແລະ ປັບແຕ່ງລະບົບ
+virtualization_guide: ຄູ່ມືການເຮັດ Virtualization
+autoyast_guide: ຄູ່ມື AutoYaST
+release_notes: ບັນທຶກປະຈຳລຸ້ນ
+archive_title: ລຸ້ນທີ່ເກັບມ້ຽນໄວ້
+archive_description: ເອກະສານສຳລັບ openSUSE 
+  ລຸ້ນເກົ່າທີ່ບໍ່ໄດ້ຮັບການເບິ່ງແຍງຮັກສາແລ້ວ.
+develop_title: ລຸ້ນພັດທະນາ
+develop_description: openSUSE ເຫຼົ່ານີ້ແມ່ນກຳລັງຢູ່ໃນໄລຍະການພັດທະນາ.
