@@ -12,6 +12,9 @@ navbar_links:
     text: distros
     children:
       -
+        link: /#opensuse-leap-161
+        text: Leap 16.0
+      -
         link: /#opensuse-leap-160
         text: Leap 16.0
       -
@@ -100,6 +103,21 @@ opensuse_versions:
         id: release_notes
         cover: /assets/images/cover-release.svg
         html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Tumbleweed/index.html
+  -
+    version: Leap 16.1
+    docs:
+      -
+        id: release_notes
+        #draft: https://susedoc.github.io/release-notes/leap-16.1/html/release-notes/
+        cover: /assets/images/cover-release.svg
+        html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/16.1/html/release-notes-leap-161/
+        pdf: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/16.1/release-notes-leap-161_color_en.pdf
+        minimal_html: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/16.1/yast-html/release-notes.html
+        txt: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/16.1/release-notes-leap-161.txt
+      -
+        id: installer_guide
+        cover: /assets/images/cover-autoyast.svg
+        html: https://agama-project.github.io/docs/overview
   -
     version: Leap 16.0
     docs:
